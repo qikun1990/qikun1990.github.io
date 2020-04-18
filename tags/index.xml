@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Even - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 18 Apr 2020 19:20:55 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>org-mode</title>
+      <link>https://qikun1990.github.io/tags/org-mode/</link>
+      <pubDate>Sat, 18 Apr 2020 19:20:55 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/tags/org-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>emacs</title>
+      <link>https://qikun1990.github.io/tags/emacs/</link>
+      <pubDate>Sat, 18 Apr 2020 19:19:28 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/tags/emacs/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
