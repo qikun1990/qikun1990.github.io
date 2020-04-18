@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://qikun1990.github.io/sitemap.xml
+Sitemap: https://qikun1990.github.io/sitemap.xml

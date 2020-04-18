@@ -1,20 +1,20 @@
-<?xml-stylesheet type="text/xsl" href="http://qikun1990.github.io/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://qikun1990.github.io/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://qikun1990.github.io/categories/</loc>
+    <loc>https://qikun1990.github.io/categories/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://qikun1990.github.io/</loc>
+    <loc>https://qikun1990.github.io/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://qikun1990.github.io/tags/</loc>
+    <loc>https://qikun1990.github.io/tags/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
