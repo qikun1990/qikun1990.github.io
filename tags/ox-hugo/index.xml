@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ox-hugo on Even - A super concise theme for Hugo</title>
+    <title>ox-hugo on 个人知识管理</title>
     <link>https://qikun1990.github.io/tags/ox-hugo/</link>
-    <description>Recent content in ox-hugo on Even - A super concise theme for Hugo</description>
+    <description>Recent content in ox-hugo on 个人知识管理</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>zh-cn</language>
     <lastBuildDate>Mon, 04 May 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/tags/ox-hugo/index.xml" rel="self" type="application/rss+xml" />

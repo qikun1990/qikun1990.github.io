@@ -16,22 +16,22 @@
   </url>
   
   <url>
+    <loc>https://qikun1990.github.io/post/how-to-use-yasnippet/</loc>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qikun1990.github.io/categories/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://qikun1990.github.io/categories/emacs/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -45,7 +45,7 @@
   
   <url>
     <loc>https://qikun1990.github.io/post/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -59,7 +59,21 @@
   
   <url>
     <loc>https://qikun1990.github.io/tags/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/yasnippet/</loc>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/</loc>
+    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
