@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pomodoro on 个人知识管理</title>
+    <link>https://qikun1990.github.io/tags/pomodoro/</link>
+    <description>Recent content in pomodoro on 个人知识管理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://qikun1990.github.io/tags/pomodoro/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mac环境org-pomodoro番茄钟添加提示信息以及声音</title>
+      <link>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</guid>
+      <description>&lt;p&gt;给org-pomodoro添加弹出框以及声音提示&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

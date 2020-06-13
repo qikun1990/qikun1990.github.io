@@ -2,78 +2,113 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://qikun1990.github.io/post/developer-most-commonly-use-dos-command/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</loc>
-    <lastmod>2020-05-04T14:38:31+08:00</lastmod>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://qikun1990.github.io/post/how-to-use-yasnippet/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://qikun1990.github.io/categories/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <loc>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://qikun1990.github.io/categories/emacs/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/tags/ox-hugo/</loc>
-    <lastmod>2020-05-04T14:39:34+08:00</lastmod>
+    <loc>https://qikun1990.github.io/post/blog/</loc>
+    <lastmod>2020-06-13T22:40:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://qikun1990.github.io/post/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/tags/shortcut/</loc>
-    <lastmod>2020-05-04T14:38:31+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/tags/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/tags/yasnippet/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://qikun1990.github.io/</loc>
-    <lastmod>2020-05-04T17:36:05+08:00</lastmod>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/categories/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/categories/other/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/pomodoro/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/</loc>
+    <lastmod>2020-06-13T23:02:45+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/ox-hugo/</loc>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/shortcut/</loc>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/tags/yasnippet/</loc>
+    <lastmod>2020-06-13T23:02:44+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
