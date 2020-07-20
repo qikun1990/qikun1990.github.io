@@ -21,5 +21,14 @@
 &lt;p&gt;本文的命令未做验证，最近几天有时间我会逐个测试验证。&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>path和classpath简单说明</title>
+      <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/path-and-classpath-different/</guid>
+      <description>&lt;p&gt;path和classpath区别&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

@@ -45,11 +45,11 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/" />
 <meta property="article:published_time" content="2020-05-05T00:00:00+08:00" />
-<meta property="article:modified_time" content="2020-06-13T23:02:45+08:00" />
+<meta property="article:modified_time" content="2020-07-18T20:57:11+08:00" />
 <meta itemprop="name" content="mac环境org-pomodoro番茄钟添加提示信息以及声音">
 <meta itemprop="description" content="给org-pomodoro添加弹出框以及声音提示">
 <meta itemprop="datePublished" content="2020-05-05T00:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2020-06-13T23:02:45&#43;08:00" />
+<meta itemprop="dateModified" content="2020-07-18T20:57:11&#43;08:00" />
 <meta itemprop="wordCount" content="163">
 
 
@@ -174,13 +174,13 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-SHELL" data-lang="SHELL"><span class="o">(</span>defun notify-osx <span class="o">(</span>title message<span class="o">)</span>
-  <span class="o">(</span>call-process <span class="s2">&#34;terminal-notifier&#34;</span>
-    nil <span class="m">0</span> nil
-    <span class="s2">&#34;-group&#34;</span> <span class="s2">&#34;Emacs&#34;</span>
-    <span class="s2">&#34;-title&#34;</span> title
-    <span class="s2">&#34;-sound&#34;</span> <span class="s2">&#34;deflaut&#34;</span>
-    <span class="s2">&#34;-message&#34;</span> message
-    <span class="s2">&#34;-activate&#34;</span> <span class="s2">&#34;org.gnu.Emacs&#34;</span><span class="o">))</span>
+      <span class="o">(</span>call-process <span class="s2">&#34;terminal-notifier&#34;</span>
+	      nil <span class="m">0</span> nil
+	      <span class="s2">&#34;-group&#34;</span> <span class="s2">&#34;Emacs&#34;</span>
+	      <span class="s2">&#34;-title&#34;</span> title
+	      <span class="s2">&#34;-sound&#34;</span> <span class="s2">&#34;deflaut&#34;</span>
+	      <span class="s2">&#34;-message&#34;</span> message
+	      <span class="s2">&#34;-activate&#34;</span> <span class="s2">&#34;org.gnu.Emacs&#34;</span><span class="o">))</span>
 </code></pre></td></tr></table>
 </div>
 </div><h3 id="调用通知函数">调用通知函数</h3>
@@ -201,17 +201,17 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-SHELL" data-lang="SHELL"><span class="o">(</span>add-hook <span class="s1">&#39;org-pomodoro-finished-hook
-</span><span class="s1">  (lambda ()
-</span><span class="s1">    (notify-osx &#34;Pomodoro completed!&#34; &#34;Time for a break.&#34;)))
+</span><span class="s1">      (lambda ()
+</span><span class="s1">	      (notify-osx &#34;Pomodoro completed!&#34; &#34;Time for a break.&#34;)))
 </span><span class="s1">(add-hook &#39;</span>org-pomodoro-break-finished-hook
-  <span class="o">(</span>lambda <span class="o">()</span>
-        <span class="o">(</span>notify-osx <span class="s2">&#34;Pomodoro Short Break Finished&#34;</span> <span class="s2">&#34;Ready for Another?&#34;</span><span class="o">)))</span>
+      <span class="o">(</span>lambda <span class="o">()</span>
+	<span class="o">(</span>notify-osx <span class="s2">&#34;Pomodoro Short Break Finished&#34;</span> <span class="s2">&#34;Ready for Another?&#34;</span><span class="o">)))</span>
 <span class="o">(</span>add-hook <span class="s1">&#39;org-pomodoro-long-break-finished-hook
-</span><span class="s1">  (lambda ()
-</span><span class="s1">    (notify-osx &#34;Pomodoro Long Break Finished&#34; &#34;Ready for Another?&#34;)))
+</span><span class="s1">      (lambda ()
+</span><span class="s1">	      (notify-osx &#34;Pomodoro Long Break Finished&#34; &#34;Ready for Another?&#34;)))
 </span><span class="s1">(add-hook &#39;</span>org-pomodoro-killed-hook
-  <span class="o">(</span>lambda <span class="o">()</span>
-    <span class="o">(</span>notify-osx <span class="s2">&#34;Pomodoro Killed&#34;</span> <span class="s2">&#34;One does not simply kill a pomodoro!&#34;</span><span class="o">)))</span>
+      <span class="o">(</span>lambda <span class="o">()</span>
+	      <span class="o">(</span>notify-osx <span class="s2">&#34;Pomodoro Killed&#34;</span> <span class="s2">&#34;One does not simply kill a pomodoro!&#34;</span><span class="o">)))</span>
 </code></pre></td></tr></table>
 </div>
 </div>
@@ -225,7 +225,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2020-06-13
+        2020-07-18
         
     </span>
   </p>
@@ -242,11 +242,7 @@
             <span class="prev-text nav-default">yasnippet使用简单说明</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/blog/">
-            <span class="next-text nav-default"></span>
-            <span class="next-text nav-mobile">下一篇</span>
-            <i class="iconfont icon-right"></i>
-          </a>
+        
       </nav>
     </footer>
   </article>

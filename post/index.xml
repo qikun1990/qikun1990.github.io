@@ -6,7 +6,7 @@
     <description>Recent content in Posts on 个人知识管理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Jun 2020 22:40:57 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
@@ -31,6 +31,15 @@
     </item>
     
     <item>
+      <title>path和classpath简单说明</title>
+      <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/path-and-classpath-different/</guid>
+      <description>&lt;p&gt;path和classpath区别&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>emacs使用以及常用快捷键积累</title>
       <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
@@ -45,7 +54,8 @@
       <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://qikun1990.github.io/post/how-to-use-yasnippet/</guid>
-      <description>&lt;p&gt;使用yasnippet提高效率&lt;/p&gt;</description>
+      <description>&lt;p&gt;使用yasnippet提高效率
+&lt;a href=&#34;https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs&#34;&gt;yasnippet无法正常使用处理办法&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -55,29 +65,6 @@
       
       <guid>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</guid>
       <description>&lt;p&gt;给org-pomodoro添加弹出框以及声音提示&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://qikun1990.github.io/post/blog/</link>
-      <pubDate>Sat, 13 Jun 2020 22:40:57 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/blog/</guid>
-      <description>&lt;h2 id=&#34;计划-and-复盘&#34;&gt;计划&amp;amp;复盘&lt;/h2&gt;
-&lt;h3 id=&#34;202006计划-and-复盘-2020-dot-06-dot-13-2020-dot-06-dot-30&#34;&gt;202006计划&amp;amp;复盘（2020.06.13~2020.06.30）&lt;/h3&gt;
-&lt;h4 id=&#34;计划&#34;&gt;&lt;!-- raw HTML omitted --&gt;TODO&lt;!-- raw HTML omitted --&gt; 计划&lt;/h4&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;TODO&lt;!-- raw HTML omitted --&gt;  java基础知识并形成blog&lt;/li&gt;
-&lt;/ul&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;!-- raw HTML omitted --&gt;TODO&lt;!-- raw HTML omitted --&gt;  学习新概念三1-5课并形成blog&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4 id=&#34;复盘&#34;&gt;&lt;!-- raw HTML omitted --&gt;TODO&lt;!-- raw HTML omitted --&gt; 复盘&lt;/h4&gt;
-&lt;h2 id=&#34;英语学习&#34;&gt;英语学习&lt;/h2&gt;
-&lt;h3 id=&#34;too-新概念英语3-lesson1-a-puma-at-large&#34;&gt;TOO 《新概念英语3》Lesson1 A puma at large&lt;/h3&gt;
-&lt;p&gt;A puma at large&lt;/p&gt;</description>
     </item>
     
   </channel>

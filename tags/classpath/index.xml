@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>classpath on 个人知识管理</title>
+    <link>https://qikun1990.github.io/tags/classpath/</link>
+    <description>Recent content in classpath on 个人知识管理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://qikun1990.github.io/tags/classpath/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>path和classpath简单说明</title>
+      <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/path-and-classpath-different/</guid>
+      <description>&lt;p&gt;path和classpath区别&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
