@@ -6,7 +6,7 @@
     <description>Recent content in EMACS学习 on 个人知识管理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 May 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
     
@@ -46,6 +46,20 @@
       
       <guid>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</guid>
       <description>&lt;p&gt;给org-pomodoro添加弹出框以及声音提示&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>图文混排简单说明</title>
+      <link>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from &amp;ldquo;STARTED&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-20 Mon 20:01] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
+测试验证图片显示问题&lt;/li&gt;
+&lt;li&gt;State &amp;ldquo;STARTED&amp;rdquo;    from &amp;ldquo;TODO&amp;rdquo;       &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-20 Mon 20:01]&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;org-mode中如何显示隐藏图片&lt;/p&gt;</description>
     </item>
     
   </channel>

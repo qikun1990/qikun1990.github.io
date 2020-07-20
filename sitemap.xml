@@ -44,8 +44,36 @@
   </url>
   
   <url>
+    <loc>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</loc>
+    <lastmod>2020-07-20T20:02:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://qikun1990.github.io/categories/</loc>
-    <lastmod>2020-07-18T20:57:12+08:00</lastmod>
+    <lastmod>2020-07-20T20:02:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2020-07-20T20:02:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/post/</loc>
+    <lastmod>2020-07-20T20:02:04+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://qikun1990.github.io/</loc>
+    <lastmod>2020-07-20T20:02:04+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -65,29 +93,8 @@
   </url>
   
   <url>
-    <loc>https://qikun1990.github.io/post/</loc>
-    <lastmod>2020-07-18T20:57:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://qikun1990.github.io/tags/</loc>
     <lastmod>2020-07-18T20:57:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/</loc>
-    <lastmod>2020-07-18T20:57:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2020-07-18T20:57:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>

@@ -6,10 +6,19 @@
     <description>Recent content in Categories on 个人知识管理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Jun 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>EMACS学习</title>
+      <link>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
+      <pubDate>Sun, 19 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>OTHER</title>
@@ -17,15 +26,6 @@
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
       
       <guid>https://qikun1990.github.io/categories/other/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>EMACS学习</title>
-      <link>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Tue, 05 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     
