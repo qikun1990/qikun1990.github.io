@@ -30,15 +30,6 @@
     </item>
     
     <item>
-      <title>我常用的EMACS插件</title>
-      <link>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</guid>
-      <description>&lt;p&gt;文章简介&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>JAVA泛型学习记录 [0/1]</title>
       <link>https://qikun1990.github.io/post/java-generic-learning-record/</link>
       <pubDate>Sun, 26 Jul 2020 00:00:00 +0800</pubDate>
@@ -82,66 +73,12 @@
     </item>
     
     <item>
-      <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
-      <link>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</guid>
-      <description>&lt;p&gt;如何使用org-mode和hugo搭建一个blog的工作流？&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>docker tutorial</title>
       <link>https://qikun1990.github.io/post/docker-tutorial/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
       
       <guid>https://qikun1990.github.io/post/docker-tutorial/</guid>
       <description>&lt;p&gt;docker demo&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>docker基本操作简单说明</title>
-      <link>https://qikun1990.github.io/post/docker-base-use/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/docker-base-use/</guid>
-      <description>&lt;p&gt;后续更新&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>docker安装mysql</title>
-      <link>https://qikun1990.github.io/post/docker-install-mysql/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/docker-install-mysql/</guid>
-      <description>&lt;p&gt;docker安装mysql&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>HomeBrew update 更新后报错无法使用的解决方案</title>
-      <link>https://qikun1990.github.io/post/homebrew-update-error/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/homebrew-update-error/</guid>
-      <description>执行命令：brew update-reset，重新设置下brew的配置。</description>
-    </item>
-    
-    <item>
-      <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
-      <link>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</guid>
-      <description>&lt;p&gt;MAC上AnkiConnect连接失败问题处理&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>mac安装gcc报错</title>
-      <link>https://qikun1990.github.io/post/mac-gcc/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/mac-gcc/</guid>
-      <description>&lt;p&gt;mac安装gcc报错问题处理&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -154,21 +91,21 @@
     </item>
     
     <item>
-      <title>path和classpath简单说明</title>
-      <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
-      <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
+      <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
+      <link>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/path-and-classpath-different/</guid>
-      <description>&lt;p&gt;path和classpath区别&lt;/p&gt;</description>
+      <guid>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</guid>
+      <description>&lt;p&gt;如何使用org-mode和hugo搭建一个blog的工作流？&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Docker安装MariaDB</title>
-      <link>https://qikun1990.github.io/post/docker-install-mariadb/</link>
+      <title>docker安装mysql</title>
+      <link>https://qikun1990.github.io/post/docker-install-mysql/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/docker-install-mariadb/</guid>
-      <description>&lt;p&gt;docker安装mariadb，简化mariadb安装方式&lt;/p&gt;</description>
+      <guid>https://qikun1990.github.io/post/docker-install-mysql/</guid>
+      <description>&lt;p&gt;docker安装mysql&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -178,6 +115,33 @@
       
       <guid>https://qikun1990.github.io/post/emacs-col-edit-model/</guid>
       <description>Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除</description>
+    </item>
+    
+    <item>
+      <title>docker基本操作简单说明</title>
+      <link>https://qikun1990.github.io/post/docker-base-use/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-base-use/</guid>
+      <description>&lt;p&gt;后续更新&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>emacs使用以及常用快捷键积累</title>
+      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
+      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HomeBrew update 更新后报错无法使用的解决方案</title>
+      <link>https://qikun1990.github.io/post/homebrew-update-error/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/homebrew-update-error/</guid>
+      <description>执行命令：brew update-reset，重新设置下brew的配置。</description>
     </item>
     
     <item>
@@ -191,39 +155,12 @@
     </item>
     
     <item>
-      <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
-      <link>https://qikun1990.github.io/post/anki-clean-fdisk/</link>
+      <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
+      <link>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</link>
       <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/anki-clean-fdisk/</guid>
-      <description>删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media</description>
-    </item>
-    
-    <item>
-      <title>chrome的headless模式-网页转PDF</title>
-      <link>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</guid>
-      <description>&lt;p&gt;chrome的headless模式使用记录&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>docker容器文件复制</title>
-      <link>https://qikun1990.github.io/post/docker-copy-file/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/docker-copy-file/</guid>
-      <description>&lt;p&gt;docker文件复制相关内容&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>常用效率工具</title>
-      <link>https://qikun1990.github.io/post/common-efficiency-tools/</link>
-      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/common-efficiency-tools/</guid>
-      <description>&lt;p&gt;我自己常用的可以提高工作效率的软件&lt;/p&gt;</description>
+      <guid>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</guid>
+      <description>&lt;p&gt;MAC上AnkiConnect连接失败问题处理&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -236,20 +173,20 @@
     </item>
     
     <item>
-      <title>emacs使用以及常用快捷键积累</title>
-      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      <title>mac安装gcc报错</title>
+      <link>https://qikun1990.github.io/post/mac-gcc/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
-      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
+      <guid>https://qikun1990.github.io/post/mac-gcc/</guid>
+      <description>&lt;p&gt;mac安装gcc报错问题处理&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>图文混排简单说明</title>
-      <link>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
+      <link>https://qikun1990.github.io/post/org-mode-pic-content-simple-descrption/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
+      <guid>https://qikun1990.github.io/post/org-mode-pic-content-simple-descrption/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from &amp;ldquo;STARTED&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-20 Mon 20:01] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
 测试验证图片显示问题&lt;/li&gt;
@@ -265,6 +202,60 @@
       
       <guid>https://qikun1990.github.io/post/install-smart-input-source/</guid>
       <description>&lt;p&gt;这里是mac下配置smart-input-source的方式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>path和classpath简单说明</title>
+      <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
+      <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/path-and-classpath-different/</guid>
+      <description>&lt;p&gt;path和classpath区别&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>chrome的headless模式-网页转PDF</title>
+      <link>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</guid>
+      <description>&lt;p&gt;chrome的headless模式使用记录&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
+      <link>https://qikun1990.github.io/post/anki-clean-fdisk/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/anki-clean-fdisk/</guid>
+      <description>删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media</description>
+    </item>
+    
+    <item>
+      <title>docker容器文件复制</title>
+      <link>https://qikun1990.github.io/post/docker-copy-file/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-copy-file/</guid>
+      <description>&lt;p&gt;docker文件复制相关内容&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Docker安装MariaDB</title>
+      <link>https://qikun1990.github.io/post/docker-install-mariadb/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-install-mariadb/</guid>
+      <description>&lt;p&gt;docker安装mariadb，简化mariadb安装方式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用效率工具</title>
+      <link>https://qikun1990.github.io/post/common-efficiency-tools/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/common-efficiency-tools/</guid>
+      <description>&lt;p&gt;我自己常用的可以提高工作效率的软件&lt;/p&gt;</description>
     </item>
     
     <item>

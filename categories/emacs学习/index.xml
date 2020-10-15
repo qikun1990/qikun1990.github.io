@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>我常用的EMACS插件</title>
-      <link>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</guid>
-      <description>&lt;p&gt;文章简介&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
       <link>https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/</link>
       <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
@@ -45,6 +36,15 @@
       
       <guid>https://qikun1990.github.io/post/emacs-col-edit-model/</guid>
       <description>Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除</description>
+    </item>
+    
+    <item>
+      <title>emacs使用以及常用快捷键积累</title>
+      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
+      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,20 +67,11 @@
     </item>
     
     <item>
-      <title>emacs使用以及常用快捷键积累</title>
-      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
-      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
-    </item>
-    
-    <item>
       <title>图文混排简单说明</title>
-      <link>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
+      <link>https://qikun1990.github.io/post/org-mode-pic-content-simple-descrption/</link>
       <pubDate>Sun, 19 Jul 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
+      <guid>https://qikun1990.github.io/post/org-mode-pic-content-simple-descrption/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from &amp;ldquo;STARTED&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-20 Mon 20:01] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
 测试验证图片显示问题&lt;/li&gt;
