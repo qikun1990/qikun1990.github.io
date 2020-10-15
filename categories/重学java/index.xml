@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>重学JAVA on 个人知识管理</title>
+    <link>https://qikun1990.github.io/categories/%E9%87%8D%E5%AD%A6java/</link>
+    <description>Recent content in 重学JAVA on 个人知识管理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Sep 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://qikun1990.github.io/categories/%E9%87%8D%E5%AD%A6java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>JAVA泛型学习记录 [0/1]</title>
+      <link>https://qikun1990.github.io/post/java-generic-learning-record/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/java-generic-learning-record/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;State &amp;ldquo;HOLD&amp;rdquo;       from &amp;ldquo;WAITING&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-10-01 Thu 08:01] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
+待以后有时间再写&lt;/li&gt;
+&lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from &amp;ldquo;WAITING&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-10-01 Thu 07:59]&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;State &amp;ldquo;STARTED&amp;rdquo;    from &amp;ldquo;TODO&amp;rdquo;       &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-26 Sun 09:59] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
+开始学习java泛型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;学习路径&#34;&gt;学习路径&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 读java编程思想中泛型一章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习b站黑马程序员泛型的教程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 敲代码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 形成blog&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>12_注解_反射_字节码_类加载机制</title>
+      <link>https://qikun1990.github.io/post/annotation-reflection-bytecode-class-loading-mechanism/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/annotation-reflection-bytecode-class-loading-mechanism/</guid>
+      <description>开始学习注解 注解 内置注解 JDK自带的注解 元注解 修饰注解的注解 自定义注解</description>
+    </item>
+    
+  </channel>
+</rss>

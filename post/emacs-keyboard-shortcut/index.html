@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="齐坤" /><meta name="description" content="emacs常用快捷键
+<meta name="author" content="齐坤" /><meta name="description" content="emacs使用中经常遇到的问题
 " /><meta name="keywords" content="Hugo, theme, even" />
 
 
@@ -24,7 +24,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.69.2 with theme even" />
+<meta name="generator" content="Hugo 0.74.3 with theme even" />
 
 
 <link rel="canonical" href="https://qikun1990.github.io/post/emacs-keyboard-shortcut/" />
@@ -41,22 +41,23 @@
 
 
 <meta property="og:title" content="emacs使用以及常用快捷键积累" />
-<meta property="og:description" content="emacs常用快捷键" />
+<meta property="og:description" content="emacs使用中经常遇到的问题" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qikun1990.github.io/post/emacs-keyboard-shortcut/" />
 <meta property="article:published_time" content="2020-05-04T00:00:00+08:00" />
-<meta property="article:modified_time" content="2020-07-18T20:57:11+08:00" />
+<meta property="article:modified_time" content="2020-10-15T20:48:42+08:00" />
 <meta itemprop="name" content="emacs使用以及常用快捷键积累">
-<meta itemprop="description" content="emacs常用快捷键">
-<meta itemprop="datePublished" content="2020-05-04T00:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2020-07-18T20:57:11&#43;08:00" />
-<meta itemprop="wordCount" content="491">
+<meta itemprop="description" content="emacs使用中经常遇到的问题">
+<meta itemprop="datePublished" content="2020-05-04T00:00:00+08:00" />
+<meta itemprop="dateModified" content="2020-10-15T20:48:42+08:00" />
+<meta itemprop="wordCount" content="319">
 
 
 
-<meta itemprop="keywords" content="shortcut," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="shortcut," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="emacs使用以及常用快捷键积累"/>
-<meta name="twitter:description" content="emacs常用快捷键"/>
+<meta name="twitter:description" content="emacs使用中经常遇到的问题"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -126,7 +127,7 @@
         <div class="post-category">
             <a href="/categories/emacs%E5%AD%A6%E4%B9%A0/"> EMACS学习 </a>
             </div>
-          <span class="more-meta"> 约 491 字 </span>
+          <span class="more-meta"> 约 319 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         
       </div>
@@ -137,90 +138,44 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#spacemacs-常用快捷键">Spacemacs 常用快捷键</a>
-      <ul>
-        <li><a href="#c-a-移动到最前面">C a 移动到最前面</a></li>
-        <li><a href="#c-e-移动到最后面">C e 移动到最后面</a></li>
-        <li><a href="#c-plus-撤销">C+/ 撤销</a></li>
-        <li><a href="#c-plus-x-u-撤销">C+x u 撤销</a></li>
-        <li><a href="#c-plus-w-剪切">C+w 剪切</a></li>
-        <li><a href="#m-plus-w-复制">M+w 复制</a></li>
-        <li><a href="#c-plus-y-粘贴">C+y 粘贴</a></li>
-        <li><a href="#c-x-c-f-打开文件">C x C f 打开文件</a></li>
-        <li><a href="#c-x-c-r-最近打开的文件">C x C r 最近打开的文件</a></li>
-        <li><a href="#c-c-c-e-h-h-ox-hugo生成md文件-org-hugo-export-to-md">C c C e H H ox-hugo生成md文件 org-hugo-export-to-md</a></li>
-        <li><a href="#spc-ft-快速打开边栏目录树">SPC ft 快速打开边栏目录树</a></li>
-        <li><a href="#spc-pt-快速关闭边栏目录树">SPC pt 快速关闭边栏目录树</a></li>
-        <li><a href="#spc-pp-快速搜索目录">SPC pp 快速搜索目录</a></li>
-        <li><a href="#ctl-xf-目录切换">Ctl xf 目录切换</a></li>
-        <li><a href="#spc-bn-下一个buffer">SPC bn 下一个buffer</a></li>
-        <li><a href="#c-x-c-b-打开buffer列表">C x C b 打开buffer列表</a></li>
-        <li><a href="#spc-bb-搜索buffer-快速切换buffer">SPC bb 搜索buffer，快速切换buffer</a></li>
-        <li><a href="#复制移动文件实例">复制移动文件实例</a></li>
-        <li><a href="#如何使用agenda管理工作">如何使用agenda管理工作</a></li>
-        <li><a href="#如何生成工作用时报表">如何生成工作用时报表</a></li>
-        <li><a href="#快速记录想法-org-capture-spc-c-c-t">快速记录想法 org-capture SPC C c t</a></li>
-        <li><a href="#查看之前记录的想法-org-capture-goto-last-stored">查看之前记录的想法 org-capture-goto-last-stored</a></li>
-      </ul>
-    </li>
-    <li><a href="#org-mode常用快捷键">org-mode常用快捷键</a>
-      <ul>
-        <li><a href="#c-c-c-f-下一个同级的标题">C-c C-f 下一个同级的标题</a></li>
-        <li><a href="#c-c-c-b-上一个同级的标题">C-c C-b 上一个同级的标题</a></li>
-        <li><a href="#如何在当前文件插入一个包含像-org-表格一样的计时报告的动态块">如何在当前文件插入一个包含像 Org 表格一样的计时报告的动态块</a></li>
-      </ul>
-    </li>
+    <li><a href="#常用快捷键">常用快捷键</a></li>
+    <li><a href="#如何使用agenda管理工作">如何使用agenda管理工作</a></li>
+    <li><a href="#如何生成工作用时报表">如何生成工作用时报表</a></li>
+    <li><a href="#如何在当前文件插入一个包含像-org-表格一样的计时报告的动态块">如何在当前文件插入一个包含像 Org 表格一样的计时报告的动态块</a></li>
   </ul>
 </nav>
   </div>
 </div>
     <div class="post-content">
-      <p>emacs常用快捷键</p>
-<h2 id="spacemacs-常用快捷键">Spacemacs 常用快捷键</h2>
-<p><a href="http://scarletsky.github.io/2016/01/22/spacemacs-usage/">Spacemacs 快捷键文章</a></p>
-<h3 id="c-a-移动到最前面">C a 移动到最前面</h3>
-<h3 id="c-e-移动到最后面">C e 移动到最后面</h3>
-<h3 id="c-plus-撤销">C+/ 撤销</h3>
-<h3 id="c-plus-x-u-撤销">C+x u 撤销</h3>
-<h3 id="c-plus-w-剪切">C+w 剪切</h3>
-<h3 id="m-plus-w-复制">M+w 复制</h3>
-<h3 id="c-plus-y-粘贴">C+y 粘贴</h3>
-<h3 id="c-x-c-f-打开文件">C x C f 打开文件</h3>
-<h3 id="c-x-c-r-最近打开的文件">C x C r 最近打开的文件</h3>
-<h3 id="c-c-c-e-h-h-ox-hugo生成md文件-org-hugo-export-to-md">C c C e H H ox-hugo生成md文件 org-hugo-export-to-md</h3>
-<h3 id="spc-ft-快速打开边栏目录树">SPC ft 快速打开边栏目录树</h3>
-<h3 id="spc-pt-快速关闭边栏目录树">SPC pt 快速关闭边栏目录树</h3>
-<h3 id="spc-pp-快速搜索目录">SPC pp 快速搜索目录</h3>
-<h3 id="ctl-xf-目录切换">Ctl xf 目录切换</h3>
-<h3 id="spc-bn-下一个buffer">SPC bn 下一个buffer</h3>
-<h3 id="c-x-c-b-打开buffer列表">C x C b 打开buffer列表</h3>
-<h3 id="spc-bb-搜索buffer-快速切换buffer">SPC bb 搜索buffer，快速切换buffer</h3>
-<h3 id="复制移动文件实例">复制移动文件实例</h3>
-<p>按下 SPC f j 打开 dired 目录
-按下按键 + , 创建 ~/.spacemacs.d 目录
-将光标移动到 .spacemacs 文件上, 按下 R, 将该文件移动到 .spacemacs.d 目录中
-进入 .spacemacs.d 目录, 将光标移动到 .spacemacs 文件上, 按下 R, 将该文件重命名为 init.el
-按下 qq 退出 dired
-R是移动文件
-C是复制文件</p>
-<h3 id="如何使用agenda管理工作">如何使用agenda管理工作</h3>
-<ol>
-<li>给TODO添加SCHEDULED时间</li>
-<li>C c [ 加入议程文件列表</li>
-<li>C c a a即可查看指定时间的代办事项</li>
-</ol>
-<h3 id="如何生成工作用时报表">如何生成工作用时报表</h3>
-<ol>
-<li>光标移动到要生成的条目上</li>
-<li>ALT X</li>
-<li>org-clock-report</li>
-</ol>
-<h3 id="快速记录想法-org-capture-spc-c-c-t">快速记录想法 org-capture SPC C c t</h3>
-<h3 id="查看之前记录的想法-org-capture-goto-last-stored">查看之前记录的想法 org-capture-goto-last-stored</h3>
-<h2 id="org-mode常用快捷键">org-mode常用快捷键</h2>
-<h3 id="c-c-c-f-下一个同级的标题">C-c C-f 下一个同级的标题</h3>
-<h3 id="c-c-c-b-上一个同级的标题">C-c C-b 上一个同级的标题</h3>
-<h3 id="如何在当前文件插入一个包含像-org-表格一样的计时报告的动态块">如何在当前文件插入一个包含像 Org 表格一样的计时报告的动态块</h3>
+      <p>emacs使用中经常遇到的问题</p>
+<h2 id="常用快捷键">常用快捷键</h2>
+<ul>
+<li><input checked="" disabled="" type="checkbox"> C a 移动到最前面</li>
+<li><input checked="" disabled="" type="checkbox"> C e 移动到最后面</li>
+<li><input checked="" disabled="" type="checkbox"> C+/ 撤销</li>
+<li><input checked="" disabled="" type="checkbox"> C+x u 撤销</li>
+<li><input checked="" disabled="" type="checkbox"> C+w 剪切</li>
+<li><input checked="" disabled="" type="checkbox"> M+w 复制</li>
+<li><input checked="" disabled="" type="checkbox"> C+y 粘贴</li>
+<li><input checked="" disabled="" type="checkbox"> C x C f 打开文件</li>
+<li><input checked="" disabled="" type="checkbox"> C x C r 最近打开的文件</li>
+<li><input checked="" disabled="" type="checkbox"> C c C e H H ox-hugo生成md文件 org-hugo-export-to-md</li>
+<li><input checked="" disabled="" type="checkbox"> Ctl xf 目录切换</li>
+<li><input checked="" disabled="" type="checkbox"> C x C b 打开buffer列表</li>
+<li><input checked="" disabled="" type="checkbox"> 快速记录想法 org-capture SPC C c t</li>
+<li><input checked="" disabled="" type="checkbox"> 查看之前记录的想法 org-capture-goto-last-stored</li>
+<li><input checked="" disabled="" type="checkbox"> C-c C-f 下一个同级的标题</li>
+<li><input checked="" disabled="" type="checkbox"> C-c C-b 上一个同级的标题</li>
+</ul>
+<h2 id="如何使用agenda管理工作">如何使用agenda管理工作</h2>
+<p>. 给TODO添加SCHEDULED时间
+. C c [ 加入议程文件列表
+. C c a a即可查看指定时间的代办事项</p>
+<h2 id="如何生成工作用时报表">如何生成工作用时报表</h2>
+<p>. 光标移动到要生成的条目上
+. ALT X
+. org-clock-report</p>
+<h2 id="如何在当前文件插入一个包含像-org-表格一样的计时报告的动态块">如何在当前文件插入一个包含像 Org 表格一样的计时报告的动态块</h2>
 <p>方法1:执行org-clock-report
 方法2:绑定快捷键(org-defkey org-mode-map (kbd &ldquo;C-c C-x C-r&rdquo;) #&lsquo;org-clock-report)</p>
     </div>
@@ -233,7 +188,7 @@ C是复制文件</p>
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2020-07-18
+        2020-10-15
         
     </span>
   </p>
@@ -245,13 +200,13 @@ C是复制文件</p>
           <a href="/tags/shortcut/">shortcut</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/path-and-classpath-different/">
+        <a class="prev" href="/post/how-to-add-sound-for-org-pomodoro/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">path和classpath简单说明</span>
+            <span class="prev-text nav-default">mac环境org-pomodoro番茄钟添加提示信息以及声音</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/how-to-use-yasnippet/">
-            <span class="next-text nav-default">yasnippet使用简单说明</span>
+        <a class="next" href="/post/org-mode%E5%9B%BE%E6%96%87%E6%B7%B7%E6%8E%92%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/">
+            <span class="next-text nav-default">图文混排简单说明</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>

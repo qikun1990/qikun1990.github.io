@@ -6,10 +6,70 @@
     <description>Recent content in Posts on 个人知识管理</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Jul 2020 00:00:00 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://qikun1990.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
+      <link>https://qikun1990.github.io/post/linux-mysql-data-bak-rec/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/linux-mysql-data-bak-rec/</guid>
+      <description>&lt;p&gt;mysql数据备份与还原&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我常用的EMACS插件</title>
+      <link>https://qikun1990.github.io/post/usual-use-emacs-plugins/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/usual-use-emacs-plugins/</guid>
+      <description>&lt;p&gt;自用的emacs插件&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我常用的EMACS插件</title>
+      <link>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/%E6%96%87%E7%AB%A0url/</guid>
+      <description>&lt;p&gt;文章简介&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>JAVA泛型学习记录 [0/1]</title>
+      <link>https://qikun1990.github.io/post/java-generic-learning-record/</link>
+      <pubDate>Sun, 26 Jul 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/java-generic-learning-record/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;State &amp;ldquo;HOLD&amp;rdquo;       from &amp;ldquo;WAITING&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-10-01 Thu 08:01] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
+待以后有时间再写&lt;/li&gt;
+&lt;li&gt;State &amp;ldquo;DONE&amp;rdquo;       from &amp;ldquo;WAITING&amp;rdquo;    &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-10-01 Thu 07:59]&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;ul&gt;
+&lt;li&gt;State &amp;ldquo;STARTED&amp;rdquo;    from &amp;ldquo;TODO&amp;rdquo;       &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-26 Sun 09:59] &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt; &lt;!-- raw HTML omitted --&gt;
+开始学习java泛型&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;学习路径&#34;&gt;学习路径&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 读java编程思想中泛型一章&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习b站黑马程序员泛型的教程&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 敲代码&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 形成blog&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>开发工程师常用的dos命令以及快捷命令</title>
@@ -31,6 +91,69 @@
     </item>
     
     <item>
+      <title>docker tutorial</title>
+      <link>https://qikun1990.github.io/post/docker-tutorial/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-tutorial/</guid>
+      <description>&lt;p&gt;docker demo&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>docker基本操作简单说明</title>
+      <link>https://qikun1990.github.io/post/docker-base-use/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-base-use/</guid>
+      <description>&lt;p&gt;后续更新&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>docker安装mysql</title>
+      <link>https://qikun1990.github.io/post/docker-install-mysql/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-install-mysql/</guid>
+      <description>&lt;p&gt;docker安装mysql&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HomeBrew update 更新后报错无法使用的解决方案</title>
+      <link>https://qikun1990.github.io/post/homebrew-update-error/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/homebrew-update-error/</guid>
+      <description>执行命令：brew update-reset，重新设置下brew的配置。</description>
+    </item>
+    
+    <item>
+      <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
+      <link>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/mac-ankiconnect-connect-fail/</guid>
+      <description>&lt;p&gt;MAC上AnkiConnect连接失败问题处理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mac安装gcc报错</title>
+      <link>https://qikun1990.github.io/post/mac-gcc/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/mac-gcc/</guid>
+      <description>&lt;p&gt;mac安装gcc报错问题处理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>12_注解_反射_字节码_类加载机制</title>
+      <link>https://qikun1990.github.io/post/annotation-reflection-bytecode-class-loading-mechanism/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/annotation-reflection-bytecode-class-loading-mechanism/</guid>
+      <description>开始学习注解 注解 内置注解 JDK自带的注解 元注解 修饰注解的注解 自定义注解</description>
+    </item>
+    
+    <item>
       <title>path和classpath简单说明</title>
       <link>https://qikun1990.github.io/post/path-and-classpath-different/</link>
       <pubDate>Sat, 13 Jun 2020 00:00:00 +0800</pubDate>
@@ -40,12 +163,21 @@
     </item>
     
     <item>
-      <title>emacs使用以及常用快捷键积累</title>
-      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      <title>Docker安装MariaDB</title>
+      <link>https://qikun1990.github.io/post/docker-install-mariadb/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
       
-      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
-      <description>&lt;p&gt;emacs常用快捷键&lt;/p&gt;</description>
+      <guid>https://qikun1990.github.io/post/docker-install-mariadb/</guid>
+      <description>&lt;p&gt;docker安装mariadb，简化mariadb安装方式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>emacs列编辑模式</title>
+      <link>https://qikun1990.github.io/post/emacs-col-edit-model/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/emacs-col-edit-model/</guid>
+      <description>Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除</description>
     </item>
     
     <item>
@@ -59,12 +191,57 @@
     </item>
     
     <item>
+      <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
+      <link>https://qikun1990.github.io/post/anki-clean-fdisk/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/anki-clean-fdisk/</guid>
+      <description>删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media</description>
+    </item>
+    
+    <item>
+      <title>chrome的headless模式-网页转PDF</title>
+      <link>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/chrome-headless-convert-html-to-pdf/</guid>
+      <description>&lt;p&gt;chrome的headless模式使用记录&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>docker容器文件复制</title>
+      <link>https://qikun1990.github.io/post/docker-copy-file/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/docker-copy-file/</guid>
+      <description>&lt;p&gt;docker文件复制相关内容&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>常用效率工具</title>
+      <link>https://qikun1990.github.io/post/common-efficiency-tools/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/common-efficiency-tools/</guid>
+      <description>&lt;p&gt;我自己常用的可以提高工作效率的软件&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>mac环境org-pomodoro番茄钟添加提示信息以及声音</title>
       <link>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</link>
       <pubDate>Tue, 05 May 2020 00:00:00 +0800</pubDate>
       
       <guid>https://qikun1990.github.io/post/how-to-add-sound-for-org-pomodoro/</guid>
       <description>&lt;p&gt;给org-pomodoro添加弹出框以及声音提示&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>emacs使用以及常用快捷键积累</title>
+      <link>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/emacs-keyboard-shortcut/</guid>
+      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -79,6 +256,24 @@
 &lt;li&gt;State &amp;ldquo;STARTED&amp;rdquo;    from &amp;ldquo;TODO&amp;rdquo;       &lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;[2020-07-20 Mon 20:01]&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;org-mode中如何显示隐藏图片&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>安装配置smart-input-source</title>
+      <link>https://qikun1990.github.io/post/install-smart-input-source/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/install-smart-input-source/</guid>
+      <description>&lt;p&gt;这里是mac下配置smart-input-source的方式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>maven学习总结</title>
+      <link>https://qikun1990.github.io/post/learn-maven-log/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/learn-maven-log/</guid>
+      <description>&lt;p&gt;记录学习maven过程，以及自己的一点思考&lt;/p&gt;</description>
     </item>
     
   </channel>

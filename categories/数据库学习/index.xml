@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>数据库学习 on 个人知识管理</title>
+    <link>https://qikun1990.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
+    <description>Recent content in 数据库学习 on 个人知识管理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 15 Oct 2020 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://qikun1990.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
+      <link>https://qikun1990.github.io/post/linux-mysql-data-bak-rec/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://qikun1990.github.io/post/linux-mysql-data-bak-rec/</guid>
+      <description>&lt;p&gt;mysql数据备份与还原&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

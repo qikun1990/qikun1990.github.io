@@ -24,7 +24,7 @@
 
 
 
-<meta name="generator" content="Hugo 0.69.2 with theme even" />
+<meta name="generator" content="Hugo 0.74.3 with theme even" />
 
 
 <link rel="canonical" href="https://qikun1990.github.io/post/how-to-use-yasnippet/" />
@@ -46,17 +46,18 @@ yasnippet无法正常使用处理办法" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://qikun1990.github.io/post/how-to-use-yasnippet/" />
 <meta property="article:published_time" content="2020-05-04T00:00:00+08:00" />
-<meta property="article:modified_time" content="2020-07-18T20:57:11+08:00" />
+<meta property="article:modified_time" content="2020-10-15T18:11:00+08:00" />
 <meta itemprop="name" content="yasnippet使用简单说明">
 <meta itemprop="description" content="使用yasnippet提高效率
 yasnippet无法正常使用处理办法">
-<meta itemprop="datePublished" content="2020-05-04T00:00:00&#43;08:00" />
-<meta itemprop="dateModified" content="2020-07-18T20:57:11&#43;08:00" />
-<meta itemprop="wordCount" content="941">
+<meta itemprop="datePublished" content="2020-05-04T00:00:00+08:00" />
+<meta itemprop="dateModified" content="2020-10-15T18:11:00+08:00" />
+<meta itemprop="wordCount" content="857">
 
 
 
-<meta itemprop="keywords" content="yasnippet," /><meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="yasnippet," />
+<meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="yasnippet使用简单说明"/>
 <meta name="twitter:description" content="使用yasnippet提高效率
 yasnippet无法正常使用处理办法"/>
@@ -129,7 +130,7 @@ yasnippet无法正常使用处理办法"/>
         <div class="post-category">
             <a href="/categories/emacs%E5%AD%A6%E4%B9%A0/"> EMACS学习 </a>
             </div>
-          <span class="more-meta"> 约 941 字 </span>
+          <span class="more-meta"> 约 857 字 </span>
           <span class="more-meta"> 预计阅读 2 分钟 </span>
         
       </div>
@@ -156,17 +157,25 @@ yasnippet无法正常使用处理办法"/>
 <p>官方描述：YASnippet is a template system for Emacs. It allows you to type an abbreviation and automatically expand it into function templates.</p>
 <h2 id="安装配置">安装配置</h2>
 <p>对于yasnippet的安装可以查看yasnippet github。</p>
-<p>在这里本人使用的是spacemacs，具体可以查看我的个人配置，基本配置代码如下：</p>
-<p>(setq yas-snippet-dirs
-&lsquo;(&ldquo;~/.spacemacs.d/fidding/local/yasnippet/snippets&rdquo;;;personal snippets
-))
-(yas-global-mode 1)
-JSON
-yas-snippet-dirs为自定义模版存放的文件夹地址。</p>
-<h2 id="创建自定义模版">创建自定义模版</h2>
-<p>当安装完yasnippet插件后，在emacs下执行M-x yas-new-snippet，如图</p>
-<p>\snippet.png 回车执行，将会出来初始化自定义模版，如图</p>
-<p>\snippet2.png</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-lisp" data-lang="lisp"><span class="c1">;; 代码块配置</span>
+<span class="p">(</span><span class="nv">add-to-list</span> <span class="ss">&#39;load-path</span>
+	      <span class="s">&#34;~/.emacs.d/plugins/yasnippet&#34;</span><span class="p">)</span>
+<span class="p">(</span><span class="nf">require</span> <span class="ss">&#39;yasnippet</span><span class="p">)</span>
+<span class="p">(</span><span class="nv">yas-global-mode</span> <span class="mi">1</span><span class="p">)</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="创建自定义模版">创建自定义模版</h2>
+<p>当安装完yasnippet插件后，在emacs下执行M-x yas-new-snippet</p>
+<p>回车执行，将会出来初始化自定义模版</p>
 <p>第一行# -<strong>- mode: snippet -</strong>-表示当前的模版文件文件mode为snippet-mode，一般默认。</p>
 <p>第二行# name:描述当前的模版名称(模版的功能描述)。</p>
 <p>第三行# key:为模版的调用快捷键。</p>
@@ -200,7 +209,7 @@ JSON
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2020-07-18
+        2020-10-15
         
     </span>
   </p>
@@ -212,13 +221,13 @@ JSON
           <a href="/tags/yasnippet/">yasnippet</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/emacs-keyboard-shortcut/">
+        <a class="prev" href="/post/emacs-col-edit-model/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">emacs使用以及常用快捷键积累</span>
+            <span class="prev-text nav-default">emacs列编辑模式</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/how-to-add-sound-for-org-pomodoro/">
-            <span class="next-text nav-default">mac环境org-pomodoro番茄钟添加提示信息以及声音</span>
+        <a class="next" href="/post/anki-clean-fdisk/">
+            <span class="next-text nav-default">anki删除牌组后media文件未删除占用磁盘空间的处理办法</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
