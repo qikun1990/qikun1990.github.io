@@ -1,25 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>yasnippet on 个人知识管理</title>
-    <link>https://qikun1990.github.io/tags/yasnippet/</link>
-    <description>Recent content in yasnippet on 个人知识管理</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 May 2020 00:00:00 +0800</lastBuildDate>
-    
-	<atom:link href="https://qikun1990.github.io/tags/yasnippet/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>yasnippet使用简单说明</title>
-      <link>https://qikun1990.github.io/post/how-to-use-yasnippet/</link>
-      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
-      
-      <guid>https://qikun1990.github.io/post/how-to-use-yasnippet/</guid>
-      <description>&lt;p&gt;使用yasnippet提高效率
-&lt;a href=&#34;https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs&#34;&gt;yasnippet无法正常使用处理办法&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>yasnippet - 标签 - 个人知识管理</title>
+        <link>https://qikun1990.github.io/tags/yasnippet/</link>
+        <description>yasnippet - 标签 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://qikun1990.github.io/tags/yasnippet/" rel="self" type="application/rss+xml" /><item>
+    <title>yasnippet使用简单说明</title>
+    <link>https://qikun1990.github.io/posts/how-to-use-yasnippet/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://qikun1990.github.io/posts/how-to-use-yasnippet/</guid>
+    <description><![CDATA[<p>使用yasnippet提高效率
+<a href="https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs" target="_blank" rel="noopener noreffer">yasnippet无法正常使用处理办法</a></p>]]></description>
+</item></channel>
 </rss>

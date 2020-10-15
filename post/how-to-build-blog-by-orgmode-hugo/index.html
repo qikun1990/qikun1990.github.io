@@ -1,267 +1,119 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>如何使用org-mode和hugo搭建一个blog的工作流？ - 个人知识管理</title>
-  <meta name="renderer" content="webkit" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-<meta name="theme-color" content="#f8f5ec" />
-<meta name="msapplication-navbutton-color" content="#f8f5ec">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
-
-
-<meta name="author" content="齐坤" /><meta name="description" content="如何使用org-mode和hugo搭建一个blog的工作流？
-" /><meta name="keywords" content="Hugo, theme, even" />
-
-
-
-
-
-
-<meta name="generator" content="Hugo 0.74.3 with theme even" />
-
-
-<link rel="canonical" href="https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/" />
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-
-
-
-<link href="/sass/main.min.78f8f17bab244b9ee62ad16480c9584d5fc2db06ae20681d1ca225cefd80767c.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
-
-
-<meta property="og:title" content="如何使用org-mode和hugo搭建一个blog的工作流？" />
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+        <title>如何使用org-mode和hugo搭建一个blog的工作流？ - 个人知识管理</title><meta name="Description" content=""><meta property="og:title" content="如何使用org-mode和hugo搭建一个blog的工作流？" />
 <meta property="og:description" content="如何使用org-mode和hugo搭建一个blog的工作流？" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://qikun1990.github.io/post/how-to-build-blog-by-orgmode-hugo/" />
+<meta property="og:url" content="http://example.org/post/how-to-build-blog-by-orgmode-hugo/" />
 <meta property="article:published_time" content="2020-05-04T00:00:00+08:00" />
 <meta property="article:modified_time" content="2020-10-15T21:01:46+08:00" />
-<meta itemprop="name" content="如何使用org-mode和hugo搭建一个blog的工作流？">
-<meta itemprop="description" content="如何使用org-mode和hugo搭建一个blog的工作流？">
-<meta itemprop="datePublished" content="2020-05-04T00:00:00+08:00" />
-<meta itemprop="dateModified" content="2020-10-15T21:01:46+08:00" />
-<meta itemprop="wordCount" content="1123">
-
-
-
-<meta itemprop="keywords" content="ox-hugo," />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="如何使用org-mode和hugo搭建一个blog的工作流？"/>
 <meta name="twitter:description" content="如何使用org-mode和hugo搭建一个blog的工作流？"/>
+<meta name="application-name" content="个人知识管理">
+<meta name="apple-mobile-web-app-title" content="个人知识管理"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/post/how-to-build-blog-by-orgmode-hugo/" /><link rel="prev" href="http://example.org/post/docker-install-mysql/" /><link rel="next" href="http://example.org/post/annotation-reflection-bytecode-class-loading-mechanism/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "如何使用org-mode和hugo搭建一个blog的工作流？",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/post\/how-to-build-blog-by-orgmode-hugo\/"
+        },"genre": "post","keywords": "ox-hugo","wordcount":  1103 ,
+        "url": "http:\/\/example.org\/post\/how-to-build-blog-by-orgmode-hugo\/","datePublished": "2020-05-04T00:00:00+08:00","dateModified": "2020-10-15T21:01:46+08:00","publisher": {
+            "@type": "Organization",
+            "name": "齐坤"},"author": {
+                "@type": "Person",
+                "name": "齐坤"
+            },"description": ""
+    }
+    </script></head>
+    <body header-desktop="" header-mobile=""><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : '' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
-<!--[if lte IE 9]>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
-<![endif]-->
-
-<!--[if lt IE 9]>
-  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
-<![endif]-->
-
-</head>
-<body>
-  <div id="mobile-navbar" class="mobile-navbar">
-  <div class="mobile-header-logo">
-    <a href="/" class="logo">Note</a>
-  </div>
-  <div class="mobile-navbar-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-</div>
-<nav id="mobile-menu" class="mobile-menu slideout-menu">
-  <ul class="mobile-menu-list">
-    <a href="/">
-        <li class="mobile-menu-item">Home</li>
-      </a><a href="/post/">
-        <li class="mobile-menu-item">Archives</li>
-      </a><a href="/tags/">
-        <li class="mobile-menu-item">Tags</li>
-      </a><a href="/categories/">
-        <li class="mobile-menu-item">Categories</li>
-      </a>
-  </ul>
-</nav>
-  <div class="container" id="mobile-panel">
-    <header id="header" class="header">
-        <div class="logo-wrapper">
-  <a href="/" class="logo">Note</a>
-</div>
-
-<nav class="site-navbar">
-  <ul id="menu" class="menu">
-    <li class="menu-item">
-        <a class="menu-item-link" href="/">Home</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/post/">Archives</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/tags/">Tags</a>
-      </li><li class="menu-item">
-        <a class="menu-item-link" href="/categories/">Categories</a>
-      </li>
-  </ul>
-</nav>
-    </header>
-
-    <main id="main" class="main">
-      <div class="content-wrapper">
-        <div id="content" class="content">
-          <article class="post">
-    
-    <header class="post-header">
-      <h1 class="post-title">如何使用org-mode和hugo搭建一个blog的工作流？</h1>
-
-      <div class="post-meta">
-        <span class="post-time"> 2020-05-04 </span>
-        <div class="post-category">
-            <a href="/categories/emacs%E5%AD%A6%E4%B9%A0/"> EMACS学习 </a>
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="个人知识管理">个人知识管理</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/post/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
             </div>
-          <span class="more-meta"> 约 1123 字 </span>
-          <span class="more-meta"> 预计阅读 3 分钟 </span>
-        
-      </div>
-    </header>
-
-    <div class="post-toc" id="post-toc">
-  <h2 class="post-toc-title">文章目录</h2>
-  <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-  <ul>
-    <li><a href="#安装hugo">安装hugo</a></li>
-    <li><a href="#配置emacs">配置emacs</a></li>
-  </ul>
-</nav>
-  </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="个人知识管理">个人知识管理</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/post/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header>
+<div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
 </div>
-    <div class="post-content">
-      <p>如何使用org-mode和hugo搭建一个blog的工作流？</p>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div>
+<main class="main">
+                <div class="container"><div class="page single special"><h1 class="single-title animated pulse faster">如何使用org-mode和hugo搭建一个blog的工作流？</h1><div class="content" id="content"><p>如何使用org-mode和hugo搭建一个blog的工作流？</p>
 <h2 id="安装hugo">安装hugo</h2>
 <p>可以参考如下文章安装使用Hugo</p>
-<p><a href="https://www.gohugo.org/">hugo快速开始</a></p>
-<p><a href="https://liabio.github.io/posts/2019-05-03-Hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/">Hugo搭建博客教程</a></p>
+<p><a href="https://www.gohugo.org/" target="_blank" rel="noopener noreffer">hugo快速开始</a></p>
+<p><a href="https://liabio.github.io/posts/2019-05-03-Hugo%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E6%95%99%E7%A8%8B/" target="_blank" rel="noopener noreffer">Hugo搭建博客教程</a></p>
 <p>1 我使用的是window系统，建议下载hugo_extended_0.69.0_Windows-64bit.zip类似这种的extended版本，这种版本支持编译sass。</p>
 <p>2 配置hugo.exe到环境变量中去，这样就可以随处执行这个命令。</p>
 <p>3 使用Hugo快速生成站点，比如希望生成到 /path/to/site 路径：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new site /path/to/site
-</code></pre></td></tr></table>
-</div>
-</div><p>4 这样就在 /path/to/site 目录里生成了初始站点，进去目录：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> /path/to/site
-</code></pre></td></tr></table>
-</div>
-</div><p>5 这样就在 /path/to/site 目录里生成了初始站点，进去目录：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span><span class="lnt">7
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> /path/to/site
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new site /path/to/site
+</code></pre></div><p>4 这样就在 /path/to/site 目录里生成了初始站点，进去目录：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> /path/to/site
+</code></pre></div><p>5 这样就在 /path/to/site 目录里生成了初始站点，进去目录：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> /path/to/site
 $ ls
   ▸ archetypes/
   ▸ content/
   ▸ layouts/
   ▸ static/
     config.toml
-</code></pre></td></tr></table>
-</div>
-</div><p>6 创建一个 about 页面：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new about.md
-</code></pre></td></tr></table>
-</div>
-</div><p>7 about.md 自动生成到了 content/about.md ，可以打开 about.md 看下，markdown格式的。</p>
+</code></pre></div><p>6 创建一个 about 页面：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new about.md
+</code></pre></div><p>7 about.md 自动生成到了 content/about.md ，可以打开 about.md 看下，markdown格式的。</p>
 <p>8 创建第一篇文章，放到 post 目录，方便之后生成聚合页面。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new post/first.md
-</code></pre></td></tr></table>
-</div>
-</div><p>9 到 皮肤列表 挑选一个心仪的皮肤，比如你觉得 even 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来，
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new post/first.md
+</code></pre></div><p>9 到 皮肤列表 挑选一个心仪的皮肤，比如你觉得 even 皮肤不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把皮肤 git clone 下来，
 并且把even中config.toml文件copy到站点根目录下</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">git clone https://github.com/olOwOlo/hugo-theme-even themes/even
-</code></pre></td></tr></table>
-</div>
-</div><p>10 在你的站点根目录执行 Hugo 命令进行调试：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo server --theme<span class="o">=</span>even --buildDrafts
-</code></pre></td></tr></table>
-</div>
-</div><p>11 浏览器里打开： <a href="http://localhost:1313">http://localhost:1313</a></p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">git clone https://github.com/olOwOlo/hugo-theme-even themes/even
+</code></pre></div><p>10 在你的站点根目录执行 Hugo 命令进行调试：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo server --theme<span class="o">=</span>even --buildDrafts
+</code></pre></div><p>11 浏览器里打开： <a href="http://localhost:1313">http://localhost:1313</a></p>
 <p>12 部署blog
 假设你需要部署在 GitHub Pages 上，首先在GitHub上创建一个Repository，命名为：qikun1990.github.io （qikun1990替换为你的github用户名）。
 在站点根目录执行 Hugo 命令生成最终页面：</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo --theme<span class="o">=</span>even --baseUrl<span class="o">=</span><span class="s2">&#34;https://qikun1990.github.io/&#34;</span>
-</code></pre></td></tr></table>
-</div>
-</div><p>（注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo --theme<span class="o">=</span>even --baseUrl<span class="o">=</span><span class="s2">&#34;https://qikun1990.github.io/&#34;</span>
+</code></pre></div><p>（注意，以上命令并不会生成草稿页面，如果未生成任何文章，请去掉文章头部的 draft=true 再重新生成。）</p>
 <p>如果一切顺利，所有静态页面都会生成到 public 目录，将pubilc目录里所有文件 push 到刚创建的Repository的 master 分支。</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span><span class="lnt">6
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> public
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> public
 $ git init
 $ git remote add origin https://github.com/qikun1990/qikun1990.github.io.git
 $ git add -A
 $ git commit -m <span class="s2">&#34;first commit&#34;</span>
 $ git push -u origin master
-</code></pre></td></tr></table>
-</div>
-</div><p>浏览器里访问：<a href="https://qikun1990.github.io/">https://qikun1990.github.io/</a></p>
+</code></pre></div><p>浏览器里访问：<a href="https://qikun1990.github.io/">https://qikun1990.github.io/</a></p>
 <p>github pages部署好后无法加载css、js？</p>
 <p>一般都是生成最终页面时给的baseUrl不正确</p>
 <p>如何使用个人域名？</p>
@@ -272,122 +124,25 @@ $ git push -u origin master
 <p>3 在github上添加域名</p>
 <h2 id="配置emacs">配置emacs</h2>
 <p>emacs&amp;ox-hugo配置可以参考如下文章</p>
-<p><a href="https://ox-hugo.scripter.co/">Org to Markdown for Hugo</a></p>
-<p><a href="http://blog.jiayuanzhang.com/post/blog-with-ox-hugo/">使用 Emacs + ox-hugo 来写博客</a></p>
-<p><a href="https://tricks.one/post/blogging-with-ox-hugo/">轻松使用 ox-hugo 来创建博文</a></p>
+<p><a href="https://ox-hugo.scripter.co/" target="_blank" rel="noopener noreffer">Org to Markdown for Hugo</a></p>
+<p><a href="http://blog.jiayuanzhang.com/post/blog-with-ox-hugo/" target="_blank" rel="noopener noreffer">使用 Emacs + ox-hugo 来写博客</a></p>
+<p><a href="https://tricks.one/post/blogging-with-ox-hugo/" target="_blank" rel="noopener noreffer">轻松使用 ox-hugo 来创建博文</a></p>
 <p>1 安装emacs，并安装ox-hugo插件
 这个插件的本质就是把我们编写的org文件转换成md格式的文件，我们只需要在模板里指定md文件的生成路径就可以了</p>
 <p>2 编写用于生成hugo所需的md文件的org文件模板</p>
 <p>3 复制一份模板，编写blog</p>
 <p>4 使用快捷键C c C e H H生成md文件只hugo目录下</p>
-<p>5 启动hugo本地服务，即可查看发布的文章</p>
-    </div>
-
-    <div class="post-copyright">
-  <p class="copyright-item">
-    <span class="item-title">文章作者</span>
-    <span class="item-content">齐坤</span>
-  </p>
-  <p class="copyright-item">
-    <span class="item-title">上次更新</span>
-    <span class="item-content">
-        2020-10-15
-        
-    </span>
-  </p>
-  
-  
-</div>
-<footer class="post-footer">
-      <div class="post-tags">
-          <a href="/tags/ox-hugo/">ox-hugo</a>
-          </div>
-      <nav class="post-nav">
-        <a class="prev" href="/post/annotation-reflection-bytecode-class-loading-mechanism/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">12_注解_反射_字节码_类加载机制</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/docker-install-mysql/">
-            <span class="next-text nav-default">docker安装mysql</span>
-            <span class="next-text nav-mobile">下一篇</span>
-            <i class="iconfont icon-right"></i>
-          </a>
-      </nav>
-    </footer>
-  </article>
+<p>5 启动hugo本地服务，即可查看发布的文章</p></div></div></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.74.3">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2020</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
         </div>
-        
+    </footer></div>
 
-  
-
-  
-
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="social-links">
-      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
-      <a href="http://localhost:1313" class="iconfont icon-stack-overflow" title="stack-overflow"></a>
-      <a href="http://localhost:1313" class="iconfont icon-twitter" title="twitter"></a>
-      <a href="http://localhost:1313" class="iconfont icon-facebook" title="facebook"></a>
-      <a href="http://localhost:1313" class="iconfont icon-linkedin" title="linkedin"></a>
-      <a href="http://localhost:1313" class="iconfont icon-google" title="google"></a>
-      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-      <a href="http://localhost:1313" class="iconfont icon-weibo" title="weibo"></a>
-      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
-      <a href="http://localhost:1313" class="iconfont icon-douban" title="douban"></a>
-      <a href="http://localhost:1313" class="iconfont icon-pocket" title="pocket"></a>
-      <a href="http://localhost:1313" class="iconfont icon-tumblr" title="tumblr"></a>
-      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
-      <a href="http://localhost:1313" class="iconfont icon-gitlab" title="gitlab"></a>
-      <a href="http://localhost:1313" class="iconfont icon-bilibili" title="bilibili"></a>
-  <a href="https://qikun1990.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
-</div>
-
-<div class="copyright">
-  <span class="power-by">
-    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    主题 - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
-  </span>
-
-  
-
-  <span class="copyright-year">
-    &copy; 
-    2020
-    <span class="heart">
-      <i class="iconfont icon-heart"></i>
-    </span>
-    <span class="author">齐坤</span>
-  </span>
-</div>
-    </footer>
-
-    <div class="back-to-top" id="back-to-top">
-      <i class="iconfont icon-up"></i>
-    </div>
-  </div>
-  
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
-
-
-
-<script type="text/javascript" src="/js/main.cddea96674a99fd8cea50d36fb19d9c91f497feea4af5ce4596afd2dbaab9202.js"></script>
-
-
-
-
-
-
-
-
-</body>
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
