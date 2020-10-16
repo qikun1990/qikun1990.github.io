@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>重学JAVA - 分类 - 个人知识管理</title>
-        <link>https://eoebook.com/categories/%E9%87%8D%E5%AD%A6java/</link>
+        <link>https://www.eoebook.com/categories/%E9%87%8D%E5%AD%A6java/</link>
         <description>重学JAVA - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 15 Sep 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://eoebook.com/categories/%E9%87%8D%E5%AD%A6java/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 15 Sep 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/categories/%E9%87%8D%E5%AD%A6java/" rel="self" type="application/rss+xml" /><item>
     <title>JAVA泛型学习记录 [0/1]</title>
-    <link>https://eoebook.com/posts/java-generic-learning-record/</link>
+    <link>https://www.eoebook.com/posts/java-generic-learning-record/</link>
     <pubDate>Sun, 26 Jul 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://eoebook.com/posts/java-generic-learning-record/</guid>
+    <guid>https://www.eoebook.com/posts/java-generic-learning-record/</guid>
     <description><![CDATA[<ul>
 <li>State &ldquo;HOLD&rdquo;       from &ldquo;WAITING&rdquo;    <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-01 Thu 08:01] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
 待以后有时间再写</li>
@@ -36,10 +36,10 @@
 </ul>]]></description>
 </item><item>
     <title>12_注解_反射_字节码_类加载机制</title>
-    <link>https://eoebook.com/posts/annotation-reflection-bytecode-class-loading-mechanism/</link>
+    <link>https://www.eoebook.com/posts/annotation-reflection-bytecode-class-loading-mechanism/</link>
     <pubDate>Tue, 15 Sep 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://eoebook.com/posts/annotation-reflection-bytecode-class-loading-mechanism/</guid>
+    <guid>https://www.eoebook.com/posts/annotation-reflection-bytecode-class-loading-mechanism/</guid>
     <description><![CDATA[开始学习注解 注解 内置注解 JDK自带的注解 元注解 修饰注解的注解 自定义注解]]></description>
 </item></channel>
 </rss>
