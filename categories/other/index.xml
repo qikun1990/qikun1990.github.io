@@ -1,78 +1,78 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>OTHER - 分类 - 个人知识管理</title>
-        <link>https://qikun1990.github.io/categories/other/</link>
+        <link>https://eoebook.com/categories/other/</link>
         <description>OTHER - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://qikun1990.github.io/categories/other/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://eoebook.com/categories/other/" rel="self" type="application/rss+xml" /><item>
     <title>开发工程师常用的dos命令以及快捷命令</title>
-    <link>https://qikun1990.github.io/posts/developer-most-commonly-use-dos-command/</link>
+    <link>https://eoebook.com/posts/developer-most-commonly-use-dos-command/</link>
     <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/developer-most-commonly-use-dos-command/</guid>
+    <guid>https://eoebook.com/posts/developer-most-commonly-use-dos-command/</guid>
     <description><![CDATA[<p>开发工作中熟悉一些DOS命令能极大的提高工作效率，本文总结了一些常用的DOS命令。</p>
 <p>本文的命令未做验证，最近几天有时间我会逐个测试验证。</p>]]></description>
 </item><item>
     <title>docker tutorial</title>
-    <link>https://qikun1990.github.io/posts/docker-tutorial/</link>
+    <link>https://eoebook.com/posts/docker-tutorial/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/docker-tutorial/</guid>
+    <guid>https://eoebook.com/posts/docker-tutorial/</guid>
     <description><![CDATA[<p>docker demo</p>]]></description>
 </item><item>
     <title>docker安装mysql</title>
-    <link>https://qikun1990.github.io/posts/docker-install-mysql/</link>
+    <link>https://eoebook.com/posts/docker-install-mysql/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/docker-install-mysql/</guid>
+    <guid>https://eoebook.com/posts/docker-install-mysql/</guid>
     <description><![CDATA[<p>docker安装mysql</p>]]></description>
 </item><item>
     <title>docker基本操作简单说明</title>
-    <link>https://qikun1990.github.io/posts/docker-base-use/</link>
+    <link>https://eoebook.com/posts/docker-base-use/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/docker-base-use/</guid>
+    <guid>https://eoebook.com/posts/docker-base-use/</guid>
     <description><![CDATA[<p>后续更新</p>]]></description>
 </item><item>
     <title>HomeBrew update 更新后报错无法使用的解决方案</title>
-    <link>https://qikun1990.github.io/posts/homebrew-update-error/</link>
+    <link>https://eoebook.com/posts/homebrew-update-error/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/homebrew-update-error/</guid>
+    <guid>https://eoebook.com/posts/homebrew-update-error/</guid>
     <description><![CDATA[执行命令：brew update-reset，重新设置下brew的配置。]]></description>
 </item><item>
     <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
-    <link>https://qikun1990.github.io/posts/mac-ankiconnect-connect-fail/</link>
+    <link>https://eoebook.com/posts/mac-ankiconnect-connect-fail/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/mac-ankiconnect-connect-fail/</guid>
+    <guid>https://eoebook.com/posts/mac-ankiconnect-connect-fail/</guid>
     <description><![CDATA[<p>MAC上AnkiConnect连接失败问题处理</p>]]></description>
 </item><item>
     <title>mac安装gcc报错</title>
-    <link>https://qikun1990.github.io/posts/mac-gcc/</link>
+    <link>https://eoebook.com/posts/mac-gcc/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/mac-gcc/</guid>
+    <guid>https://eoebook.com/posts/mac-gcc/</guid>
     <description><![CDATA[<p>mac安装gcc报错问题处理</p>]]></description>
 </item><item>
     <title>path和classpath简单说明</title>
-    <link>https://qikun1990.github.io/posts/path-and-classpath-different/</link>
+    <link>https://eoebook.com/posts/path-and-classpath-different/</link>
     <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/path-and-classpath-different/</guid>
+    <guid>https://eoebook.com/posts/path-and-classpath-different/</guid>
     <description><![CDATA[<p>path和classpath区别</p>]]></description>
 </item><item>
     <title>chrome的headless模式-网页转PDF</title>
-    <link>https://qikun1990.github.io/posts/chrome-headless-convert-html-to-pdf/</link>
+    <link>https://eoebook.com/posts/chrome-headless-convert-html-to-pdf/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/chrome-headless-convert-html-to-pdf/</guid>
+    <guid>https://eoebook.com/posts/chrome-headless-convert-html-to-pdf/</guid>
     <description><![CDATA[<p>chrome的headless模式使用记录</p>]]></description>
 </item><item>
     <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
-    <link>https://qikun1990.github.io/posts/anki-clean-fdisk/</link>
+    <link>https://eoebook.com/posts/anki-clean-fdisk/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/anki-clean-fdisk/</guid>
+    <guid>https://eoebook.com/posts/anki-clean-fdisk/</guid>
     <description><![CDATA[删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media]]></description>
 </item></channel>
 </rss>

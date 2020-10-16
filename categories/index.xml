@@ -1,35 +1,35 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Categories - 分类 - 个人知识管理</title>
-        <link>https://qikun1990.github.io/categories/</link>
+        <link>https://eoebook.com/categories/</link>
         <description>Categories - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://qikun1990.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://eoebook.com/categories/" rel="self" type="application/rss+xml" /><item>
     <title>EMACS学习</title>
-    <link>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
+    <link>https://eoebook.com/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/categories/emacs%E5%AD%A6%E4%B9%A0/</guid>
+    <guid>https://eoebook.com/categories/emacs%E5%AD%A6%E4%B9%A0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>OTHER</title>
-    <link>https://qikun1990.github.io/categories/other/</link>
+    <link>https://eoebook.com/categories/other/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/categories/other/</guid>
+    <guid>https://eoebook.com/categories/other/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>数据库学习</title>
-    <link>https://qikun1990.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
+    <link>https://eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</guid>
+    <guid>https://eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>重学JAVA</title>
-    <link>https://qikun1990.github.io/categories/%E9%87%8D%E5%AD%A6java/</link>
+    <link>https://eoebook.com/categories/%E9%87%8D%E5%AD%A6java/</link>
     <pubDate>Tue, 15 Sep 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/categories/%E9%87%8D%E5%AD%A6java/</guid>
+    <guid>https://eoebook.com/categories/%E9%87%8D%E5%AD%A6java/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

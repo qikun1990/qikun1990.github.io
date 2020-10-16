@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>classpath - 标签 - 个人知识管理</title>
-        <link>https://qikun1990.github.io/tags/classpath/</link>
+        <link>https://eoebook.com/tags/classpath/</link>
         <description>classpath - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://qikun1990.github.io/tags/classpath/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://eoebook.com/tags/classpath/" rel="self" type="application/rss+xml" /><item>
     <title>path和classpath简单说明</title>
-    <link>https://qikun1990.github.io/posts/path-and-classpath-different/</link>
+    <link>https://eoebook.com/posts/path-and-classpath-different/</link>
     <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://qikun1990.github.io/posts/path-and-classpath-different/</guid>
+    <guid>https://eoebook.com/posts/path-and-classpath-different/</guid>
     <description><![CDATA[<p>path和classpath区别</p>]]></description>
 </item></channel>
 </rss>
