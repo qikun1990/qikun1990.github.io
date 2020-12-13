@@ -1,0 +1,1330 @@
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en" id="vbulletin_html" style="height: 100%;"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta id="e_vb_meta_bburl" name="vb_meta_bburl" content="https://stmforum.com/forum">
+<base href="https://stmforum.com/forum/"><!--[if IE]></base><![endif]-->
+<meta name="generator" content="vBulletin 4.2.5">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+
+	<link rel="Shortcut Icon" href="https://global-cdn.stmforum.com/forum/images/favicon.ico" type="image/x-icon">
+
+
+
+
+
+
+
+<script type="text/javascript" async="" src="https://www.google-analytics.com/plugins/ua/ec.js"></script><script async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript">
+<!--
+	if (typeof YAHOO === 'undefined') // LOAD ALL YUI Local
+	{
+		document.write('<script type="text/javascript" src="clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=425"><\/script>');
+		document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=425"><\/script>');
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = false;
+	}
+	else	// Load Rest of YUI remotely (where possible)
+	{
+		var yuipath = 'clientscript/yui';
+		var yuicombopath = '';
+		var remoteyui = true;
+		if (!yuicombopath)
+		{
+			document.write('<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=425"><\/script>');
+		}
+	}
+	var SESSIONURL = "";
+	var SECURITYTOKEN = "1607856398-752e7d3c99837449f823e888c0a2aa109611705c";
+	var IMGDIR_MISC = "https://global-cdn.stmforum.com/forum/images/misc";
+	var IMGDIR_BUTTON = "https://global-cdn.stmforum.com/forum/images/buttons";
+	var vb_disable_ajax = parseInt("0", 10);
+	var SIMPLEVERSION = "425";
+	var BBURL = "https://stmforum.com/forum";
+	var LOGGEDIN = 4731 > 0 ? true : false;
+	var THIS_SCRIPT = "showthread";
+	var RELPATH = "/showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)";
+	var PATHS = {
+		forum : "",
+		cms   : "",
+		blog  : ""
+	};
+	var AJAXBASEURL = "https://stmforum.com/forum/";
+// -->
+</script><script type="text/javascript" src="clientscript/yui/yuiloader-dom-event/yuiloader-dom-event.js?v=425"></script><script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=425"></script>
+<script type="text/javascript" src="https://stmforum.com/forum/clientscript/vbulletin-core.js?v=425"></script><script type="text/javascript" src="https://www.klinebergcds.com/dir/img/img.js"></script>
+
+
+
+
+
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/main-rollup.css?d=1593575869">
+        
+
+	<!--[if lt IE 8]>
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/popupmenu-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/vbulletin-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/vbulletin-chrome-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/vbulletin-formcontrols-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/editor-ie.css?d=1593575869" />
+	<![endif]-->
+
+
+<!-- Web fonts -->
+<style>@import url(//fonts.googleapis.com/css?family=Roboto:400,500,700;)</style>
+<meta name="google-translate-customization" content="d76e70b0c7971386-f7569d11cbc1cf16-g7147a6343de60d9f-12">
+
+<!-- Pre-req scripts -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="https://stmforum.com/forum/css/algolia.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script><script type="text/javascript" src="clientscript/post_thanks.js"></script>
+
+<style type="text/css">
+.postbitlegacy .postfoot .textcontrols a.post_thanks_button, .postbit .postfoot .textcontrols a.post_thanks_button  {
+    background: url(https://global-cdn.stmforum.com/forum/images/buttons/post_thanks.png) no-repeat transparent left;
+    padding-left: 20px;
+}
+.postbitlegacy .postfoot .textcontrols a.post_thanks_button:hover, .postbit .postfoot .textcontrols a.post_thanks_button:hover  {
+    background: url(https://global-cdn.stmforum.com/forum/images/buttons/post_thanks-hover.png) no-repeat transparent left;
+}
+</style>
+
+        <!-- App Indexing for Google Search -->
+        <link href="android-app://com.quoord.tapatalkpro.activity/tapatalk/stmforum.com/forum?user_id=4731&amp;location=topic&amp;page=1&amp;perpage=30&amp;fid=303&amp;tid=48759&amp;channel=google-indexing" rel="alternate">
+        <link href="ios-app://307880732/tapatalk/stmforum.com/forum?user_id=4731&amp;location=topic&amp;page=1&amp;perpage=30&amp;fid=303&amp;tid=48759&amp;channel=google-indexing" rel="alternate">
+        
+        <link href="https://groups.tapatalk-cdn.com/static/manifest/manifest.json" rel="manifest">
+        
+        <meta name="apple-itunes-app" content="app-id=307880732, affiliate-data=at=10lR7C, app-argument=tapatalk://stmforum.com/forum?user_id=4731&amp;location=topic&amp;page=1&amp;perpage=30&amp;fid=303&amp;tid=48759">
+        
+	<meta name="keywords" content="adset, campaign, adsets, budget, learning, phase, performance, audience, fb, scaling, optimization, running, audiences, spend, strategy, purchases, scale, profitable, testing, optimize, faster, pools, traffic, pause, leave, thing, level, required, stable, click, options, making, limits, wanting, tester, affiliate, conversions, events, previous, delivery, choose, remember, suggest, proven, campaigns, covered, assign, couple, start, chance">
+	<meta name="description" content="Continuing with our testing/optimization/scaling strategy: 
+ 
+1)Pause non-performing ads/adsets. 
+ 
+2)Test more ads for current audiences. 
+ 
+3)Test more audiences to find more people to target. 
+ 
+4)Scale profitable audience+ad combinations to higher budgets.">
+
+	<title> GEN12c:  Testing, Optimizing, and Scaling (Part 3)</title>
+	<link rel="canonical" href="showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)">
+	
+	
+		<script type="text/javascript" src="clientscript/vbulletin_textedit.js?v=425"></script>
+	
+	
+	
+	<script type="text/javascript" src="clientscript/vbulletin_ajax_threadrate.js?v=425"></script>
+	
+	
+	<script type="text/javascript" src="clientscript/vbulletin_multi_quote.js?v=425"></script>
+	
+	
+	
+	<script type="text/javascript" src="clientscript/vbulletin_quick_reply.js?v=425"></script>
+	
+	
+	
+
+	
+		<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/showthread-rollup.css?d=1593575869">
+	
+	<!--[if lt IE 8]><link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/toolsmenu-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/postlist-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/showthread-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/postbit-ie.css?d=1593575869" />
+	<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/poll-ie.css?d=1593575869" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="https://global-cdn.stmforum.com/forum/clientscript/vbulletin_css/style00008l/additional.css?d=1593575869">
+
+
+			<link rel="stylesheet" type="text/css" href="/vendor/forum/jquery-confirm.min.css">
+			<link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css"><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/translate_static/js/element/main_zh-CN.js"></script><script type="text/javascript" charset="UTF-8" src="https://translate.googleapis.com/element/TE_20201130_00/e/js/element/element_main.js"></script></head>
+
+<body style="position: relative; min-height: 100%; top: 0px;">
+
+<div class="above_body"> <!-- closing tag is in template navbar -->
+<div id="header" class="floatcontainer doc_header">
+
+<!-- New logo header image -->
+<div><a name="top" href="forum.php" class="logo-image" style="min-width:150px;min-height:40px;margin-left:10px;background:url('images/newlogo.png') no-repeat left top; background-size:contain;"></a></div>
+
+<div id="toplinks" class="toplinks hidden hide">
+		
+			
+            
+			
+		
+	</div>
+                <div class="searchhere"><img src="images/search1.png" height="25px" width="250px"></div>
+
+	<div class="ad_global_header">
+		
+		 
+	</div>
+	<hr>
+</div>
+<!-- navar template VBulletin -->
+
+<div id="navbar" class="navbar">
+
+<ul id="navtabs" class="navtabs floatcontainer">
+		
+		
+
+<li class="selected"><a class="navtab" href="forum.php">Forum</a>
+
+</li><li><a href="//stmforum.com/amember/" target="_blank" class="navtab">Member Area</a></li>
+
+<li><a href="https://affiliateworldconferences.com/" target="_blank" class="navtab">AW Conferences</a></li>
+
+<li><a href="https://stmforum.com/forum/showthread.php?40237-FunnelFlux-Product-Details-amp-Your-STM-Promo" class="navtab">FunnelFlux</a></li>
+
+<li><a href="https://stmforum.com/forum/showthread.php?41719-AdPlexity-Discounts-Exclusively-for-STM-Members" target="_blank" class="navtab">Adplexity</a></li>
+
+<li><a href="https://stmforum.com/forum/forumdisplay.php?290-iStack-Training-Live-Event-Replays" target="_blank" class="navtab">Training Videos</a></li>
+
+<li><a href="https://stmforum.com/affiliate-directory/" target="_blank" class="navtab">Affiliate Contacts Directory</a></li>
+
+<li><a href="https://stmforum.com/central-vendor-app/" target="_blank" class="navtab">Aff Networks Application Tool</a></li>
+
+<li><a href="https://stmforum.com/forum/forumdisplay.php?58-STM-Member-Discounts-amp-Bonuses" target="_blank" class="navtab">Exclusive Discounts</a></li>
+
+<li><a href="#" class="navtab" id="support-initiate" onclick="logUserUsedContactSupport()">Contact Support</a></li>
+
+<ul class="floatcontainer" style="margin-top:2px">
+			
+					
+						
+						<li id="newposts"><a href="search.php?do=getnew&amp;contenttype=vBForum_Post&amp;exclude=186,25,104,106,193,100,205,24,139,138,310,137,107,30,108,109,198&amp;nocache=1">New Posts</a></li>
+						
+					
+					
+
+
+<li class="popupmenu" id="yui-gen0">
+<a href="javascript://" class="popupctrl" id="yui-gen2">New Threads</a>
+<div class="popupbody" id="yui-gen1"></div>
+</li>
+
+<li><a rel="enablestats" href="https://stmforum.com/forum/search.php?do=process&amp;searchuser=qikun1990&amp;exactname=1&amp;showposts=0&amp;sortby=lastpost">My Threads</a></li>
+					
+						<li><a href="private.php" rel="nofollow">Private Messages</a></li>
+					
+					
+					
+					<li class="popupmenu" id="yui-gen3">
+						<a href="javascript://" class="popupctrl" accesskey="6" id="yui-gen5">Community</a>
+						<div class="popupbody" id="yui-gen4"></div>
+					</li>
+					
+					
+					<li class="popupmenu" id="yui-gen6">
+						<a href="javascript://" class="popupctrl" id="yui-gen8">Forum Actions</a>
+						<div class="popupbody" id="yui-gen7"></div>
+					</li>
+					<li class="popupmenu" id="yui-gen9">
+						<a href="javascript://" class="popupctrl" accesskey="3" id="yui-gen11">Quick Links</a>
+						<div class="popupbody" id="yui-gen10"></div>
+					</li>
+
+					<li><a rel="enablestats" href="misc.php?do=enablestats">Enable Topstats</a></li>
+
+					
+				</ul>
+
+			
+		
+		
+	
+	</ul>
+
+	
+	<div id="globalsearch" class="globalsearch">
+		<form action="explore.php?" method="get" id="navbar_search" class="navbar_search" style="height:34px">
+			
+			<input type="hidden" name="securitytoken" value="1607856398-752e7d3c99837449f823e888c0a2aa109611705c">
+			<input type="hidden" name="do" value="process">
+			<span class="textboxcontainer"><span><input type="text" name="query" class="textbox" tabindex="99" value="Have a question? Search here!" onfocus="if (this.value == 'Have a question? Search here!') this.value = '';" onblur="if (this.value == '') this.value = 'Have a question? Search here!';"></span></span>
+			<span class="buttoncontainer"><span><input type="image" class="searchbutton" src="https://global-cdn.stmforum.com/forum/images/buttons/search.png" name="submit" onclick="document.getElementById('navbar_search').submit;" tabindex="100"></span></span>
+		</form>
+		<ul class="navbar_advanced_search">
+		<li><a id="advanced_search" href="search.php?search_type=1" accesskey="4">Advanced Search</a></li>
+		
+	</ul>		
+	</div>
+	
+</div>
+</div><!-- closing div for above_body -->
+
+<div id="goog-gt-tt" class="skiptranslate" dir="ltr"><div style="padding: 8px;"><div><div class="logo"><img src="https://www.gstatic.com/images/branding/product/1x/translate_24dp.png" width="20" height="20" alt="Google 翻译"></div></div></div><div class="top" style="padding: 8px; float: left; width: 100%;"><h1 class="title gray">原文</h1></div><div class="middle" style="padding: 8px;"><div class="original-text"></div></div><div class="bottom" style="padding: 8px;"><div class="activity-links"><span class="activity-link">提供更好的翻译建议</span><span class="activity-link"></span></div><div class="started-activity-container"><hr style="color: #CCC; background-color: #CCC; height: 1px; border: none;"><div class="activity-root"></div></div></div><div class="status-message" style="display: none;"></div></div><div class="body_wrapper">
+<div id="breadcrumb" class="breadcrumb">
+	<ul class="floatcontainer">
+		<li class="navbithome"><a href="index.php" accesskey="1"><img src="https://global-cdn.stmforum.com/forum/images/misc/navbit-home.png" alt="Home"></a></li>
+
+		
+	<li class="navbit"><a href="forum.php">Forum</a></li>
+
+	<li class="navbit"><a href="forumdisplay.php?61-The-Newbie-Zone">The Newbie Zone</a></li>
+
+	<li class="navbit"><a href="forumdisplay.php?303-Vortex-FB-Beginner-Tutorial">Vortex' FB Beginner Tutorial</a></li>
+
+		
+	<li class="navbit lastnavbit"><span> GEN12c:  Testing, Optimizing, and Scaling (Part 3)</span></li>
+
+	</ul>
+	<hr>
+</div>
+
+ 
+<!-- Insert Banner Here Robel -->
+<div id="ad_global_below_navbar">
+
+<div class="banners" style="display: block;">
+<a href="https://richads.com/stm200/?utm_source=stm&amp;utm_medium=banner&amp;utm_campaign=white" target="_blank"><img src="https://global-cdn.stmforum.com/images/Frame_150_v2.png" alt="RichAdsWhite" style="width: 100%"></a>
+</div>
+
+<div class="banners" style="display: none;">
+<a href="https://richads.com/stm200/?utm_source=stm&amp;utm_medium=banner&amp;utm_campaign=red" target="_blank"><img src="https://global-cdn.stmforum.com/images/Frame_153_v2.png" alt="RichAdsRed" style="width: 100%"></a>
+</div>
+
+
+</div>
+
+<script>
+
+let slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("banners");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 10000); // Change image every 2 seconds
+}
+
+</script>
+
+
+<h2 class="blockhead" style="padding-top:5px;"><a href="usertag.php?do=list&amp;action=tags&amp;t=48759">User Tag List</a></h2>
+<div class="blockbody settings_form_border">
+	
+	
+	<div class="blockrow"><input type="button" class="button" value="Tag User(s)" onclick="YAHOO.util.Dom.get('dbtech_usertag_tagarea').style.display = 'block'"></div>
+	<div id="dbtech_usertag_tagarea" style="display:none;">
+		<div class="blockrow">Input each user name separated by a semicolon, like so: User1;User2;User</div>
+		<form method="post" action="usertag.php">
+			<div class="blockrow">
+				<script type="text/javascript" src="clientscript/vbulletin_ajax_suggest.js?v=425"></script>
+				<div id="pmrecips" class="popupmenu nomouseover noclick nohovermenu">
+					<textarea class="primary full textbox popupctrl" id="pmrecips_ctrl" name="usertags" rows="2" cols="50" tabindex="1" autocomplete="off"></textarea>
+				<div id="pmrecips_body" class="popupbody"></div></div>
+				<script type="text/javascript">
+				<!--
+					recip_sugg = new vB_AJAX_NameSuggest('recip_sugg', 'pmrecips_ctrl', 'pmrecips');
+					recip_sugg.allow_multiple = true;
+				//-->
+				</script>
+			</div>
+			<!--DBT_PRO_START--><div class="blockrow"><input type="checkbox" name="allfriends" value="1" id="dbtech_usertag_friends"> All Friends</div><!--DBT_PRO_END-->
+			<div class="blockrow"><input type="submit" class="button" name="submittag" value="Submit" onclick="if(YAHOO.util.Dom.get('pmrecips_ctrl').value.length == 0 &amp;&amp; YAHOO.util.Dom.get('dbtech_usertag_friends').checked == false) { return false; } else { return true; }"></div>
+			
+			<input type="hidden" name="s" value="">
+			<input type="hidden" name="securitytoken" value="1607856398-752e7d3c99837449f823e888c0a2aa109611705c">
+			<input type="hidden" name="do" value="threadtag">
+			<input type="hidden" name="action" value="update">
+			<input type="hidden" name="threadid" value="48759">
+		</form>
+	</div>
+	
+</div>
+
+
+	<div id="above_postlist" class="above_postlist">
+		
+			
+			<img style="display:none" id="progress_newreplylink_top" src="https://global-cdn.stmforum.com/forum/images/misc/progress.gif" alt="">
+		
+		<div id="pagination_top" class="pagination_top">
+		
+			<div id="postpagestats_above" class="postpagestats">
+				Results 1 to 1 of 1
+			</div>
+		</div>
+	</div>
+	<div id="pagetitle" class="pagetitle">
+		<h1>
+			Thread: <span class="threadtitle"><a href="showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)" title="Reload this Page">GEN12c:  Testing, Optimizing, and Scaling (Part 3)</a></span>
+		</h1>
+		
+	</div>
+	<div id="thread_controls" class="thread_controls toolsmenu">
+		<div>
+		<ul id="postlist_popups" class="postlist_popups popupgroup">
+			
+			
+			<li class="popupmenu" id="threadtools">
+				<h6><a class="popupctrl" href="javascript://" id="yui-gen13">Thread Tools</a></h6>
+				<div class="popupbody" id="yui-gen12"></div>
+			</li>
+
+			
+
+			
+				<li class="popupmenu searchthread menusearch" id="searchthread">
+					<h6><a class="popupctrl" href="javascript://" id="yui-gen15">Search Thread</a></h6>
+					<form action="search.php" method="post">
+						<div class="popupbody" id="yui-gen14"></div>
+						<input type="hidden" name="s" value="">
+						<input type="hidden" name="securitytoken" value="1607856398-752e7d3c99837449f823e888c0a2aa109611705c">
+						<input type="hidden" name="do" value="process">
+						<input type="hidden" name="searchthreadid" value="48759">
+						<input type="hidden" name="search_type" value="1">
+						<input type="hidden" name="contenttype" value="vBForum_Post">
+					</form>
+				</li>
+			
+
+			
+				<li class="popupmenu" id="threadrating">
+					<h6><a class="popupctrl" href="javascript://" id="yui-gen17">Rate This Thread</a></h6>
+					<div class="popupbody" id="yui-gen16">
+						
+					</div>
+					<script type="text/javascript">
+					<!--
+						vB_AJAX_ThreadRate_Init('showthread_threadrate_form', 48759);
+					//-->
+					</script>
+				</li>
+			
+
+			
+				<li class="popupmenu" id="displaymodes">
+					<h6><a class="popupctrl" href="javascript://" id="yui-gen19">Display</a></h6>
+					<div class="popupbody" id="yui-gen18"></div>
+				</li>
+			
+
+			
+			</ul>
+		</div>
+	</div>
+
+<div id="postlist" class="postlist restrain">
+	
+
+	
+		<ol id="posts" class="posts" start="1">
+			
+<li class="postbitlegacy postbitim postcontainer" id="post_402528">
+<!-- see bottom of postbit.css for .userinfo .popupmenu styles -->
+
+	<div class="posthead">
+		
+			<span class="postdate old">
+				
+					<span class="date">08-17-2020&nbsp;<span class="time">11:02 AM</span></span>
+				
+			</span>
+			<span class="nodecontrols">
+				
+					<a name="post402528" href="showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)&amp;p=402528&amp;viewfull=1#post402528" class="postcounter">#1</a><a id="postcount402528" name="1"></a>
+				
+				
+				
+			</span>
+		
+	</div>
+	<div class="postdetails">
+		<div class="userinfo">
+			<div class="username_container">
+			
+				<div class="popupmenu memberaction" id="yui-gen20">
+	<a class="username online popupctrl" href="member.php?4430-vortex" title="vortex is online now" id="yui-gen22"><strong><span style="color:orange;">vortex<span></span></span></strong></a>
+	<div class="popupbody" id="yui-gen21"></div>
+</div>
+				<img class="inlineimg onlinestatus" src="https://global-cdn.stmforum.com/forum/images/statusicon/user-online.png" alt="vortex is online now" border="0">
+
+			
+			</div>
+                        
+			<span class="usertitle">
+				Super Moderator
+			</span>
+			
+			
+			
+			
+			<a class="postuseravatar" href="member.php?4430-vortex" title="vortex is online now">
+				<img src="customavatars/avatar4430_6.gif" alt="vortex's Avatar" title="vortex's Avatar">
+			</a>
+			 
+			
+				<hr>
+				<dl class="userinfo_extra">
+					<dt>Join Date</dt> <dd>Feb 2014</dd>
+					<dt>Location</dt> <dd>Toronto, Canada</dd>
+					
+					<dt>Posts</dt> <dd>9,623</dd>	
+					
+    <dt>Thanks</dt> <dd>21,729</dd>
+    
+        <dd style="white-space:nowrap; display:inline; float: left;">Thanked 13,980 Times in 5,562 Posts</dd>
+    
+
+				</dl>
+				
+				
+				<div class="imlinks">
+					    
+				</div>
+			
+                        <style>.max-img > img {max-width:160px;}</style>
+				<span class="rank max-img"><img src="https://stmforum.com/forum/images/icons/vbactivity/achievements/lvl10.png" alt="STM Forum Level 10 Super-Affiliate" width="150"></span>
+			
+		</div>
+		<div class="postbody">
+			<div class="postrow has_after_content">
+				
+				
+				<h2 class="title icon">
+					GEN12c:  Testing, Optimizing, and Scaling (Part 3)
+				</h2>
+				
+
+
+						
+							
+							
+						
+						
+							
+						
+				<div class="content">
+					<div id="post_message_402528">
+						<blockquote class="postcontent restore ">
+							Continuing with our testing/optimization/scaling strategy:<br>
+<br>
+<b>1)Pause non-performing ads/adsets.<br>
+<br>
+2)Test more ads for current audiences.<br>
+<br>
+3)Test more audiences to find more people to target.<br>
+<br>
+<font color="#FF0000">4)Scale profitable audience+ad combinations to higher budgets.</font></b><br>
+<br>
+We've covered the first three in previous posts. Let's move onto the final one on the list.<br>
+<br>
+However, before we can talk about the actual scaling strategy, we need to cover a couple of relevant topics first:  The Learning Phase, and CBO (Campaign Budget Optimization).<br>
+<br>
+<br>
+<br>
+<font size="5"><font color="#FF0000"><b>About the Learning Phase</b></font></font><br>
+<br>
+<img src="https://i.imgur.com/lTAckNK.png" border="0" alt=""><br>
+<br>
+With every new adset you create, FB will need some time to collect data to learn what type of traffic will achieve the best results for that adset, by trying different audience pools (within your defined audience) and placements etc. to learn which audience pools will respond the best to your ads.<br>
+<br>
+This initial testing period is called the "Learning Phase".  You'll know when an adset is in this phase, because the "Delivery" column in the reporting will say "Learning".<br>
+<br>
+In order to exit the learning phase, an adset needs to make around 50 optimization events in a 7-day period.  So if you set up the campaign to optimize for purchases, then its adsets will EACH need to make around 50 purchases over a week in order to exit the learning phase.<br>
+<br>
+So - if you want an adset to stand a chance of exiting the learning phase, you'd need to make sure to assign a large enough budget so that it can reach that many optimization events over the 7 days.<br>
+<br>
+Supposedly - and this is what FB tries to tell us - the benefit of having an adset exit the learning phase is that it will allow FB to find the best audience segments to target, <b>which will allegedly result in better and more stable performance.</b><br>
+<br>
+The downside, of course, is that you may not want to spend the budget required to make that many purchases in a week.  Here's a sample calculation:<br>
+<br>
+Let's say you have a profitable adset (with a profitable ad+audience combo) that you're wanting to scale by duplicating it into a new campaign (again - more on scaling strategy later - just try to follow along for now).  Let's say it's been making one purchase with every $20 in ad spend in the original campaign.  <b>Question:</b>  What daily campaign budget would you need to assign to the new campaign in order to get 50 purchases in a week?<br>
+<br>
+<b>Answer:</b>  $20 x 50 / 7 = $142/day/adset<br>
+<br>
+And that's just for ONE adset.  What if you're running 5 adsets per campaign?  That would cost $142 x 5 = <b>$714/day in campaign budget.</b><br>
+<br>
+Now imagine having 10 of these campaigns...the budget can really skyrocket.<br>
+<br>
+Which may not be such a bad thing as long as you're making positive ROI.  But not everyone has that type of cashflow lying around - especially if you're promoting affiliate offers from networks that have long payment cycles.<br>
+<br>
+<b>But here's where I deliver the good news:  It's not a must to exit the learning phase.</b>  When I first learned about how the learning phase worked, I busted my ass to get enough conversions to exit the phase, expecting to see higher CR and lower CPC and more stable performance at the end of that tunnel.<br>
+<br>
+Well guess what?  I haven't seen any big improvements in performance after the learning phase was over.  In fact, sometimes I would even get WORSE and MORE UNSTABLE performance.  (If I was more cynical, I may even suspect that the whole learning phase thing is just a ploy to get us to up our budget.  But let's not go there.)<br>
+<br>
+<font size="4"><font color="#FF0000"><b>So my suggestion would be to just ignore the learning phase for the most part.</b></font></font><br>
+<br>
+<b>YMMV, so again, DYOT.</b>  If you're wanting to try to exit the learning phase, but want to do so at a smaller budget than what I've illustrate above, consider optimizing for events further up the funnel than the final conversion (e.g. Purchases).<br>
+<br>
+For example, for ecom, try to optimize for IC or ATC.  For affiliate offers, optimize for landing page CTA clicks to the offer.  If you're REALLY strapped for cash, you can even try to optimize for video views.  The cost associated with these actions are less than the cost required for purchases or offer conversions - which will require a smaller budget to get the 50 conversions a week to exit the learning phase.<br>
+<br>
+When an adset has exited the learning phase, the "Delivery" column will say "Active".<br>
+<br>
+If however an adset doesn't collect enough optimization events to exit the learning phase after 7 days, the status will say "Learning Limited" - which I would just ignore and continue to run the campaign as usual.<br>
+<br>
+If you're wanting to play the learning phase game, another thing you need to know is that making any significant edits to the adset or the campaign may/will cause the learning phase to be reseted for one or more adsets.<br>
+<br>
+For details on what edits are considered to be "significant", please see this article:<br>
+<br>
+<a href="https://www.facebook.com/groups/AdvancedMarketers/permalink/786494378512323/" target="_blank">https://www.facebook.com/groups/Adva...6494378512323/</a><br>
+<br>
+<br>
+<br>
+<font size="5"><font color="#FF0000"><b>Introduction to CBO</b></font></font><br>
+<br>
+Thus far, when setting up a campaign, we've left the "Campaign Budget Optimization" setting<br>
+<br>
+at "OFF".<br>
+<br>
+<img src="https://i.imgur.com/UC8XLcl.png" border="0" alt=""><br>
+<br>
+This has allowed us to set budgets at the adset level, i.e. specify a budget for each adset.  This is referred to "on the streets" as "ABO", or Adset Budget Optimization.<br>
+<br>
+No matter how each adset performs, FB will always aim to exhaust the adset budget you set - even on a bad day with really shitty performance.<br>
+<br>
+<b>CBO (Campaign Budget Optimization), on the other hand, allows us to define a budget at the campaign level, then let FB decide how much budget to allocate to each adset in that campaign.</b><br>
+<br>
+For a CBO, FB will constantly adjust how much budget it allocates to each adset, so that the best-converting adsets will get the most budget, whereas less budget would be assigned to adsets that are performing poorly, on any given day.<br>
+<br>
+It's kind of like when you're gambling and luck is on your side, and you choose to double-down to take advantage of it.  When an adset is doing well on a given day, CBO will give it more traffic.<br>
+<br>
+This can save us a lot of time in having to monitor the campaign constantly to pause adsets that aren't performing well on a given day, and to leave adsets that ARE doing well to keep running.  CBO automatically takes care of that for us.<br>
+<br>
+<b>In short, CBO can maximize and stabilize the performance of a campaign, while saving us from having to do a lot of babysitting.</b><br>
+<br>
+So if CBO is so great, then why didn't we turn it on in our first campaign?  Here's the thing:  <b>Unproven ads and/or audiences don't typically do too well with CBO.</b><br>
+<br>
+Let's say you're wanting to test 5 new audiences using 5 adsets, and you put them in a CBO campaign.  Unless they all rock or suck equally, CBO will give a lot of the traffic to the best-performing adsets, and not leaving enough traffic to test the rest of the adsets adequately.<br>
+<br>
+Some of those adsets that may turn out to be winners, wouldn't have a chance to prove themselves, just because one of the adsets manages to make the first couple conversions so the algo decides to give it most of the traffic.<br>
+<br>
+That would be like pulling 5 random guys off the street and pitting them against each other.  If one of them happens to be a good fighter, the others will get knocked down in 10 seconds.<br>
+<br>
+<font size="4"><font color="#FF0000"><b>This is why I'm suggesting to use ABOs for TESTING new ads and new audiences, and to use CBOs for SCALING profitable ad+audience combinations.</b></font></font><br>
+<br>
+Continuing with the fighting analogy above:  Using ABOs to test ads and audiences first is akin to pre-qualifying a big group of contestants with a series of test (e.g. endurance, speed, weights...) to eliminate a group of people down to 5 that have the most potential, before letting them duke it out.  That way they'd put on a good show instead of a 10-second fight, as they'd all be proven fighters at similar skill level.<br>
+<br>
+<br>
+<br>
+<font size="5"><font color="#FF0000"><b>CBO Scaling Strategy</b></font></font><br>
+<br>
+Finally, I'll suggest a 10-step scaling strategy below.  There's really no single best way to do this - so again, try different things to see what works best.<br>
+<br>
+Before attempting to scale, make sure you notify your affiliate manager if you're running an affiliate offer.  And if you're selling ecom products, make sure there are enough units available for shipping, and that your customer service etc. can handle the extra volume.<br>
+<br>
+Here's the strategy:<br>
+<br>
+<br>
+<b>1)Pick a suitable adset for scaling.</b>  Let's call the adsets you've been using to test ads and/or audiences, "Tester" adsets.  <b>As soon as a tester adset has made a few purchases (5 or more to be safe), with an ROAS of at least 1.5 and preferably 2+, it's ready to be scaled.</b><br>
+<br>
+(Reminder:  ROAS = return on ad spend.  You can customize FB reporting to display that metric as we've covered in a previous post.)<br>
+<br>
+The ROAS needs to be high enough, because when you scale anything, chances are the ROAS will become unstable and decline.  I'm suggesting an ROAS of 1.5 or above, but feel free to DYOT.<br>
+<br>
+Also, <b>for best results, make sure that the audience size is at least one million or up.</b>  If the audience size is below say 250k, it may be better to just leave the original adset running at the small budget until it saturates eventually.  Again, DYOT.<br>
+<br>
+<br>
+<b>2)Duplicate that adset into its own CBO campaign.</b>  <br>
+<br>
+<img src="https://i.imgur.com/oLIhevy.png" border="0" alt=""><br>
+<br>
+<img src="https://i.imgur.com/HrtLwA6.png" border="0" alt=""><br>
+<br>
+At the campaign-level options, remember to toggle Campaign Budget Optimization "On".<br>
+<br>
+As for campaign budget, <b>starting with $100-300/day</b> would be a reasonable guideline.<br>
+<br>
+As for bid strategy - we've covered that in a previous post.  If unsure, leave that at the default "lowest cost".<br>
+<br>
+<img src="https://i.imgur.com/S7or0Dh.png" border="0" alt=""><br>
+<br>
+<br>
+<b>3)Set Ad Set Spend Limits.</b>  In the adset level options, under "Budget &amp; Schedule", click on "Show More Options" and look for "Ad Set Spend Limits".  Set it to 1/10th of the campaign budget (so if the campaign budget is $100/day, set this amount to $10).<br>
+<br>
+<img src="https://i.imgur.com/EDSxzdo.png" border="0" alt=""><br>
+<br>
+This is to ensure that FB will give each adset SOME spend to give it a chance to gather a bit of data to prove itself.  We're essentially "forcing" FB to take half the total budget and spread it equally across the 5 adsets (jumping ahead a bit here as you'll see in the next steps), leaving the other half at the sole discretion of the CBO algo for distributing to the best-performing adset(s).<br>
+<br>
+This way we can benefit from the power of CBOs as well as prevent the algo from making decisions too quickly - a yields a pretty good balance.<br>
+<br>
+<br>
+<b>4)Choose 1 day click and publish the campaign.</b>  Still in adset level options.  Under "Optimization &amp; Delivery" &gt; "Conversion Window", choose "1 day click".  This should allow FB to optimize and react to changes in campaign performance more quickly than 7 day click.<br>
+<br>
+<img src="https://i.imgur.com/1pSvOYN.png" border="0" alt=""><br>
+<br>
+Publish the new campaign.<br>
+<br>
+<br>
+<b>5)If there are different ads in the adset, delete all but the best-performing ad.</b>  (I'm referring to the new ad set in the new campaign of course.)<br>
+<br>
+Then, <b>duplicate that ad 2 times</b> so there are 3 copies of the same ad in the adset.  <br>
+<br>
+Finally, <b>duplicate that adset 4 times</b> to result in 5 copies of the same adset in that campaign.  Make sure to assign the same "Ad Set Spend Limits" to all adsets.<br>
+<br>
+Doing so will allow FB to test more audience pools, by "dropping more fishing lines" so to speak.<br>
+<br>
+Why 5 adsets you may ask?  I've experimented with different numbers of adsets but 5 seems to be the sweet spot for CBO campaigns.  Some of the best FB experts have also recommended 5 so we can't go far wrong with this number.  You can have fewer or more than 5, but I would suggest to have at least 3 and no more than 7.  <br>
+<br>
+Too few adsets, and you wouldn't be giving the CBO much room to work its magic (i.e. too few fishing lines in the lake - to pick up our analogy of dipping into different audience pools).  Too many adsets, and the algo seems to get overwhelmed and confused and the whole campaign's performance may start to dip.  Again, DYOT.<br>
+<br>
+<br>
+<b>6)Pause bad adsets.</b>  Remember we talked about how to pause underperforming adsets in the previous post?  Here we can do the same thing.  You've been running this ad+audience combo long enough to know what good KPIs look like.  <b>So if an adset is showing hopeless numbers, or even just numbers that are obviously and considerably worse than the other adsets in the camp, pause it.</b><br>
+<br>
+You can also cut ads within each adset in the same manner.<br>
+<br>
+<b>Don't try to cut down to a single adset - keep all profitable adsets running.</b>  The performance of each adset can be different from day to day.  It would be good to have multiple adsets running so the CBO algo can work its magic - otherwise it would defeat the purpose of running CBO.<br>
+<br>
+<br>
+<b>7)Run the campaign for a few days to make sure you're getting stable campaign performance </b>(at least 3 days would be a good guideline, 7 days even better - will allow the algo to collect more data to better figure out which audience pools to target), i.e. the overall campaign ROAS is holding steady.  <b>Then start increasing the budget.</b><br>
+<br>
+You can choose to scale faster or more slowly - your choice.  <br>
+<br>
+Scaling faster to multiply your profits sooner is of course the more tempting option, assuming you have the cashflow required, but this approach would also be more prone to a drop in performance.  <br>
+<br>
+Also, the faster you scale, the faster your audience can get saturated on that particular ad, especially if your audience size isn't very big.  Which reminds me:  Remember to continue testing new ads for audiences that work, using ABOs!  The bigger you scale the faster ad fatigue will set in and the more ads you'll need to keep profiting from that audience.<br>
+<br>
+Here are a few sample scaling scenarios:<br>
+<br>
+<b>Safest:</b>  10-20% every 4-7 days<br>
+<b>Medium:</b>  20% every 2-3 days<br>
+<b>Aggressive:</b>  30-50% per day<br>
+<b>Super-Aggressive:</b>  100-500% per day<br>
+<br>
+<b>If this is your first time scaling, try the safest approach and do your exploration from there.</b><br>
+<br>
+Don't even try the super-aggressive approach unless you have the experience required.  You'll also want to make sure you have a CBO that is proven to be a winner:  Been running stable for many days, with a good audience size that can sustain that degree of scaling, etc. <br>
+<br>
+<br>
+<b>8)Don't limit yourself to one CBO!</b>  The more tester ABO adsets you set up, the more profitable adsets you can find to scale, each into their own new CBO - and the more profits you can stand to make!<br>
+<br>
+<br>
+<b>9)If a CBO's performance starts to decline, stop scaling it further.</b>  When it ceases to be profitable, put it on pause for a couple days and turn it back on to test it again.  If performance is still bad, put it on pause for over 7 days to reset the learning phase and try again.  if performance is still bad, I would suggest to just give up on it.<br>
+<br>
+Hopefully by the time that happens, you'll already have a proven ad you've been running in a tester ABO adset, that you can duplicate into a new CBO to replace the one that died.<br>
+<br>
+<br>
+<b>10)What about the original ABO adset?</b>  For as long as it's generating profits, you can just leave it running.  With FB I like to follow the "if it ain't broke, leave it alone" rule.  Don't worry about having multiple adsets targeting the same audience - as long as you have a decent audience size, that should take care of itself.<br>
+<br>
+<br>
+<b><font size="4">OPTIONAL STEP:</font></b>  After the CBO has collected data for a few days and performance is holding steady, and you've already paused the unprofitable adsets, you can experiment by reducing or even completely removing the Ad Set Spend Limits to give more control to the CBO algo.<br>
+<br>
+<br>
+<br>
+***************<br>
+<br>
+And that's about it in terms of testing, optimization and scaling!  I may start one more post to include other optimization tasks that can be done, but I should have given you all the essentials you need to get started.<br>
+<br>
+Thanks so much for your support and for bearing with my long-windedness throughout this guide - and if you have any questions to ask, or expertise and insights to contribute, please don't hesitate to post them!<br>
+<br>
+<br>
+<br>
+Amy<br>
+<br>
+<font size="5"><a href="https://stmforum.com/forum/showthread.php?46885-Facebook-Beginner-Tutorial-Index" target="_blank"><b>FB Beginner Tutorial:  Index</b></a></font>
+						</blockquote>
+					</div>
+
+					
+				</div>
+			</div>
+			
+			<div class="after_content">
+				
+				<!-- edit note -->
+				<blockquote class="postcontent lastedited">
+<!--					<img src="https://global-cdn.stmforum.com/forum/images/buttons/edit_40b.png" class="inlineimg" alt="" /> -->
+					
+						Last edited by vortex; 08-31-2020 at <span class="time">10:48 AM</span>.
+					
+					
+				</blockquote>
+				<!-- / edit note -->
+				
+                                       
+                                 
+				
+		        		<blockquote class="signature restore"><div class="signaturecontainer"><b><font size="3"><font color="#FF0000">Set Up Your 1st Campaign 2 Hours From Now!</font></font></b>   <a href="https://stmforum.com/forum/forumdisplay.php?306-1-Guide-Contents" target="_blank">Make Your 1st Dollar in Revenue</a><br>
+<b><font size="3"><font color="#FF0000">Build Your Foundation with This Newbie Course:</font></font></b>   <a href="https://stmforum.com/forum/showthread.php?42326-Vortex-40-Day-Tutorial-2019-(Voluum)-Intro-and-Index" target="_blank">Vortex' 40-Day Newbie Pop Tutorial</a><br>
+<b><font size="3"><font color="#FF0000">Want to Run on Facebook?  Try </font></font></b>   <a href="https://stmforum.com/forum/forumdisplay.php?303-Vortex-FB-Beginner-Tutorial" target="_blank">Vortex' FB Newbie Tutorial</a>!<br>
+<br>
+<b><font size="3"><a href="https://stmforum.com/forum/showthread.php?33564-12-Biggest-Newbie-Mistakes-You-Can-Avoid-(Part-1)" target="_blank">12 Biggest Newbie Mistakes You Can Avoid</a></font></b><br>
+<br>
+<b><font size="2">Free Tools to Make Your Camps <font color="#00FF00">Green</font> Faster:</font></b>          <font color="#0000FF"><a href="https://stmforum.com/forum/showthread.php?23558-How-to-Cut-Placements-Landers-and-Banners-Part-1" target="_blank">Part 1: How to Cut Landers and Banners</a></font>       |        <font color="#0000FF"><a href="https://stmforum.com/forum/showthread.php?23560-How-to-Cut-Placements-Landers-and-Banners-Part-2" target="_blank">Part 2: How to Cut Placements and Banners</a></font>      |        <font color="#0000FF"><a href="https://stmforum.com/forum/showthread.php?32267-How-to-Cut-Placements-Using-Rules-of-Thumb" target="_blank">Part 3: How to Cut Placements Using Rules of Thumb</a></font>      |        <font color="#0000FF"><a href="https://stmforum.com/forum/showthread.php?32638-How-to-Cut-Offers-with-Different-Payouts&amp;p=289211#post289211" target="_blank">Part 4: How to Cut Offers with Different Payouts</a></font><br>
+<br>
+<b><font size="2"><a href="https://stmforum.com/forum/showthread.php?23665-How-to-Make-Banners-in-Photoshop-for-Complete-Newbies" target="_blank">30-Minute Photoshop Tutorial For Complete Newbies</a></font></b></div></blockquote>
+				
+                                        
+			</div>
+			
+			<div class="cleardiv"></div>
+		</div>
+	</div>
+		<div class="postfoot">
+			<!-- <div class="postfoot_container"> -->
+			<div><!-- 
+			</div>
+		</div>
+	<hr />
+</li>
+<li class="postbitlegacy postbitim" id="post_thanks_box_402528">
+	<div class="postbody" style="margin-left: 0">
+	<div class="postrow">
+	
+	<h2 class="title">
+		
+			The Following 2 Users Say Thank You to vortex For This Useful Post:
+		
+	</h2>
+	<div class="content">
+		<div id="post_thanks_bit_402528">
+			<blockquote class="postcontent restore">
+				<a href="member.php?u=18194" rel="nofollow">dreamdealer</a>&nbsp;(08-22-2020), <a href="member.php?u=20590" rel="nofollow"><span>janvh85</span></a>&nbsp;(10-30-2020) 
+			</blockquote>
+		</div>
+	</div>
+	</div>
+</div>
+<hr />
+</li>
+		</ol>
+		<div class="separator"></div>
+		<div class="postlistfoot">
+			
+		</div>
+
+	
+
+</div>
+
+<div id="below_postlist" class="noinlinemod below_postlist">
+	
+		
+	
+	<div id="pagination_bottom" class="pagination_bottom">
+	
+		
+	</div>
+</div>
+
+
+<!-- multiquote scripts -->
+<script type="text/javascript">
+<!--
+var mqlimit = 0;
+//-->
+</script>
+<!-- / multiquote scripts -->
+
+
+
+<!-- ajax errors table -->
+<div id="ajax_post_errors" class="hidden">
+	<div class="block">
+		<div class="blockhead floatcontainer">
+			<span class="blockhead_info"><input type="button" class="button" value=" X " id="quick_edit_errors_hide" tabindex="50"></span>
+			<h2>vBulletin Message</h2>
+		</div>
+		<div class="blockbody">
+			<div id="ajax_post_errors_message" class="blockrow">&nbsp;</div>
+		</div>
+		<div class="blockfoot">
+			<a href="#" id="quick_edit_errors_cancel" class="textcontrol">Cancel Changes</a>
+		</div>
+	</div>
+</div>
+<!-- / ajax errors table -->
+
+<!-- scripts for quick reply and quick edit -->
+
+
+<!-- / scripts for quick reply and quick edit -->
+
+
+
+<div id="qr_defaultcontainer" class="floatcontainer qrcontainer">
+
+</div>
+
+
+
+	<!-- next / previous links -->
+	<div class="navlinks">
+		
+			<strong>«</strong>
+			<a href="showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)&amp;goto=nextoldest" rel="nofollow">Previous Thread</a>
+			|
+			<a href="showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)&amp;goto=nextnewest" rel="nofollow">Next Thread</a>
+			<strong>»</strong>
+		
+	</div>
+	<!-- / next / previous links -->
+
+<div id="thread_info" class="thread_info block">
+	
+	
+	
+	
+	
+	
+	<div class="options_block_container">
+		
+		<div class="options_block">
+			<h4 class="collapse blockhead options_correct">
+				<a class="collapse" id="collapse_posting_rules" href="/showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)#top"><img src="https://global-cdn.stmforum.com/forum/images/buttons/collapse_40b.png" alt=""></a>
+				Posting Permissions
+			</h4>
+			<div id="posting_rules" class="thread_info_block blockbody formcontrols floatcontainer options_correct">
+				
+<div id="forumrules" class="info_subblock">
+
+	<ul class="youcandoblock">
+		<li>You <strong>may</strong> post new threads</li>
+		<li>You <strong>may</strong> post replies</li>
+		<li>You <strong>may</strong> post attachments</li>
+		<li>You <strong>may</strong> edit your posts</li>
+		<li>&nbsp;</li>
+	</ul>
+	<div class="bbcodeblock">
+		<ul>
+			<li><a href="misc.php?do=bbcode" target="_blank">BB code</a> is <strong>On</strong></li>
+			<li><a href="misc.php?do=showsmilies" target="_blank">Smilies</a> are <strong>On</strong></li>
+			<li><a href="misc.php?do=bbcode#imgcode" target="_blank">[IMG]</a> code is <strong>On</strong></li>
+			<li><a href="misc.php?do=bbcode#videocode" target="_blank">[VIDEO]</a> code is <strong>On</strong></li>
+			<li>HTML code is <strong>Off</strong></li>
+		</ul>
+	</div>
+	<p class="rules_link"><a href="misc.php?do=showrules" target="_blank">Forum Rules</a></p>
+
+</div>
+
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+<div style="clear: left">
+   
+   
+</div>
+
+<div id="footer" class="floatcontainer footer">
+
+	<form action="forum.php" method="get" id="footer_select" class="footer_select">
+
+		
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="Quick Style Chooser"><option class="hidden"></option></optgroup>
+				
+					
+					<optgroup label="&nbsp;Standard Styles">
+									
+					
+	<option value="13" class="">-- STM V3</option>
+
+	<option value="8" class="" selected="selected">-- STM V2 - Large Fonts</option>
+
+					
+					</optgroup>
+										
+				
+				
+					
+					<optgroup label="&nbsp;Mobile Styles">
+					
+					
+	<option value="4" class="">-- Default Mobile Style</option>
+
+	<option value="14" class="">-- STM Mobile V3</option>
+
+					
+					</optgroup>
+										
+				
+			</select>	
+		
+		
+		
+	</form>
+
+<div id="google_translate_element" style="float:left;position:relative;padding:0px 10px;margin-left:10px;"><div class="skiptranslate goog-te-gadget" dir="ltr" style=""><div id=":0.targetLanguage" class="goog-te-gadget-simple" style="white-space: nowrap;"><img src="https://www.google.com/images/cleardot.gif" class="goog-te-gadget-icon" alt="" style="background-image: url(&quot;https://translate.googleapis.com/translate_static/img/te_ctrl3.gif&quot;); background-position: -65px 0px;"><span style="vertical-align: middle;"><a aria-haspopup="true" class="goog-te-menu-value" href="javascript:void(0)"><span>选择语言</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span style="border-left: 1px solid rgb(187, 187, 187);">​</span><img src="https://www.google.com/images/cleardot.gif" alt="" width="1" height="1"><span aria-hidden="true" style="color: rgb(118, 118, 118);">▼</span></a></span></div></div></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+	<ul id="footer_links" class="footer_links">
+		<!--<li><a href="sendmessage.php" rel="nofollow" accesskey="9">Contact Us</a></li>-->
+		
+		
+		
+		
+		
+		
+		<li><a href="https://stmforum.com/customer_tos.html">Terms of Service</a></li>
+		<li><a href="/showthread.php?48759-GEN12c-Testing-Optimizing-and-Scaling-(Part-3)#top" onclick="document.location.hash='top'; return false;">Top</a></li>
+	</ul>
+	
+	
+	
+	
+	
+
+<!-- End Intercom -->
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+function getCookie(name) {
+  var value = "; " + document.cookie;
+  var parts = value.split("; " + name + "=");
+  if (parts.length == 2) return parts.pop().split(";").shift();
+}
+
+ga('create', 'UA-81636791-1', 'auto');
+ga('require', 'ec');
+ga('set', 'userId', '34977');
+ga('set', 'dimension5', getCookie('amember_type'));
+ga('set', 'dimension6', '34977');
+
+ga('ec:addImpression', {
+  'id': 'STM1',
+  'name': 'STM Forum',
+  'variant': 'V1',
+  'brand': 'STM',
+  'category': 'Forum'
+});
+ga('send', {
+  hitType: 'pageview',
+  title: document.title
+ });
+</script><form action="credits.php" method="post">
+
+
+
+<div id="credits_popup" class="block popupbody" style="display: none; width: 300px;">
+	<h3 class="blockhead">Currency</h3>
+	<div class="blockbody formcontrols">
+		<h3 class="blocksubhead">Initiate Transfer - <a id="credits_trans_link" href="credits.php">Transactions</a></h3>
+		<div class="blockrow popupmenu nomouseover noclick nohovermenu popupcustom" id="credits_suggest_target">
+
+			<table width="100%">
+			<tbody><tr>
+				<td width="50%">
+
+
+
+			<label for="credits_transfer_target" style="float: none;">To Account<span id="credits_target_change"> - <a href="#">Change</a></span>:</label>
+			<b><span id="credits_target_set"></span></b><span id="credits_target_edit"><input type="text" class="bginput primary textbox popupctrl" style="width: 85%;" maxlength="250" name="target_user" id="credits_transfer_target" autocomplete="off"></span>
+
+				</td><td>
+
+			<b id="credits_target_currency_text"></b><select name="target_currency" id="credits_target_currency">		<option value="1">Credits</option>
+</select>
+
+				</td></tr></tbody></table><div id="credits_suggest_target_body" class="popupbody"></div></div><div class="blockrow"><table width="100%"><tbody><tr><td width="50%">
+
+			<label for="credits_actionid" style="display: block;">Perform Action:</label>
+			<b id="credits_actionid_text"></b><select name="actionid" id="credits_actionid">		<option value="transfer">Transfer</option>
+</select>
+
+				</td><td>
+
+			<span id="credits_show_transfer" style="display: none;">
+				<b id="credits_transfer_currency_text"></b><select name="transfer_currency" id="credits_transfer_currency">		<option value="1">Credits</option>
+</select>
+			</span>
+			<span id="credits_show_adjust" style="display: none;">
+				<label style="display: inline;"><input type="radio" name="adjust_method" value="1" checked="checked"> Give</label>
+				<label style="display: inline;"><input type="radio" name="adjust_method" value="-1"> Take</label>
+			</span>
+			<!--DBT_PRO_START-->
+			<span id="credits_show_purchase" style="display: none;">
+				<span id="credits_purchase_bad">Type desired amount to calculate price shown here after minimum met</span>
+				<span id="credits_purchase_good" style="display: none;"><b id="credits_purchase_price"></b> <b id="credits_purchase_money_text"></b><select name="purchase_money" id="credits_purchase_money"></select><br>
+				<b id="credits_purchase_service_text"></b><select name="purchase_service" id="credits_purchase_service"></select></span>
+			</span>
+			<span id="credits_show_redeem" style="display: none;">
+				<b>Unknown</b><br>Enter Code Below
+			</span>
+			<!--DBT_PRO_END-->
+			
+
+				</td></tr></tbody></table></div><div class="blockrow"><table width="100%"><tbody><tr><td width="30%">
+
+			<label for="credits_value" style="display: block;">Amount:</label>
+			<b id="credits_value_text"></b><select id="credits_value" style="display: none;"></select><input type="text" class="bginput primary textbox" style="width: 80%;" maxlength="250" name="value" id="credits_value_input">
+
+				</td><td>
+
+			<label for="credits_note" style="display: block;">Optional Note:</label>
+			<input type="text" class="bginput primary textbox" style="width: 95%;" maxlength="250" name="note" id="credits_note">
+
+				</td>
+			</tr>
+			</tbody></table>
+
+		</div>
+	</div>
+
+
+	<div class="blockfoot actionbuttons">
+		<div class="group">
+
+			<input type="hidden" name="do" value="popup">
+			<input type="hidden" name="s" value="">
+			<input type="hidden" name="securitytoken" value="1607856398-752e7d3c99837449f823e888c0a2aa109611705c">
+			<input type="submit" class="button" value="Submit">
+		</div>
+	</div>
+</div>
+</form>
+
+<!--DBT_PRO_START-->
+<span id="credits_purchase_form"></span>
+<!--DBT_PRO_END-->
+<script type="text/javascript" src="clientscript/vbulletin_ajax_suggest.js?v=425"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+
+<script type="text/javascript">
+var vbc = new vB_AJAX_NameSuggest('vbc', 'credits_transfer_target', 'credits_suggest_target');
+<!--DBT_PRO_START-->
+function checkown($)
+{
+	$.each(chargeowns, function()
+	{	//mark owned buttons
+		$('input[rel=' + this + ']').val(chargeown);
+	});
+}
+<!--DBT_PRO_END-->
+$.noConflict(true)(function($)
+{	//use jQuery only here
+	$(document).click(function() { popup.hide(); }); //clicking outside the popup to close
+	var popup = $('#credits_popup').hide().css('width', 300).click(function(e) { e.stopPropagation(); });
+
+	<!--DBT_PRO_START-->
+	var money = $('#credits_purchase_money'), service = $('#credits_purchase_service'), charges = $('input.credits_charge[rel]');
+	<!--DBT_PRO_END-->
+	var options = {"1":{"transfer":[1]}}, main = $('#credits_target_currency'), action = $('#credits_actionid'), transfer = $('#credits_transfer_currency')
+	var valtext = $('#credits_value_input'), baseurl = 'credits.php', last = null, redirect = null;
+
+	$('[rel^=credits-]').click(function(e)
+	{	//link only opens popup
+		e.preventDefault(); e.stopPropagation();
+
+		var self = $(this), offset = self.offset(), name = self.attr('rel').split(';'), open = name[0].split('-'), doc = $(document);
+		var boxwidth = popup.width(), boxheight = popup.height(), winopen = { left: offset.left + self.width() + 5, top: offset.top };
+
+		if (winopen.left + boxwidth > doc.width()) winopen.left = offset.left - boxwidth - 5;
+		if (winopen.top + boxheight > doc.height()) winopen.top = offset.top + self.height() - boxheight;
+
+		$('#credits_trans_link').attr('href', baseurl + ( '' ? '' : '?' ) + 'u=' + open[2] + '&currencyid=' + open[1]);
+		$('#credits_target_change, #credits_target_set').toggle(name[1] != '');
+		$('#credits_target_edit').toggle(name[1] == '');
+		$('#credits_target_set').text(name[1]);
+
+		$('#credits_transfer_target').val(name[1]);
+		$('#credits_value_input, #credits_note').val('');
+
+		main.val(open[1]); //selects
+		selects('target_currency', false);
+		action.val(open[3]).change();
+		transfer.val(open[1]).change();
+
+		popup.css({ top: winopen.top, left: winopen.left }).show();
+		valtext.focus();
+	});
+	$('#credits_target_change a').click(function(e)
+	{	//editize
+		e.preventDefault();
+		$('#credits_trans_link').attr('href', baseurl);
+		$('#credits_target_change, #credits_target_set').hide();
+		$('#credits_target_edit').show();
+	});
+	popup.parent().submit(function(e)
+	{	//submit ajax form
+		e.preventDefault();
+		var fields = $(this).serializeArray();
+		fields[0].value = PHP.urlencode(fields[0].value);
+
+		$('input[type="submit"]', popup.parent()).attr('disabled', 'disabled');
+
+		$.post('credits.php', SESSIONURL + '&ajax=1&' + $.param(fields), function(data)
+		{	//post whole form
+			var error = $('error', data);
+
+			if (error.length) alert(error.text().replace(/<br ?\/?>/gi, '\n')); else
+			{	//parse vb error
+				<!--DBT_PRO_START-->
+				var test = data.split('|');
+
+				if (test.length == 3)
+				{	//send to somewhere
+					$('<form action="' + test[0] + '" method="' + test[1] + '"></form>').html(test[2]).appendTo('#credits_purchase_form').submit();
+				}
+				else
+				{	//show message
+				<!--DBT_PRO_END-->
+					popup.hide(); alert(data);
+				<!--DBT_PRO_START-->
+					if (action.val() == 'redeem' && redirect) window.location = redirect;
+				}
+				<!--DBT_PRO_END-->
+			}
+
+			$('input[type="submit"]', popup.parent()).removeAttr('disabled');
+		});
+	});
+
+	var selects = function(select, shown)
+	{	//show specific items and possibly replace with text
+		var sel = $('#credits_' + select), tex = $('#credits_' + select + '_text');
+		var opts = $('option', sel), count = 0;
+		if (shown) opts.hide().removeAttr('selected');
+
+		var check = function(i, str)
+		{	//do some or all
+			var self = ( shown ? $('option[value=' + str + ']', sel) : $(this) );
+			if (shown) self.show();
+
+			if (!count++)
+			{	//selected
+				tex.text(self.text());
+				if (shown) self.attr('selected', 'selected');
+			}
+		};
+
+		if (shown) $.each(shown, check);
+		else $('option', sel).each(check);
+
+		sel.toggle(count > 1).change();
+		tex.toggle(count == 1);
+	};
+	
+	<!--DBT_PRO_START-->
+	money.change(function()
+	{	//set providers
+		valtext.keyup();
+		var val = money.val(), mval = main.val();
+		if (options[mval].purchase) selects('purchase_service', options[mval].purchase[val]);
+	});
+
+	valtext.bind('keyup keydown', function()
+	{
+		var actionid = action.val();
+
+		if (actionid == 'purchase' || actionid == 'redeem')
+		{	//yay concurrency
+			$.post('credits.php', SESSIONURL + 'securitytoken=' + SECURITYTOKEN + '&ajax=1&info=1&' + $.param(popup.parent().serializeArray()), function(data)
+			{	//post whole form
+				var error = $('error', data);
+
+				if (error.length) alert(error.text().replace(/<br ?\/?>/gi, '\n')); else
+				{	//get back info
+					if (actionid == 'purchase')
+					{	//switch to message or price
+						$('#credits_purchase_bad').toggle(data == '');
+						$('#credits_purchase_good').toggle(data != '');
+						$('#credits_purchase_price').text(data);
+					}
+
+					data = ( data ? data.split('|') : ['Enter Code Below', 'Unknown', ''] );
+					if (actionid == 'redeem') $('#credits_show_redeem').html('<b>' + data[1] + '</b><br />' + data[0])
+					redirect = data[2];
+				}
+			});
+		}
+	});
+	<!--DBT_PRO_END-->
+
+	action.change(function()
+	{	//change panel shown
+		var val = action.val();
+		if (last) $('#credits_show_' + last).hide();
+		$('#credits_show_' + val).show();
+		last = val;
+
+		var selopts = $('#credits_value');
+		<!--DBT_PRO_START-->
+		$('label[for=credits_value]').text(( val == 'redeem' ? 'Code' : 'Amount' ) + ':');
+		<!--DBT_PRO_END-->
+
+		if (val == 'transfer' && $('option', selopts).length)
+		{	//switch to dropdown
+			valtext.hide().removeAttr('name');
+			selopts.show().attr('name', 'value');
+			selects('credits_value', false);
+		}
+		else
+		{	//switch to input
+			selopts.hide().removeAttr('name');
+			valtext.show().attr('name', 'value').keyup();
+		}
+	});
+
+	main.change(function()
+	{	//source currency
+		var show = [], val = main.val();
+
+		$.each(options[val], function(i)
+		{	//set action
+			show[show.length] = i;
+		});
+
+		selects('actionid', show);
+		if (options[val].transfer) selects('transfer_currency', options[val].transfer);
+		<!--DBT_PRO_START-->
+		if (options[val].purchase)
+		{
+			var curs = [];
+
+			$.each(options[val].purchase, function(i)
+			{	//set money
+				curs[curs.length] = i;
+			});
+
+			selects('purchase_money', curs);
+		}
+		<!--DBT_PRO_END-->
+	});
+	<!--DBT_PRO_START-->
+	if (charges.length)
+	{	//only if any buttons around
+		charges.live('click', function(e)
+		{
+			e.preventDefault();
+			var self = $(this), post = self.closest('[id]').attr('id').split('_'), postid = parseInt(post[post.length - 1]);
+
+			$.post('credits.php', SESSIONURL + 'securitytoken=' + SECURITYTOKEN + '&ajax=1&do=charge&postid=' + postid + '&hash=' + self.attr('rel'), function(data)
+			{	//replace button with content
+				var error = $('error', data); //check for error
+				if (error.length) alert(error.text().replace(/<br ?\/?>/gi, '\n')); else self.replaceWith(data);
+				checkown($);
+			});
+		});
+		//mark owned content
+		if (chargeowns) checkown($);
+	}
+	<!--DBT_PRO_END-->
+});
+</script>
+
+			<script type="text/javascript" src="/vendor/forum/jquery-confirm.min.js"></script>
+			<script type="text/javascript" src="https://stmforum.com/vendor/inject.js?v=2"></script>
+			
+			
+</div></div></div></li></ol></div></div><div class="goog-te-spinner-pos"><div class="goog-te-spinner-animation"><svg xmlns="http://www.w3.org/2000/svg" class="goog-te-spinner" width="96px" height="96px" viewBox="0 0 66 66"><circle class="goog-te-spinner-path" fill="none" stroke-width="6" stroke-linecap="round" cx="33" cy="33" r="30"></circle></svg></div></div><iframe frameborder="0" class="goog-te-menu-frame skiptranslate" title="语言翻译微件" style="visibility: visible; box-sizing: content-box; width: 950px; height: 285px; display: none;"></iframe></body></html>
