@@ -10,13 +10,13 @@
     <author>作者</author>
     <guid>https://www.eoebook.com/posts/java-generic-learning-record/</guid>
     <description><![CDATA[<ul>
-<li>State &ldquo;HOLD&rdquo;       from &ldquo;WAITING&rdquo;    <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-01 Thu 08:01] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
+<li>State &ldquo;HOLD&rdquo;       from &ldquo;WAITING&rdquo;    <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-01 周四 08:01] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
 待以后有时间再写</li>
-<li>State &ldquo;DONE&rdquo;       from &ldquo;WAITING&rdquo;    <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-01 Thu 07:59]<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
+<li>State &ldquo;DONE&rdquo;       from &ldquo;WAITING&rdquo;    <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-10-01 周四 07:59]<!-- raw HTML omitted --><!-- raw HTML omitted --></li>
 </ul>
 <!-- raw HTML omitted -->
 <ul>
-<li>State &ldquo;STARTED&rdquo;    from &ldquo;TODO&rdquo;       <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-07-26 Sun 09:59] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
+<li>State &ldquo;STARTED&rdquo;    from &ldquo;TODO&rdquo;       <!-- raw HTML omitted --><!-- raw HTML omitted -->[2020-07-26 周日 09:59] <!-- raw HTML omitted --><!-- raw HTML omitted --> <!-- raw HTML omitted -->
 开始学习java泛型</li>
 </ul>
 <h2 id="学习路径">学习路径</h2>
