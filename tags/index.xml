@@ -4,11 +4,25 @@
         <link>https://www.eoebook.com/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 17 Feb 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Along</title>
+    <link>https://www.eoebook.com/tags/along/</link>
+    <pubDate>Wed, 17 Feb 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/along/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Campaign</title>
     <link>https://www.eoebook.com/tags/campaign/</link>
     <pubDate>Wed, 17 Feb 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/campaign/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Follow</title>
+    <link>https://www.eoebook.com/tags/follow/</link>
+    <pubDate>Wed, 17 Feb 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/follow/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Follow-Along</title>
@@ -58,20 +72,6 @@
     <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/classpath/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>pomodoro</title>
-    <link>https://www.eoebook.com/tags/pomodoro/</link>
-    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/pomodoro/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>ox-hugo</title>
-    <link>https://www.eoebook.com/tags/ox-hugo/</link>
-    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/ox-hugo/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
