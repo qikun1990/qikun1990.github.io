@@ -4,35 +4,6 @@
         <link>https://www.eoebook.com/categories/other/</link>
         <description>OTHER - 分类 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/categories/other/" rel="self" type="application/rss+xml" /><item>
-    <title>开发工程师常用的dos命令以及快捷命令</title>
-    <link>https://www.eoebook.com/posts/developer-most-commonly-use-dos-command/</link>
-    <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/developer-most-commonly-use-dos-command/</guid>
-    <description><![CDATA[<p>开发工作中熟悉一些DOS命令能极大的提高工作效率，本文总结了一些常用的DOS命令。</p>
-<p>本文的命令未做验证，最近几天有时间我会逐个测试验证。</p>]]></description>
-</item><item>
-    <title>docker tutorial</title>
-    <link>https://www.eoebook.com/posts/docker-tutorial/</link>
-    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/docker-tutorial/</guid>
-    <description><![CDATA[<p>docker demo</p>]]></description>
-</item><item>
-    <title>docker安装mysql</title>
-    <link>https://www.eoebook.com/posts/docker-install-mysql/</link>
-    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/docker-install-mysql/</guid>
-    <description><![CDATA[<p>docker安装mysql</p>]]></description>
-</item><item>
-    <title>docker基本操作简单说明</title>
-    <link>https://www.eoebook.com/posts/docker-base-use/</link>
-    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/docker-base-use/</guid>
-    <description><![CDATA[<p>后续更新</p>]]></description>
-</item><item>
     <title>HomeBrew update 更新后报错无法使用的解决方案</title>
     <link>https://www.eoebook.com/posts/homebrew-update-error/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
@@ -54,13 +25,6 @@
     <guid>https://www.eoebook.com/posts/mac-gcc/</guid>
     <description><![CDATA[<p>mac安装gcc报错问题处理</p>]]></description>
 </item><item>
-    <title>path和classpath简单说明</title>
-    <link>https://www.eoebook.com/posts/path-and-classpath-different/</link>
-    <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/path-and-classpath-different/</guid>
-    <description><![CDATA[<p>path和classpath区别</p>]]></description>
-</item><item>
     <title>chrome的headless模式-网页转PDF</title>
     <link>https://www.eoebook.com/posts/chrome-headless-convert-html-to-pdf/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
@@ -74,5 +38,12 @@
     <author>作者</author>
     <guid>https://www.eoebook.com/posts/anki-clean-fdisk/</guid>
     <description><![CDATA[删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media]]></description>
+</item><item>
+    <title>maven学习总结</title>
+    <link>https://www.eoebook.com/posts/learn-maven-log/</link>
+    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/posts/learn-maven-log/</guid>
+    <description><![CDATA[<p>记录学习maven过程，以及自己的一点思考</p>]]></description>
 </item></channel>
 </rss>

@@ -3,26 +3,12 @@
         <title>Tags - 标签 - 个人知识管理</title>
         <link>https://www.eoebook.com/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 26 Feb 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Follow-Along</title>
-    <link>https://www.eoebook.com/tags/follow-along/</link>
-    <pubDate>Fri, 26 Feb 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/follow-along/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Push-Traffic</title>
     <link>https://www.eoebook.com/tags/push-traffic/</link>
     <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/push-traffic/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Campaign</title>
-    <link>https://www.eoebook.com/tags/campaign/</link>
-    <pubDate>Wed, 17 Feb 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/campaign/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>tookit</title>
@@ -32,18 +18,18 @@
     <guid>https://www.eoebook.com/tags/tookit/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>country</title>
-    <link>https://www.eoebook.com/tags/country/</link>
-    <pubDate>Tue, 08 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/country/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
     <title>vlookup</title>
     <link>https://www.eoebook.com/tags/vlookup/</link>
     <pubDate>Fri, 04 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/vlookup/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Follow-Along</title>
+    <link>https://www.eoebook.com/tags/follow-along/</link>
+    <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/follow-along/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>slip-box</title>
@@ -53,25 +39,32 @@
     <guid>https://www.eoebook.com/tags/slip-box/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>take-notes</title>
-    <link>https://www.eoebook.com/tags/take-notes/</link>
-    <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/take-notes/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>classpath</title>
-    <link>https://www.eoebook.com/tags/classpath/</link>
-    <pubDate>Sat, 13 Jun 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/classpath/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
     <title>pomodoro</title>
     <link>https://www.eoebook.com/tags/pomodoro/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/pomodoro/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>ox-hugo</title>
+    <link>https://www.eoebook.com/tags/ox-hugo/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/ox-hugo/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>shortcut</title>
+    <link>https://www.eoebook.com/tags/shortcut/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/shortcut/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>yasnippet</title>
+    <link>https://www.eoebook.com/tags/yasnippet/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/yasnippet/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
