@@ -37,24 +37,6 @@
 <p>记录我的affiliate media buy之路，现在开始动手实践。</p>
 <p>开始记录时间：2020-12-03</p>]]></description>
 </item><item>
-    <title>标题测试</title>
-    <link>https://www.eoebook.com/posts/test/</link>
-    <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/test/</guid>
-    <description><![CDATA[<ul>
-<li><i class="far fa-check-square fa-fw"></i> 目标一：第一个月&raquo;学习流程，创建10个campaign</li>
-<li><i class="far fa-square fa-fw"></i> 目标二：第二个月&raquo;每天$10的稳定收益 未达成</li>
-<li><i class="far fa-square fa-fw"></i> 目标三：第四个月&raquo;每天$100的稳定收益</li>
-</ul>
-<hr>
-<ul>
-<li>时间：120天</li>
-<li>资金：30000RMB</li>
-</ul>
-<hr>
-<p>测试description</p>]]></description>
-</item><item>
     <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
     <link>https://www.eoebook.com/posts/linux-mysql-data-bak-rec/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
@@ -96,5 +78,13 @@
     <author>作者</author>
     <guid>https://www.eoebook.com/posts/homebrew-update-error/</guid>
     <description><![CDATA[执行命令：brew update-reset，重新设置下brew的配置。]]></description>
+</item><item>
+    <title>yasnippet使用简单说明</title>
+    <link>https://www.eoebook.com/posts/how-to-use-yasnippet/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/posts/how-to-use-yasnippet/</guid>
+    <description><![CDATA[<p>使用yasnippet提高效率
+<a href="https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs" target="_blank" rel="noopener noreffer">yasnippet无法正常使用处理办法</a></p>]]></description>
 </item></channel>
 </rss>
