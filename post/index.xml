@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on 个人知识管理</title>
+    <link>https://www.eoebook.com/post/</link>
+    <description>Recent content in Posts on 个人知识管理</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Thu, 25 Feb 2021 00:00:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://www.eoebook.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Push Traffic Note</title>
+      <link>https://www.eoebook.com/post/push_traffic_note/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/push_traffic_note/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PUSH流量：要与不要</title>
+      <link>https://www.eoebook.com/post/do_and_dont_of_push_traffic/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/do_and_dont_of_push_traffic/</guid>
+      <description>&lt;p&gt;STM上针对PUSH流量总结的一个帖子，我简单翻译一下，希望对大家有用。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>[Follow Along] 120 days and 30000RMB to start affiliate media buy 更新：我没有跑赢！</title>
+      <link>https://www.eoebook.com/post/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 目标一：第一个月&amp;raquo;学习流程，创建10个campaign&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 目标二：第二个月&amp;raquo;每天$10的稳定收益 未达成&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 目标三：第四个月&amp;raquo;每天$100的稳定收益&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;时间：120天&lt;/li&gt;
+&lt;li&gt;资金：30000RMB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;记录我的affiliate media buy之路，现在开始动手实践。&lt;/p&gt;
+&lt;p&gt;开始记录时间：2020-12-03&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
+      <link>https://www.eoebook.com/post/linux-mysql-data-bak-rec/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/linux-mysql-data-bak-rec/</guid>
+      <description>&lt;p&gt;mysql数据备份与还原&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>我常用的EMACS插件</title>
+      <link>https://www.eoebook.com/post/usual-use-emacs-plugins/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/usual-use-emacs-plugins/</guid>
+      <description>&lt;p&gt;自用的emacs插件&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
+      <link>https://www.eoebook.com/post/how-to-build-blog-by-orgmode-hugo/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/how-to-build-blog-by-orgmode-hugo/</guid>
+      <description>&lt;p&gt;如何使用org-mode和hugo搭建一个blog的工作流？&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>emacs列编辑模式</title>
+      <link>https://www.eoebook.com/post/emacs-col-edit-model/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/emacs-col-edit-model/</guid>
+      <description>Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除</description>
+    </item>
+    
+    <item>
+      <title>emacs使用以及常用快捷键积累</title>
+      <link>https://www.eoebook.com/post/emacs-keyboard-shortcut/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/emacs-keyboard-shortcut/</guid>
+      <description>&lt;p&gt;emacs使用中经常遇到的问题&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>HomeBrew update 更新后报错无法使用的解决方案</title>
+      <link>https://www.eoebook.com/post/homebrew-update-error/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/homebrew-update-error/</guid>
+      <description>执行命令：brew update-reset，重新设置下brew的配置。</description>
+    </item>
+    
+    <item>
+      <title>yasnippet使用简单说明</title>
+      <link>https://www.eoebook.com/post/how-to-use-yasnippet/</link>
+      <pubDate>Mon, 04 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/how-to-use-yasnippet/</guid>
+      <description>&lt;p&gt;使用yasnippet提高效率
+&lt;a href=&#34;https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs&#34; target=&#34;_blank&#34; rel=&#34;noopener noreffer&#34;&gt;yasnippet无法正常使用处理办法&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
+      <link>https://www.eoebook.com/post/mac-ankiconnect-connect-fail/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/mac-ankiconnect-connect-fail/</guid>
+      <description>&lt;p&gt;MAC上AnkiConnect连接失败问题处理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mac环境org-pomodoro番茄钟添加提示信息以及声音</title>
+      <link>https://www.eoebook.com/post/how-to-add-sound-for-org-pomodoro/</link>
+      <pubDate>Tue, 05 May 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/how-to-add-sound-for-org-pomodoro/</guid>
+      <description>&lt;p&gt;给org-pomodoro添加弹出框以及声音提示&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>mac安装gcc报错</title>
+      <link>https://www.eoebook.com/post/mac-gcc/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/mac-gcc/</guid>
+      <description>&lt;p&gt;mac安装gcc报错问题处理&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>安装配置smart-input-source</title>
+      <link>https://www.eoebook.com/post/install-smart-input-source/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/install-smart-input-source/</guid>
+      <description>&lt;p&gt;这里是mac下配置smart-input-source的方式&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>chrome的headless模式-网页转PDF</title>
+      <link>https://www.eoebook.com/post/chrome-headless-convert-html-to-pdf/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/chrome-headless-convert-html-to-pdf/</guid>
+      <description>&lt;p&gt;chrome的headless模式使用记录&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
+      <link>https://www.eoebook.com/post/anki-clean-fdisk/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/anki-clean-fdisk/</guid>
+      <description>删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media</description>
+    </item>
+    
+    <item>
+      <title>maven学习总结</title>
+      <link>https://www.eoebook.com/post/learn-maven-log/</link>
+      <pubDate>Thu, 15 Oct 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/learn-maven-log/</guid>
+      <description>&lt;p&gt;记录学习maven过程，以及自己的一点思考&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>my_tookit</title>
+      <link>https://www.eoebook.com/post/my_tookit/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/my_tookit/</guid>
+      <description>&lt;p&gt;AM使用的工具，勾选的是我目前在用的。&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>vlookup</title>
+      <link>https://www.eoebook.com/post/vlookup/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/vlookup/</guid>
+      <description>vlookup函数的用法 vlookup官网使用说明 您需要四条信息才能构建 VLOOKUP 语法： 要查找的值，也被称为查阅值。 查阅值所在的区域。 请记住，查阅值</description>
+    </item>
+    
+    <item>
+      <title>how to take smart notes</title>
+      <link>https://www.eoebook.com/post/how_to_take_smart_notes/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/how_to_take_smart_notes/</guid>
+      <description>&lt;p&gt;how to take smart notes&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>slip box method</title>
+      <link>https://www.eoebook.com/post/slip_box_method/</link>
+      <pubDate>Thu, 03 Dec 2020 00:00:00 +0800</pubDate>
+      
+      <guid>https://www.eoebook.com/post/slip_box_method/</guid>
+      <description>&lt;p&gt;卢曼经常说，他从不强迫自己去做自己不喜欢做的事情。&amp;ldquo;我只做容易做的事。只有当我马上知道如何去做的时候，我才会去写。如果我稍有动摇，我就会把事情放在一边，去做别的事情。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
