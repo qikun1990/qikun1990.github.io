@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>tookit - 标签 - 个人知识管理</title>
-        <link>http://example.org/tags/tookit/</link>
+        <link>https://www.eoebook.com/tags/tookit/</link>
         <description>tookit - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/tookit/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 16 Dec 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/tookit/" rel="self" type="application/rss+xml" /><item>
     <title>my_tookit</title>
-    <link>http://example.org/posts/my_tookit/</link>
+    <link>https://www.eoebook.com/posts/my_tookit/</link>
     <pubDate>Wed, 16 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/my_tookit/</guid>
+    <guid>https://www.eoebook.com/posts/my_tookit/</guid>
     <description><![CDATA[<p>AM使用的工具，勾选的是我目前在用的。</p>]]></description>
 </item></channel>
 </rss>

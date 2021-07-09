@@ -1,44 +1,44 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>个人知识管理</title>
-        <link>http://example.org/</link>
+        <link>https://www.eoebook.com/</link>
         <description>个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://www.eoebook.com/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>如何提高GoogleAds关键词质量分</title>
-    <link>http://example.org/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98googleads%E5%85%B3%E9%94%AE%E8%AF%8D%E8%B4%A8%E9%87%8F%E5%88%86/</link>
+    <link>https://www.eoebook.com/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98googleads%E5%85%B3%E9%94%AE%E8%AF%8D%E8%B4%A8%E9%87%8F%E5%88%86/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98googleads%E5%85%B3%E9%94%AE%E8%AF%8D%E8%B4%A8%E9%87%8F%E5%88%86/</guid>
+    <guid>https://www.eoebook.com/posts/%E5%A6%82%E4%BD%95%E6%8F%90%E9%AB%98googleads%E5%85%B3%E9%94%AE%E8%AF%8D%E8%B4%A8%E9%87%8F%E5%88%86/</guid>
     <description><![CDATA[<p>给自己做个笔记，后面实践后可能会补充自己的见解</p>]]></description>
 </item><item>
     <title>提高Lander转化率的5个方法</title>
-    <link>http://example.org/posts/5_winning_landing_page_tips_to_improve_your_game/</link>
+    <link>https://www.eoebook.com/posts/5_winning_landing_page_tips_to_improve_your_game/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/5_winning_landing_page_tips_to_improve_your_game/</guid>
+    <guid>https://www.eoebook.com/posts/5_winning_landing_page_tips_to_improve_your_game/</guid>
     <description><![CDATA[<p>在我的目前认知中，Lander对于我的用途有两种，一个是说服（诱导）用户完成注册或者购买行为，另外一个目的就是用于上Google这样不允许直链的流量源（也有说服用户的用途）。不论哪种目的，提高转化率都是非常重要的，关乎我们的利润。</p>]]></description>
 </item><item>
     <title>Push Traffic Note</title>
-    <link>http://example.org/posts/push_traffic_note/</link>
+    <link>https://www.eoebook.com/posts/push_traffic_note/</link>
     <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/push_traffic_note/</guid>
+    <guid>https://www.eoebook.com/posts/push_traffic_note/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>PUSH流量：要与不要</title>
-    <link>http://example.org/posts/do_and_dont_of_push_traffic/</link>
+    <link>https://www.eoebook.com/posts/do_and_dont_of_push_traffic/</link>
     <pubDate>Mon, 15 Feb 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/do_and_dont_of_push_traffic/</guid>
+    <guid>https://www.eoebook.com/posts/do_and_dont_of_push_traffic/</guid>
     <description><![CDATA[<p>STM上针对PUSH流量总结的一个帖子，我简单翻译一下，希望对大家有用。</p>]]></description>
 </item><item>
     <title>[Follow Along] 120 days and 30000RMB to start affiliate media buy 更新：我没有跑赢！</title>
-    <link>http://example.org/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</link>
+    <link>https://www.eoebook.com/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</link>
     <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</guid>
+    <guid>https://www.eoebook.com/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</guid>
     <description><![CDATA[<ul>
 <li><i class="far fa-check-square fa-fw"></i> 目标一：第一个月&raquo;学习流程，创建10个campaign</li>
 <li><i class="far fa-square fa-fw"></i> 目标二：第二个月&raquo;每天$10的稳定收益 未达成</li>
@@ -54,38 +54,38 @@
 <p>开始记录时间：2020-12-03</p>]]></description>
 </item><item>
     <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
-    <link>http://example.org/posts/linux-mysql-data-bak-rec/</link>
+    <link>https://www.eoebook.com/posts/linux-mysql-data-bak-rec/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/linux-mysql-data-bak-rec/</guid>
+    <guid>https://www.eoebook.com/posts/linux-mysql-data-bak-rec/</guid>
     <description><![CDATA[<p>mysql数据备份与还原</p>]]></description>
 </item><item>
     <title>我常用的EMACS插件</title>
-    <link>http://example.org/posts/usual-use-emacs-plugins/</link>
+    <link>https://www.eoebook.com/posts/usual-use-emacs-plugins/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/usual-use-emacs-plugins/</guid>
+    <guid>https://www.eoebook.com/posts/usual-use-emacs-plugins/</guid>
     <description><![CDATA[<p>自用的emacs插件</p>]]></description>
 </item><item>
     <title>提高Lander转化率的5个方法</title>
-    <link>http://example.org/posts/%E6%8F%90%E9%AB%98lander%E8%BD%AC%E5%8C%96%E7%8E%87%E7%9A%845%E4%B8%AA%E6%96%B9%E6%B3%95/</link>
+    <link>https://www.eoebook.com/posts/%E6%8F%90%E9%AB%98lander%E8%BD%AC%E5%8C%96%E7%8E%87%E7%9A%845%E4%B8%AA%E6%96%B9%E6%B3%95/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/%E6%8F%90%E9%AB%98lander%E8%BD%AC%E5%8C%96%E7%8E%87%E7%9A%845%E4%B8%AA%E6%96%B9%E6%B3%95/</guid>
+    <guid>https://www.eoebook.com/posts/%E6%8F%90%E9%AB%98lander%E8%BD%AC%E5%8C%96%E7%8E%87%E7%9A%845%E4%B8%AA%E6%96%B9%E6%B3%95/</guid>
     <description><![CDATA[<p>在我的目前认知中，Lander对于我的用途有两种，一个是说服（诱导）用户完成注册或者购买行为，另外一个目的就是用于上Google这样不允许直链的流量源（也有说服用户的用途）。不论哪种目的，提高转化率都是非常重要的，关乎我们的利润。</p>]]></description>
 </item><item>
     <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
-    <link>http://example.org/posts/how-to-build-blog-by-orgmode-hugo/</link>
+    <link>https://www.eoebook.com/posts/how-to-build-blog-by-orgmode-hugo/</link>
     <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/how-to-build-blog-by-orgmode-hugo/</guid>
+    <guid>https://www.eoebook.com/posts/how-to-build-blog-by-orgmode-hugo/</guid>
     <description><![CDATA[<p>如何使用org-mode和hugo搭建一个blog的工作流？</p>]]></description>
 </item><item>
     <title>emacs列编辑模式</title>
-    <link>http://example.org/posts/emacs-col-edit-model/</link>
+    <link>https://www.eoebook.com/posts/emacs-col-edit-model/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/emacs-col-edit-model/</guid>
+    <guid>https://www.eoebook.com/posts/emacs-col-edit-model/</guid>
     <description><![CDATA[Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除]]></description>
 </item></channel>
 </rss>
