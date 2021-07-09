@@ -11,13 +11,6 @@
     <guid>https://www.eoebook.com/posts/usual-use-emacs-plugins/</guid>
     <description><![CDATA[<p>自用的emacs插件</p>]]></description>
 </item><item>
-    <title>subtree测试</title>
-    <link>https://www.eoebook.com/posts/subtree-test/</link>
-    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/subtree-test/</guid>
-    <description><![CDATA[<p>emacs使用中经常遇到的问题</p>]]></description>
-</item><item>
     <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
     <link>https://www.eoebook.com/posts/how-to-build-blog-by-orgmode-hugo/</link>
     <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
