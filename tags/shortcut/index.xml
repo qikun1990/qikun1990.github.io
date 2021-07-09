@@ -4,6 +4,13 @@
         <link>https://www.eoebook.com/tags/shortcut/</link>
         <description>shortcut - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/shortcut/" rel="self" type="application/rss+xml" /><item>
+    <title>subtree测试</title>
+    <link>https://www.eoebook.com/posts/subtree-test/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/posts/subtree-test/</guid>
+    <description><![CDATA[<p>emacs使用中经常遇到的问题</p>]]></description>
+</item><item>
     <title>emacs使用以及常用快捷键积累</title>
     <link>https://www.eoebook.com/posts/emacs-keyboard-shortcut/</link>
     <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>

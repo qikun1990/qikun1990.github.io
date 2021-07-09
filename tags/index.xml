@@ -3,14 +3,7 @@
         <title>Tags - 标签 - 个人知识管理</title>
         <link>https://www.eoebook.com/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Google-Ads</title>
-    <link>https://www.eoebook.com/tags/google-ads/</link>
-    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/google-ads/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Push-Traffic</title>
     <link>https://www.eoebook.com/tags/push-traffic/</link>
     <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</pubDate>
@@ -53,6 +46,20 @@
     <guid>https://www.eoebook.com/tags/take-notes/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>Lander</title>
+    <link>https://www.eoebook.com/tags/lander/</link>
+    <pubDate>Thu, 09 Jul 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/lander/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>关键词</title>
+    <link>https://www.eoebook.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
+    <pubDate>Thu, 09 Jul 2020 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>pomodoro</title>
     <link>https://www.eoebook.com/tags/pomodoro/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0800</pubDate>
@@ -65,13 +72,6 @@
     <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/ox-hugo/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>shortcut</title>
-    <link>https://www.eoebook.com/tags/shortcut/</link>
-    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/shortcut/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
