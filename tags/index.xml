@@ -1,77 +1,77 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - 标签 - 个人知识管理</title>
-        <link>https://www.eoebook.com/tags/</link>
+        <link>http://example.org/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
     <title>Lander</title>
-    <link>https://www.eoebook.com/tags/lander/</link>
+    <link>http://example.org/tags/lander/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/lander/</guid>
+    <guid>http://example.org/tags/lander/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>关键词</title>
-    <link>https://www.eoebook.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
+    <link>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
     <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</guid>
+    <guid>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Push-Traffic</title>
-    <link>https://www.eoebook.com/tags/push-traffic/</link>
+    <link>http://example.org/tags/push-traffic/</link>
     <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/push-traffic/</guid>
+    <guid>http://example.org/tags/push-traffic/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>tookit</title>
-    <link>https://www.eoebook.com/tags/tookit/</link>
+    <link>http://example.org/tags/tookit/</link>
     <pubDate>Wed, 16 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/tookit/</guid>
+    <guid>http://example.org/tags/tookit/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>vlookup</title>
-    <link>https://www.eoebook.com/tags/vlookup/</link>
+    <link>http://example.org/tags/vlookup/</link>
     <pubDate>Fri, 04 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/vlookup/</guid>
+    <guid>http://example.org/tags/vlookup/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Follow-Along</title>
-    <link>https://www.eoebook.com/tags/follow-along/</link>
+    <link>http://example.org/tags/follow-along/</link>
     <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/follow-along/</guid>
+    <guid>http://example.org/tags/follow-along/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>slip-box</title>
-    <link>https://www.eoebook.com/tags/slip-box/</link>
+    <link>http://example.org/tags/slip-box/</link>
     <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/slip-box/</guid>
+    <guid>http://example.org/tags/slip-box/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>take-notes</title>
-    <link>https://www.eoebook.com/tags/take-notes/</link>
+    <link>http://example.org/tags/take-notes/</link>
     <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/take-notes/</guid>
+    <guid>http://example.org/tags/take-notes/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>pomodoro</title>
-    <link>https://www.eoebook.com/tags/pomodoro/</link>
+    <link>http://example.org/tags/pomodoro/</link>
     <pubDate>Tue, 05 May 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/pomodoro/</guid>
+    <guid>http://example.org/tags/pomodoro/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>ox-hugo</title>
-    <link>https://www.eoebook.com/tags/ox-hugo/</link>
+    <link>http://example.org/tags/ox-hugo/</link>
     <pubDate>Mon, 04 May 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/tags/ox-hugo/</guid>
+    <guid>http://example.org/tags/ox-hugo/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

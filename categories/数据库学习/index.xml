@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>数据库学习 - 分类 - 个人知识管理</title>
-        <link>https://www.eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
+        <link>http://example.org/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
         <description>数据库学习 - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</lastBuildDate><atom:link href="http://example.org/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
     <title>Linux下MySQL的备份与还原&amp;数据迁移</title>
-    <link>https://www.eoebook.com/posts/linux-mysql-data-bak-rec/</link>
+    <link>http://example.org/posts/linux-mysql-data-bak-rec/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://www.eoebook.com/posts/linux-mysql-data-bak-rec/</guid>
+    <guid>http://example.org/posts/linux-mysql-data-bak-rec/</guid>
     <description><![CDATA[<p>mysql数据备份与还原</p>]]></description>
 </item></channel>
 </rss>
