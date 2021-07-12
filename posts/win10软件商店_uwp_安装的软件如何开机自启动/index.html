@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.eoebook.com/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/" />
 <meta property="article:published_time" content="2021-07-12T00:00:00+08:00" />
-<meta property="article:modified_time" content="2021-07-12T19:13:57+08:00" />
+<meta property="article:modified_time" content="2021-07-12T20:39:47+08:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Win10软件商店(UWP)安装的软件如何开机自启动"/>
 <meta name="twitter:description" content="最简单的办法设置W10 UWP软件开机自启动"/>
@@ -26,8 +26,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.eoebook.com\/posts\/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8\/"
-        },"genre": "posts","keywords": "W10UWP软件自启动","wordcount":  278 ,
-        "url": "https:\/\/www.eoebook.com\/posts\/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8\/","datePublished": "2021-07-12T00:00:00+08:00","dateModified": "2021-07-12T19:13:57+08:00","publisher": {
+        },"genre": "posts","keywords": "W10UWP软件自启动","wordcount":  280 ,
+        "url": "https:\/\/www.eoebook.com\/posts\/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8\/","datePublished": "2021-07-12T00:00:00+08:00","dateModified": "2021-07-12T20:39:47+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
                 "@type": "Person",
@@ -114,7 +114,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Win10软件商店(UWP)安装的软件如何开机自启动</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/other/"><i class="far fa-folder fa-fw"></i>OTHER</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-12">2021-07-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 278 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-12">2021-07-12</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 280 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/" class="leancloud_visitors" data-flag-title="Win10软件商店(UWP)安装的软件如何开机自启动">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -130,15 +130,16 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>最简单的办法设置W10 UWP软件开机自启动</p>
-<p>答案来自于这个stackoverflow的回答，地址：<a href="https://stackoverflow.com/questions/35940683/uwp-app-start-automatically-at-startup">https://stackoverflow.com/questions/35940683/uwp-app-start-automatically-at-startup</a></p>
+<p>答案来自于这个stackoverflow的回答，
+地址：<a href="https://stackoverflow.com/questions/35940683/uwp-app-start-automatically-at-startup">https://stackoverflow.com/questions/35940683/uwp-app-start-automatically-at-startup</a></p>
 <p>原文粘贴如下</p>
 <h2 id="win10软件商店安装的软件如何设置开机自启动">Win10软件商店安装的软件如何设置开机自启动</h2>
 <ol>
 <li>Open File Explorer</li>
-<li>In address bar, copy-and-paste <!-- raw HTML omitted --></li>
+<li>In address bar, copy-and-paste <code>shell:AppsFolder</code></li>
 <li>Right-click the app and then click Create Shorcut.</li>
 <li>The message box asks to create shorcut on the Desktop. Click Yes.</li>
-<li>In File Explorer address bar, copy-and-paste <!-- raw HTML omitted --></li>
+<li>In File Explorer address bar, copy-and-paste <code>shell:startup</code></li>
 <li>Go to Desktop and copy-and-paste shorcut to File Explorer.</li>
 <li>Reboot your computer if you want to test.</li>
 </ol>
