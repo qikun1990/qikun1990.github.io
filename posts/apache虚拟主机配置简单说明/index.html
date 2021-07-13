@@ -10,7 +10,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/" />
 <meta property="article:published_time" content="2021-07-13T00:00:00+08:00" />
-<meta property="article:modified_time" content="2021-07-13T21:10:12+08:00" />
+<meta property="article:modified_time" content="2021-07-13T22:46:24+08:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Apache虚拟主机配置简单说明"/>
 <meta name="twitter:description" content="为方便管理，节省成本，使用虚拟主机&#43;CF的方案"/>
@@ -26,8 +26,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/www.eoebook.com\/posts\/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E\/"
-        },"genre": "posts","keywords": "多站点","wordcount":  136 ,
-        "url": "https:\/\/www.eoebook.com\/posts\/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E\/","datePublished": "2021-07-13T00:00:00+08:00","dateModified": "2021-07-13T21:10:12+08:00","publisher": {
+        },"genre": "posts","keywords": "多站点","wordcount":  304 ,
+        "url": "https:\/\/www.eoebook.com\/posts\/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E\/","datePublished": "2021-07-13T00:00:00+08:00","dateModified": "2021-07-13T22:46:24+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
                 "@type": "Person",
@@ -114,7 +114,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">Apache虚拟主机配置简单说明</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/other/"><i class="far fa-folder fa-fw"></i>OTHER</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 136 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2021-07-13">2021-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 304 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/" class="leancloud_visitors" data-flag-title="Apache虚拟主机配置简单说明">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -129,8 +129,9 @@
     <li><a href="#httpd-vhosts-dot-conf">httpd-vhosts.conf</a></li>
     <li><a href="#joomla-个人需求-配置虚拟主机无需看这部分">joomla（个人需求，配置虚拟主机无需看这部分）</a>
       <ul>
-        <li><a href="#复制数据库">复制数据库</a></li>
+        <li><a href="#创建数据库-复制数据库">创建数据库，复制数据库</a></li>
         <li><a href="#configuration-dot-php">configuration.php</a></li>
+        <li><a href="#遇到的问题-总结">遇到的问题 - 总结</a></li>
       </ul>
     </li>
   </ul>
@@ -141,30 +142,54 @@
 <li>找到如下代码片段并去除前面的#</li>
 </ol>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="c1">#LoadModule vhost_alias_module modules/mod_vhost_alias.so</span>
-<span class="c1">#Include etc/extra/httpd-vhosts.conf</span>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">#LoadModule vhost_alias_module modules/mod_vhost_alias.so
+#Include etc/extra/httpd-vhosts.conf
 </code></pre></div><ol>
-<li>修改如下路径为网站根目录的上级路径</li>
+<li>屏蔽如下内容,应配置在vhost中</li>
 </ol>
 <!-- raw HTML omitted -->
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="n">DocumentRoot</span> <span class="s">&#34;/opt/lampp/htdocs&#34;</span>
-<span class="o">&lt;</span><span class="n">Directory</span> <span class="s">&#34;/opt/lampp/htdocs&#34;</span><span class="o">&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">DocumentRoot &#34;/opt/lampp/htdocs&#34;
+<span class="nt">&lt;Directory</span> <span class="err">&#34;/opt/lampp/htdocs&#34;</span><span class="nt">&gt;</span>
+<span class="nt">&lt;/Directory&gt;</span>
 </code></pre></div><h2 id="httpd-vhosts-dot-conf">httpd-vhosts.conf</h2>
 <p>添加如下配置</p>
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="o">&lt;</span><span class="n">VirtualHost</span> <span class="o">*:</span><span class="m">80</span><span class="o">&gt;</span>
-  <span class="n">DocumentRoot</span> <span class="s">&#34;/opt/lampp/htdocs/site01&#34;</span>
-  <span class="n">ServerName</span> <span class="n">www.site01.com</span>
-<span class="o">&lt;/</span><span class="n">VirtualHost</span><span class="o">&gt;</span>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;VirtualHost</span> <span class="err">*:80</span><span class="nt">&gt;</span>
+    DocumentRoot &#34;/opt/lampp/htdocs/www.site01.com&#34;
+    ServerName www.site01.com
+    <span class="nt">&lt;Directory</span> <span class="err">&#34;/opt/lampp/htdocs/www.site01.com&#34;</span><span class="nt">&gt;</span>
+    AllowOverride All
+    Require all granted
+    <span class="nt">&lt;/Directory&gt;</span>
+    ErrorLog &#34;logs/www.site01.com.ltd-error_log&#34;
+    CustomLog &#34;logs/www.site01.com-access_log&#34; common
+<span class="nt">&lt;/VirtualHost&gt;</span>
 
-<span class="o">&lt;</span><span class="n">VirtualHost</span> <span class="o">*:</span><span class="m">80</span><span class="o">&gt;</span>
-  <span class="n">DocumentRoot</span> <span class="s">&#34;/opt/lampp/htdocs/site02&#34;</span>
-  <span class="n">ServerName</span> <span class="n">www.site02.com</span>
-<span class="o">&lt;/</span><span class="n">VirtualHost</span><span class="o">&gt;</span>
+<span class="nt">&lt;VirtualHost</span> <span class="err">*:80</span><span class="nt">&gt;</span>
+    DocumentRoot &#34;/opt/lampp/htdocs/www.site02.com&#34;
+    ServerName www.site02.com
+    <span class="nt">&lt;Directory</span> <span class="err">&#34;/opt/lampp/htdocs/www.site02.com&#34;</span><span class="nt">&gt;</span>
+    AllowOverride All
+    Require all granted
+    <span class="nt">&lt;/Directory&gt;</span>
+    ErrorLog &#34;logs/www.site02.com-error_log&#34;
+    CustomLog &#34;logs/www.site02.com-access_log&#34; common
+<span class="nt">&lt;/VirtualHost&gt;</span>
 </code></pre></div><h2 id="joomla-个人需求-配置虚拟主机无需看这部分">joomla（个人需求，配置虚拟主机无需看这部分）</h2>
-<h3 id="复制数据库">复制数据库</h3>
+<h3 id="创建数据库-复制数据库">创建数据库，复制数据库</h3>
 <h3 id="configuration-dot-php">configuration.php</h3>
-<div class="highlight"><pre class="chroma"><code class="language-R" data-lang="R"><span class="n">public</span> <span class="o">$</span><span class="n">db</span> <span class="o">=</span> <span class="s">&#39;数据库名称&#39;</span><span class="p">;</span>
-</code></pre></div></div><div class="post-footer" id="post-footer">
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">public $db = &#39;数据库名称&#39;;
+</code></pre></div><h3 id="遇到的问题-总结">遇到的问题 - 总结</h3>
+<ul>
+<li>报错信息如下exceeded the limit of 10
+AH00124: Request exceeded the limit of 10 internal redirects due to probable configuration error.
+<ul>
+<li>.htaccess文件一定要复制到网站目录中去</li>
+<li>Directory要配置到vhost中，每个网站的目录不一样，.htaccess文件也不该公用</li>
+</ul>
+</li>
+<li>权限问题，文件夹给的权限不够导致的
+failed to open stream: Permission denied in File.php</li>
+</ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
