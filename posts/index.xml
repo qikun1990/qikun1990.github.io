@@ -3,7 +3,14 @@
         <title>所有文章 - 个人知识管理</title>
         <link>https://www.eoebook.com/posts/</link>
         <description>所有文章 | 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 12 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Apache虚拟主机配置简单说明</title>
+    <link>https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
+    <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
+</item><item>
     <title>Win10开机自动连接VPN</title>
     <link>https://www.eoebook.com/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</link>
     <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0800</pubDate>
@@ -66,24 +73,5 @@
     <author>作者</author>
     <guid>https://www.eoebook.com/posts/do_and_dont_of_push_traffic/</guid>
     <description><![CDATA[<p>STM上针对PUSH流量总结的一个帖子，我简单翻译一下，希望对大家有用。</p>]]></description>
-</item><item>
-    <title>[Follow Along] 120 days and 30000RMB to start affiliate media buy 更新：我没有跑赢！</title>
-    <link>https://www.eoebook.com/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</link>
-    <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/follow_along_120_days_and_30000rmb_to_start_affiliate_media_buy/</guid>
-    <description><![CDATA[<ul>
-<li><i class="far fa-check-square fa-fw"></i> 目标一：第一个月&raquo;学习流程，创建10个campaign</li>
-<li><i class="far fa-square fa-fw"></i> 目标二：第二个月&raquo;每天$10的稳定收益 未达成</li>
-<li><i class="far fa-square fa-fw"></i> 目标三：第四个月&raquo;每天$100的稳定收益</li>
-</ul>
-<hr>
-<ul>
-<li>时间：120天</li>
-<li>资金：30000RMB</li>
-</ul>
-<hr>
-<p>记录我的affiliate media buy之路，现在开始动手实践。</p>
-<p>开始记录时间：2020-12-03</p>]]></description>
 </item></channel>
 </rss>
