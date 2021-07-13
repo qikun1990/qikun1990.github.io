@@ -4,6 +4,13 @@
         <link>https://www.eoebook.com/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>PHPDebug</title>
+    <link>https://www.eoebook.com/tags/phpdebug/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/tags/phpdebug/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>多站点</title>
     <link>https://www.eoebook.com/tags/%E5%A4%9A%E7%AB%99%E7%82%B9/</link>
     <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
@@ -65,13 +72,6 @@
     <pubDate>Wed, 16 Dec 2020 00:00:00 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://www.eoebook.com/tags/tookit/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>vlookup</title>
-    <link>https://www.eoebook.com/tags/vlookup/</link>
-    <pubDate>Fri, 04 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/tags/vlookup/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
