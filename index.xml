@@ -13,6 +13,13 @@
     <guid>https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
     <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
 </item><item>
+    <title>Apache虚拟主机配置简单说明</title>
+    <link>https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E%E5%90%A7/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://www.eoebook.com/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E%E5%90%A7/</guid>
+    <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
+</item><item>
     <title>ZendStudio配置PHP断点调试</title>
     <link>https://www.eoebook.com/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</link>
     <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
@@ -68,12 +75,5 @@
     <author>作者</author>
     <guid>https://www.eoebook.com/posts/how-to-build-blog-by-orgmode-hugo/</guid>
     <description><![CDATA[<p>如何使用org-mode和hugo搭建一个blog的工作流？</p>]]></description>
-</item><item>
-    <title>Push Traffic Note</title>
-    <link>https://www.eoebook.com/posts/push_traffic_note/</link>
-    <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/posts/push_traffic_note/</guid>
-    <description><![CDATA[]]></description>
 </item></channel>
 </rss>
