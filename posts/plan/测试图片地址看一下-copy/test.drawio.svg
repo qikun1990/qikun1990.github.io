@@ -1,36 +1,16 @@
-<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="301px" height="221px" viewBox="-0.5 -0.5 301 221" content="&lt;mxfile&gt;&lt;diagram id=&quot;Djmg0fGPz57N66BhFTwC&quot; name=&quot;Page-1&quot;&gt;vZXLlqMgEIafhu0chPaSZUft7s2sspiZJS14OY2SgyTqPP2gQtTRpJMzlywS6q9Cii9/HQEOy/ZVkmP+VVDGAYK0BTgCCHnI1d+90I2Ci3ajkMmCjpIzCYfiJzMiNOqpoKxeFCohuCqOSzERVcUStdCIlKJZlqWCL089koythENC+Fr9VlCVj2qA/El/Y0WW25Mdz9zvnSQfmRSnypwHEH7HbJc+jemS2GeZi9Y5oaKZSTgGOJRCqHFVtiHjPVqLbdz3ciV76VuySt2zwfR1JvzEbMdDX6qzLBjVaExYiUr/7HNVch05epkWnIeCCzkUYxpA6GOt10qKDzbLPLsQPkGdWbdouq7FSSbmUNOGIjJjpgqPUt/ObJu51isTJVOy0wWScaKK8/KfJMYQ2aVugqIXhss2I/Q5oyYvFDscydB+o0fiJiQIXcjSXheVmunp8NmCB6ET7cNb8M5MKtbeBGOH01ivs941cTMZ3bH2zGcmt/v+BCW+w26c6ynvXfYYVA+SneM/AhVFvgdvOvJ+qCj4jSpcUw02oAZ/Aar34MjqW8ruuw6gDX70wRfXhlE7T0adiTbn79NJdq9M8n8YXHfttjgAQQgCDGIX7GOw93tlB8FzUFNaPzrXV1yyweSqcRx3aZzLmP2DcdTh9GYZcrO3N45/AQ==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(179, 233, 244);">
+<svg host="65bd71144e" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="661px" height="381px" viewBox="-0.5 -0.5 661 381" content="&lt;mxfile&gt;&lt;diagram id=&quot;Djmg0fGPz57N66BhFTwC&quot; name=&quot;Page-1&quot;&gt;zZbJkpswEIafhmNSApnFxxhPJpecfEhylFGz1MjIJcsLefoIaAwEvFD2TOIL9N+S1fr4G2HRcHN6VWybfpcchOUQfrLo0nIcm9K5uZRKUSse8WshURnHQa2wyn4DigTVfcZh1xuopRQ62/bFSOY5RLqnMaXksT8slqK/6pYlMBBWERND9UfGdVqrgeO3+jfIkrRZ2fZww2sWvSVK7nNcz3LomsI8ntXpDWv+Cze6SxmXx45EXywaKil1fbc5hSBKtg22et7XC9lz3Qpyfc8ErOvAxB6aiqu6dNGwAG7QYJjL3FwWqd4IE9nmNs6ECKWQqhpMeUCIT42+00q+QSfzxSVkRkxmWCJWvZN7FeGiWIZmKgEcRWupLKczDbf1CnIDWhVmgALBdHboP0mGhkjO41oo5ga5jDNybjM6ppmG1ZZV5R9NT1yFRIhLIC51meuOHle/MXiE2MtFeA3eAZSG01UwmKUz9B72JnUxPrZOtxt/ph2Xe+RxlvQOvwlh2ry02TSqHmFz259C1Vn6HrlqyfupmmfUozobQg1GmAZPYOpNbFmzSVX8NAFpgl9l8NltwuWpm1wWGN3VuO5/1Ljusxv331rM+6tvvQ/s2/mj58SoB266yR+6Kfgg8/hT3lTmGN+WYiTknt9+cwm2BrE4fyp0z0+br2fBiPMYIfGkI4P6hITtkTGw2Qj7IdWi76BbTnvG2yy4zb2CBhxhTmzhBuRlYJcQ3/HUHmGNEz45pN/n/vu1uQnbT80q1/mepy9/AA==&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(179, 233, 244);">
     <defs/>
     <g>
-        <path d="M 120 40 L 213.63 40" fill="none" stroke="#a50040" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 218.88 40 L 211.88 43.5 L 213.63 40 L 211.88 36.5 Z" fill="#a50040" stroke="#a50040" stroke-miterlimit="10" pointer-events="all"/>
-        <rect x="0" y="10" width="120" height="60" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
-        <ellipse cx="260" cy="40" rx="40" ry="40" fill="#60a917" stroke="#2d7600" pointer-events="all"/>
-        <path d="M 164 160 L 217.31 45.77" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
-        <path d="M 219.53 41.01 L 219.74 48.84 L 217.31 45.77 L 213.4 45.88 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
-        <rect x="90" y="160" width="120" height="60" fill="rgb(255, 255, 255)" stroke="rgb(0, 0, 0)" pointer-events="all"/>
-        <g transform="translate(-0.5 -0.5)">
-            <switch>
-                <foreignObject pointer-events="none" width="100%" height="100%" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility" style="overflow: visible; text-align: left;">
-                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: flex; align-items: unsafe center; justify-content: unsafe center; width: 118px; height: 1px; padding-top: 190px; margin-left: 91px;">
-                        <div data-drawio-colors="color: rgb(0, 0, 0); " style="box-sizing: border-box; font-size: 0px; text-align: center;">
-                            <div style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">
-                                范德萨sdds
-                            </div>
-                        </div>
-                    </div>
-                </foreignObject>
-                <text x="150" y="194" fill="rgb(0, 0, 0)" font-family="Helvetica" font-size="12px" text-anchor="middle">
-                    范德萨sdds
-                </text>
-            </switch>
-        </g>
+        <path d="M 587 310 L 488.44 82.55" fill="none" stroke="#a50040" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 486.35 77.73 L 492.34 82.76 L 488.44 82.55 L 485.92 85.54 Z" fill="#a50040" stroke="#a50040" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="540" y="310" width="120" height="60" fill="#0050ef" stroke="#001dbc" pointer-events="all"/>
+        <ellipse cx="470" cy="40" rx="40" ry="40" fill="#60a917" stroke="#2d7600" pointer-events="all"/>
+        <path d="M 330.65 320 L 427.87 46" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 429.63 41.05 L 430.58 48.82 L 427.87 46 L 423.99 46.48 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="260" y="320" width="120" height="60" fill="#60a917" stroke="#2d7600" pointer-events="all"/>
+        <path d="M 200 60 L 126.37 60" fill="none" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="stroke"/>
+        <path d="M 121.12 60 L 128.12 56.5 L 126.37 60 L 128.12 63.5 Z" fill="rgb(0, 0, 0)" stroke="rgb(0, 0, 0)" stroke-miterlimit="10" pointer-events="all"/>
+        <path d="M 230 40 C 206 40 200 60 219.2 64 C 200 72.8 221.6 92 237.2 84 C 248 100 284 100 296 84 C 320 84 320 68 305 60 C 320 44 296 28 275 36 C 260 24 236 24 230 40 Z" fill="#6a00ff" stroke="#3700cc" stroke-miterlimit="10" pointer-events="all"/>
+        <rect x="0" y="30" width="120" height="60" rx="9" ry="9" fill="#6a00ff" stroke="#3700cc" pointer-events="all"/>
     </g>
-    <switch>
-        <g requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"/>
-        <a transform="translate(0,-5)" xlink:href="https://www.diagrams.net/doc/faq/svg-export-text-problems" target="_blank">
-            <text text-anchor="middle" font-size="10px" x="50%" y="100%">
-                Text is not SVG - cannot display
-            </text>
-        </a>
-    </switch>
 </svg>
