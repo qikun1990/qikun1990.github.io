@@ -11,5 +11,14 @@
     <guid>http://example.org/posts/plan/%E6%88%91%E7%9A%84%E8%AE%A1%E5%88%92/</guid>
     <description><![CDATA[<p>测试CNAME&ndash;TESTAAA</p>
 <p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
+</item><item>
+    <title>我是谁哈哈哈</title>
+    <link>http://example.org/posts/about-me/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/about-me/</guid>
+    <description><![CDATA[<ul>
+<li><i class="far fa-check-square fa-fw"></i> 测试</li>
+</ul>]]></description>
 </item></channel>
 </rss>
