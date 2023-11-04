@@ -9,6 +9,7 @@
     <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
-    <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
+    <description><![CDATA[<p>测试CNAME</p>
+<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
 </item></channel>
 </rss>
