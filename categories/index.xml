@@ -1,56 +1,11 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
-    <channel>
-        <title>Categories - 分类 - 个人知识管理</title>
-        <link>https://www.eoebook.com/categories/</link>
-        <description>Categories - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</lastBuildDate><atom:link href="https://www.eoebook.com/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>OTHER</title>
-    <link>https://www.eoebook.com/categories/other/</link>
-    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/other/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>工具软件</title>
-    <link>https://www.eoebook.com/categories/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/</link>
-    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>新概念英语3</title>
-    <link>https://www.eoebook.com/categories/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3/</link>
-    <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>GoogleAds</title>
-    <link>https://www.eoebook.com/categories/googleads/</link>
-    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/googleads/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>SmartNotes</title>
-    <link>https://www.eoebook.com/categories/smartnotes/</link>
-    <pubDate>Thu, 03 Dec 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/smartnotes/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>EMACS学习</title>
-    <link>https://www.eoebook.com/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
-    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/emacs%E5%AD%A6%E4%B9%A0/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>数据库学习</title>
-    <link>https://www.eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</link>
-    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0800</pubDate>
-    <author>作者</author>
-    <guid>https://www.eoebook.com/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%AD%A6%E4%B9%A0/</guid>
-    <description><![CDATA[]]></description>
-</item></channel>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jethro&#39;s Braindump</title>
+    <link>https://braindump.jethro.dev/categories/</link>
+    <description>Recent content in Categories on Jethro&#39;s Braindump</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="https://braindump.jethro.dev/categories/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
 </rss>
