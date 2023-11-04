@@ -3,7 +3,7 @@
         <title>所有文章 - 个人知识管理</title>
         <link>http://example.org/posts/</link>
         <description>所有文章 | 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 24 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
     <title>Tedswoodworking Campaign</title>
     <link>http://example.org/posts/tedswoodworking_campaign/</link>
     <pubDate>Sat, 24 Jul 2021 00:00:00 &#43;0000</pubDate>
