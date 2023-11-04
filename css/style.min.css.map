@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.min.css",
-	"sourceRoot": "/home/runner/work/eoebook-LoveIt/eoebook-LoveIt",
+	"sourceRoot": "/home/runner/work/notebook/notebook",
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/css/_variables.scss",
