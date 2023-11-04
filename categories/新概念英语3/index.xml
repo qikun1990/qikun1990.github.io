@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>新概念英语3 - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3/</link>
+        <description>新概念英语3 - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD3/" rel="self" type="application/rss+xml" /><item>
+    <title>[NCE3] Lesson 1 A puma at large</title>
+    <link>http://example.org/posts/nce3_lesson_1_a_puma_at_large/</link>
+    <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/nce3_lesson_1_a_puma_at_large/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
+</rss>

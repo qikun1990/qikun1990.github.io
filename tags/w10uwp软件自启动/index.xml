@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>W10UWP软件自启动 - 标签 - 个人知识管理</title>
+        <link>http://example.org/tags/w10uwp%E8%BD%AF%E4%BB%B6%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+        <description>W10UWP软件自启动 - 标签 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/w10uwp%E8%BD%AF%E4%BB%B6%E8%87%AA%E5%90%AF%E5%8A%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>Win10软件商店(UWP)安装的软件如何开机自启动</title>
+    <link>http://example.org/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+    <description><![CDATA[<p>最简单的办法设置W10 UWP软件开机自启动</p>]]></description>
+</item></channel>
+</rss>

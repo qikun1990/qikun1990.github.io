@@ -1,11 +1,77 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Jethro&#39;s Braindump</title>
-    <link>https://braindump.jethro.dev/tags/</link>
-    <description>Recent content in Tags on Jethro&#39;s Braindump</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <atom:link href="https://braindump.jethro.dev/tags/index.xml" rel="self" type="application/rss+xml" />
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - 标签 - 个人知识管理</title>
+        <link>http://example.org/tags/</link>
+        <description>Tags - 标签 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>PHPDebug</title>
+    <link>http://example.org/tags/phpdebug/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/phpdebug/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>多站点</title>
+    <link>http://example.org/tags/%E5%A4%9A%E7%AB%99%E7%82%B9/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E5%A4%9A%E7%AB%99%E7%82%B9/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>W10UWP软件自启动</title>
+    <link>http://example.org/tags/w10uwp%E8%BD%AF%E4%BB%B6%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/w10uwp%E8%BD%AF%E4%BB%B6%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>截图</title>
+    <link>http://example.org/tags/%E6%88%AA%E5%9B%BE/</link>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E6%88%AA%E5%9B%BE/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>自动连接VPN</title>
+    <link>http://example.org/tags/%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</link>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>英语学习</title>
+    <link>http://example.org/tags/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/</link>
+    <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Lander</title>
+    <link>http://example.org/tags/lander/</link>
+    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/lander/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>关键词</title>
+    <link>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
+    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Push-Traffic</title>
+    <link>http://example.org/tags/push-traffic/</link>
+    <pubDate>Thu, 25 Feb 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/push-traffic/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>tookit</title>
+    <link>http://example.org/tags/tookit/</link>
+    <pubDate>Wed, 16 Dec 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/tookit/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>

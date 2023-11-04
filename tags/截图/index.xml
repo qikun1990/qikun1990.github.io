@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>截图 - 标签 - 个人知识管理</title>
+        <link>http://example.org/tags/%E6%88%AA%E5%9B%BE/</link>
+        <description>截图 - 标签 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/%E6%88%AA%E5%9B%BE/" rel="self" type="application/rss+xml" /><item>
+    <title>图片管理工具</title>
+    <link>http://example.org/posts/%E5%9B%BE%E7%89%87%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</link>
+    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/%E5%9B%BE%E7%89%87%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/</guid>
+    <description><![CDATA[<p>时间久了，有些用过的工具都忘了是干嘛的了。有时候想找之前用过用于某一用途的工具也找不到了，比如LightShot这个截图快速分享获取链接的工具，我找了好一会才找到，所以记录下自己用过的工具，便于以后吧。</p>]]></description>
+</item></channel>
+</rss>

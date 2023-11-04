@@ -1,0 +1,57 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>EMACS学习 - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/emacs%E5%AD%A6%E4%B9%A0/</link>
+        <description>EMACS学习 - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/emacs%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+    <title>如何使用org-mode和hugo搭建一个blog的工作流？</title>
+    <link>http://example.org/posts/how-to-build-blog-by-orgmode-hugo/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/how-to-build-blog-by-orgmode-hugo/</guid>
+    <description><![CDATA[<p>如何使用org-mode和hugo搭建一个blog的工作流？</p>]]></description>
+</item><item>
+    <title>emacs列编辑模式</title>
+    <link>http://example.org/posts/emacs-col-edit-model/</link>
+    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/emacs-col-edit-model/</guid>
+    <description><![CDATA[Emacs: Edit Column Text, Rectangle Commands C-@ 选择区域 C-x ft 插入 C-x fk 删除]]></description>
+</item><item>
+    <title>我常用的EMACS插件</title>
+    <link>http://example.org/posts/usual-use-emacs-plugins/</link>
+    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/usual-use-emacs-plugins/</guid>
+    <description><![CDATA[<p>自用的emacs插件</p>]]></description>
+</item><item>
+    <title>emacs使用以及常用快捷键积累</title>
+    <link>http://example.org/posts/emacs-keyboard-shortcut/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/emacs-keyboard-shortcut/</guid>
+    <description><![CDATA[<p>emacs使用中经常遇到的问题</p>]]></description>
+</item><item>
+    <title>yasnippet使用简单说明</title>
+    <link>http://example.org/posts/how-to-use-yasnippet/</link>
+    <pubDate>Mon, 04 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/how-to-use-yasnippet/</guid>
+    <description><![CDATA[<p>使用yasnippet提高效率
+<a href="https://stackoverflow.com/questions/13074656/trigger-key-not-working-in-yasnippet-emacs" target="_blank" rel="noopener noreffer">yasnippet无法正常使用处理办法</a></p>]]></description>
+</item><item>
+    <title>mac环境org-pomodoro番茄钟添加提示信息以及声音</title>
+    <link>http://example.org/posts/how-to-add-sound-for-org-pomodoro/</link>
+    <pubDate>Tue, 05 May 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/how-to-add-sound-for-org-pomodoro/</guid>
+    <description><![CDATA[<p>给org-pomodoro添加弹出框以及声音提示</p>]]></description>
+</item><item>
+    <title>安装配置smart-input-source</title>
+    <link>http://example.org/posts/install-smart-input-source/</link>
+    <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/install-smart-input-source/</guid>
+    <description><![CDATA[<p>这里是mac下配置smart-input-source的方式</p>]]></description>
+</item></channel>
+</rss>
