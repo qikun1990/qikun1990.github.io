@@ -5,73 +5,73 @@
         <description>OTHER - 分类 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/other/" rel="self" type="application/rss+xml" /><item>
     <title>Apache虚拟主机配置简单说明</title>
-    <link>http://example.org/posts/archives/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
+    <link>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
     <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
+    <guid>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
     <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
 </item><item>
     <title>ZendStudio配置PHP断点调试</title>
-    <link>http://example.org/posts/archives/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</link>
+    <link>http://example.org/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</link>
     <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</guid>
+    <guid>http://example.org/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</guid>
     <description><![CDATA[<p>其它按照网上的教程做就行了，重要的是这份配置，配置对了断点调试配置基本就成功80%了。</p>]]></description>
 </item><item>
     <title>Win10开机自动连接VPN</title>
-    <link>http://example.org/posts/archives/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</link>
+    <link>http://example.org/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</link>
     <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</guid>
+    <guid>http://example.org/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Win10软件商店(UWP)安装的软件如何开机自启动</title>
-    <link>http://example.org/posts/archives/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
+    <link>http://example.org/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</link>
     <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
+    <guid>http://example.org/posts/win10%E8%BD%AF%E4%BB%B6%E5%95%86%E5%BA%97_uwp_%E5%AE%89%E8%A3%85%E7%9A%84%E8%BD%AF%E4%BB%B6%E5%A6%82%E4%BD%95%E5%BC%80%E6%9C%BA%E8%87%AA%E5%90%AF%E5%8A%A8/</guid>
     <description><![CDATA[<p>最简单的办法设置W10 UWP软件开机自启动</p>]]></description>
 </item><item>
     <title>HomeBrew update 更新后报错无法使用的解决方案</title>
-    <link>http://example.org/posts/archives/homebrew-update-error/</link>
+    <link>http://example.org/posts/homebrew-update-error/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/homebrew-update-error/</guid>
+    <guid>http://example.org/posts/homebrew-update-error/</guid>
     <description><![CDATA[执行命令：brew update-reset，重新设置下brew的配置。]]></description>
 </item><item>
     <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
-    <link>http://example.org/posts/archives/mac-ankiconnect-connect-fail/</link>
+    <link>http://example.org/posts/mac-ankiconnect-connect-fail/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/mac-ankiconnect-connect-fail/</guid>
+    <guid>http://example.org/posts/mac-ankiconnect-connect-fail/</guid>
     <description><![CDATA[<p>MAC上AnkiConnect连接失败问题处理</p>]]></description>
 </item><item>
     <title>mac安装gcc报错</title>
-    <link>http://example.org/posts/archives/mac-gcc/</link>
+    <link>http://example.org/posts/mac-gcc/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/mac-gcc/</guid>
+    <guid>http://example.org/posts/mac-gcc/</guid>
     <description><![CDATA[<p>mac安装gcc报错问题处理</p>]]></description>
 </item><item>
     <title>chrome的headless模式-网页转PDF</title>
-    <link>http://example.org/posts/archives/chrome-headless-convert-html-to-pdf/</link>
+    <link>http://example.org/posts/chrome-headless-convert-html-to-pdf/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/chrome-headless-convert-html-to-pdf/</guid>
+    <guid>http://example.org/posts/chrome-headless-convert-html-to-pdf/</guid>
     <description><![CDATA[<p>chrome的headless模式使用记录</p>]]></description>
 </item><item>
     <title>anki删除牌组后media文件未删除占用磁盘空间的处理办法</title>
-    <link>http://example.org/posts/archives/anki-clean-fdisk/</link>
+    <link>http://example.org/posts/anki-clean-fdisk/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/anki-clean-fdisk/</guid>
+    <guid>http://example.org/posts/anki-clean-fdisk/</guid>
     <description><![CDATA[删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media]]></description>
 </item><item>
     <title>maven学习总结</title>
-    <link>http://example.org/posts/archives/learn-maven-log/</link>
+    <link>http://example.org/posts/learn-maven-log/</link>
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/posts/archives/learn-maven-log/</guid>
+    <guid>http://example.org/posts/learn-maven-log/</guid>
     <description><![CDATA[<p>记录学习maven过程，以及自己的一点思考</p>]]></description>
 </item></channel>
 </rss>
