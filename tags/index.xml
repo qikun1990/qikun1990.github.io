@@ -4,11 +4,25 @@
         <link>http://example.org/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>AffTips</title>
+    <link>http://example.org/tags/afftips/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/afftips/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>测试tag</title>
     <link>http://example.org/tags/%E6%B5%8B%E8%AF%95tag/</link>
     <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/tags/%E6%B5%8B%E8%AF%95tag/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>手机流量</title>
+    <link>http://example.org/tags/%E6%89%8B%E6%9C%BA%E6%B5%81%E9%87%8F/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/%E6%89%8B%E6%9C%BA%E6%B5%81%E9%87%8F/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>我</title>
@@ -58,20 +72,6 @@
     <pubDate>Sat, 10 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/tags/%E8%8B%B1%E8%AF%AD%E5%AD%A6%E4%B9%A0/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Lander</title>
-    <link>http://example.org/tags/lander/</link>
-    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/tags/lander/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>关键词</title>
-    <link>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</link>
-    <pubDate>Fri, 09 Jul 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/tags/%E5%85%B3%E9%94%AE%E8%AF%8D/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

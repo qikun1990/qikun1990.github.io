@@ -31,6 +31,13 @@
 <p>关于我这个模块，之前都是没有的，这次我想好好写一下，写的会很慢。</p>
 <p>这次又是一时头脑发热，想着重新捡起Blog记录工作和生活，以后也有个念想</p>]]></description>
 </item><item>
+    <title>手机流量Tips</title>
+    <link>http://example.org/posts/mobi-traffic-tips-from-expert/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/mobi-traffic-tips-from-expert/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Tedswoodworking Campaign</title>
     <link>http://example.org/posts/tedswoodworking_campaign/</link>
     <pubDate>Sat, 24 Jul 2021 00:00:00 &#43;0000</pubDate>
@@ -72,12 +79,5 @@
     <author>作者</author>
     <guid>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
     <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
-</item><item>
-    <title>ZendStudio配置PHP断点调试</title>
-    <link>http://example.org/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</link>
-    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</guid>
-    <description><![CDATA[<p>其它按照网上的教程做就行了，重要的是这份配置，配置对了断点调试配置基本就成功80%了。</p>]]></description>
 </item></channel>
 </rss>
