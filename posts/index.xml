@@ -3,7 +3,16 @@
         <title>所有文章 - 个人知识管理</title>
         <link>http://example.org/posts/</link>
         <description>所有文章 | 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Banners, Angles 和 Offers - Apps</title>
+    <link>http://example.org/posts/banners-angles-and-offers-apps/</link>
+    <pubDate>Fri, 10 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/banners-angles-and-offers-apps/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/assets/image.png" referrerpolicy="no-referrer">
+            </div><p>App offer 的 Banners, Angles 和 Offers 的简单说明</p>]]></description>
+</item><item>
     <title>关于我</title>
     <link>http://example.org/posts/about-me/</link>
     <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
@@ -20,7 +29,11 @@
     <guid>http://example.org/posts/mobi-traffic-tips-from-expert/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/assets/image-3.png" referrerpolicy="no-referrer">
-            </div><p>移动流量一些建议，我看了下，大多是常识!</p>]]></description>
+            </div><p>移动流量一些建议，我看了下，我个人觉得比较重要的点</p>
+<ol>
+<li>竞争分析不能只依赖工具，工具中的数据不见得准确</li>
+<li>角度的一致性很重要，可以有效提高转化率</li>
+</ol>]]></description>
 </item><item>
     <title>Tedswoodworking Campaign</title>
     <link>http://example.org/posts/tedswoodworking_campaign/</link>
@@ -70,12 +83,5 @@
     <author>作者</author>
     <guid>http://example.org/posts/zendstudio%E9%85%8D%E7%BD%AEphp%E6%96%AD%E7%82%B9%E8%B0%83%E8%AF%95/</guid>
     <description><![CDATA[<p>其它按照网上的教程做就行了，重要的是这份配置，配置对了断点调试配置基本就成功80%了。</p>]]></description>
-</item><item>
-    <title>Win10开机自动连接VPN</title>
-    <link>http://example.org/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</link>
-    <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</guid>
-    <description><![CDATA[]]></description>
 </item></channel>
 </rss>
