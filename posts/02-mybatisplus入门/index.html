@@ -20,9 +20,7 @@
     });
   });
 </script><meta property="og:title" content="02-MyBatisPlus入门" />
-<meta property="og:description" content="[MyBatis-Plus]^(一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
-开发、提高效率而生。)
-官网：http://mp.baomidou.com/
+<meta property="og:description" content="官网：http://mp.baomidou.com/
 参考教程：http://mp.baomidou.com/guide/
 MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
 开发、提高效率而生。" />
@@ -32,9 +30,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
 <meta property="article:modified_time" content="2024-01-16T14:10:31+08:00" />
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="02-MyBatisPlus入门"/>
-<meta name="twitter:description" content="[MyBatis-Plus]^(一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
-开发、提高效率而生。)
-官网：http://mp.baomidou.com/
+<meta name="twitter:description" content="官网：http://mp.baomidou.com/
 参考教程：http://mp.baomidou.com/guide/
 MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
 开发、提高效率而生。"/>
@@ -50,7 +46,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/"
-        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  325 ,
+        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  381 ,
         "url": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/","datePublished": "2024-01-16T00:00:00+00:00","dateModified": "2024-01-16T14:10:31+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
@@ -127,7 +123,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">02-MyBatisPlus入门</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/"><i class="far fa-folder fa-fw"></i>谷粒学院</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 325 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 381 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/" class="leancloud_visitors" data-flag-title="02-MyBatisPlus入门">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -138,33 +134,21 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#创建-spring-boot-项目">创建 spring boot 项目</a></li>
     <li><a href="#创建测试表">创建测试表</a></li>
-    <li><a href="#test2">test2</a>
+    <li><a href="#创建-spring-boot-项目">创建 spring boot 项目</a>
       <ul>
-        <li><a href="#test3">test3</a></li>
+        <li><a href="#spring-官网创建-spring-boot-项目">spring 官网创建 spring boot 项目</a></li>
+        <li><a href="#使用-spring-initializr-快速初始化一个-spring-boot-工程">使用 Spring Initializr 快速初始化一个 Spring Boot 工程</a></li>
       </ul>
     </li>
+    <li><a href="#maven-依赖">Maven 依赖</a></li>
+    <li><a href="#heading"></a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><p>[MyBatis-Plus]^(一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
-开发、提高效率而生。)</p>
-<p>官网：http://mp.baomidou.com/
+            </div><div class="content" id="content"><p>官网：http://mp.baomidou.com/
 参考教程：http://mp.baomidou.com/guide/
 MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
 开发、提高效率而生。</p>
-<h2 id="创建-spring-boot-项目">创建 spring boot 项目</h2>
-<p>社区版 idea 创建 spring boot 项目
-spring 官网创建 spring boot 项目
-<a href="https://start.spring.io/" target="_blank" rel="noopener noreffer">https://start.spring.io/</a>
-<img
-        class="lazyload"
-        src="/svg/loading.min.svg"
-        data-src="assets/image-1.png"
-        data-srcset="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-1.png, assets/image-1.png 1.5x, /posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-1.png 2x"
-        data-sizes="auto"
-        alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-1.png"
-        title="Alt text" /></p>
 <h2 id="创建测试表">创建测试表</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="k">DROP</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">IF</span><span class="w"> </span><span class="k">EXISTS</span><span class="w"> </span><span class="k">user</span><span class="p">;</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="k">user</span><span class="w">
@@ -191,9 +175,34 @@ spring 官网创建 spring boot 项目
         data-sizes="auto"
         alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image.png"
         title="Alt text" /></p>
-<h2 id="test2">test2</h2>
-<h3 id="test3">test3</h3>
-<h4 id="test4">test4</h4></div><div class="post-footer" id="post-footer">
+<h2 id="创建-spring-boot-项目">创建 spring boot 项目</h2>
+<p>两种方式任选其一</p>
+<h3 id="spring-官网创建-spring-boot-项目">spring 官网创建 spring boot 项目</h3>
+<pre><code>https://start.spring.io/
+![Alt text](assets/image-1.png)
+</code></pre>
+<h3 id="使用-spring-initializr-快速初始化一个-spring-boot-工程">使用 Spring Initializr 快速初始化一个 Spring Boot 工程</h3>
+<p>Group：com.eoebook
+Artifact：mybatis-plus
+版本：2.2.1.RELEASE</p>
+<h2 id="maven-依赖">Maven 依赖</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">			<span class="c">&lt;!--mybatis-plus--&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>com.baomidou<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>mybatis-plus-boot-starter<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;version&gt;</span>3.0.5<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="c">&lt;!--mysql--&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>mysql<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>mysql-connector-java<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="c">&lt;!--lombok用来简化实体类--&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>org.projectlombok<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>lombok<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><h2 id="heading"></h2></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
