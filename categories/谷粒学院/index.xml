@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>谷粒学院 - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/</link>
+        <description>谷粒学院 - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 16 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/" rel="self" type="application/rss+xml" /><item>
+    <title>02-MyBatisPlus入门</title>
+    <link>http://example.org/posts/02-mybatisplus%E5%85%A5%E9%97%A8/</link>
+    <pubDate>Tue, 16 Jan 2024 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/02-mybatisplus%E5%85%A5%E9%97%A8/</guid>
+    <description><![CDATA[<p>官网：http://mp.baomidou.com/
+参考教程：http://mp.baomidou.com/guide/
+MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
+开发、提高效率而生。</p>]]></description>
+</item></channel>
+</rss>
