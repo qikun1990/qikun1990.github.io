@@ -46,7 +46,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/"
-        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  380 ,
+        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  396 ,
         "url": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/","datePublished": "2024-01-16T00:00:00+00:00","dateModified": "2024-01-16T14:10:31+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
@@ -123,7 +123,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">02-MyBatisPlus入门</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/"><i class="far fa-folder fa-fw"></i>谷粒学院</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 380 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 396 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/" class="leancloud_visitors" data-flag-title="02-MyBatisPlus入门">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -141,7 +141,8 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         <li><a href="#使用-spring-initializr-快速初始化一个-spring-boot-工程">使用 Spring Initializr 快速初始化一个 Spring Boot 工程</a></li>
       </ul>
     </li>
-    <li><a href="#maven-依赖">Maven 依赖</a></li>
+    <li><a href="#配置-maven-依赖">配置 Maven 依赖</a></li>
+    <li><a href="#配置-applicationproperties">配置 application.properties</a></li>
     <li><a href="#heading"></a></li>
   </ul>
 </nav></div>
@@ -188,10 +189,21 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-1.png"
         title="Alt text" /></p>
 <h3 id="使用-spring-initializr-快速初始化一个-spring-boot-工程">使用 Spring Initializr 快速初始化一个 Spring Boot 工程</h3>
-<p>Group：com.eoebook
-Artifact：mybatis-plus
-版本：2.2.1.RELEASE</p>
-<h2 id="maven-依赖">Maven 依赖</h2>
+<ul>
+<li>Group：com.eoebook</li>
+<li>Artifact：mybatis-plus</li>
+<li>版本：2.2.1.RELEASE</li>
+</ul>
+<p>调整 Spring boot 的版本
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="assets/image-2.png"
+        data-srcset="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-2.png, assets/image-2.png 1.5x, /posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-2.png 2x"
+        data-sizes="auto"
+        alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-2.png"
+        title="Alt text" /></p>
+<h2 id="配置-maven-依赖">配置 Maven 依赖</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">			<span class="c">&lt;!--mybatis-plus--&gt;</span>
 </span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
 </span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>com.baomidou<span class="nt">&lt;/groupId&gt;</span>
@@ -209,6 +221,11 @@ Artifact：mybatis-plus
 </span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>org.projectlombok<span class="nt">&lt;/groupId&gt;</span>
 </span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>lombok<span class="nt">&lt;/artifactId&gt;</span>
 </span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
+</span></span></code></pre></div><h2 id="配置-applicationproperties">配置 application.properties</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">spring.datasource.driver-class-name</span><span class="o">=</span><span class="s">com.mysql.cj.jdbc.Driver</span>
+</span></span><span class="line"><span class="cl"><span class="na">spring.datasource.url</span><span class="o">=</span><span class="s">jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8</span>
+</span></span><span class="line"><span class="cl"><span class="na">spring.datasource.username</span><span class="o">=</span><span class="s">root</span>
+</span></span><span class="line"><span class="cl"><span class="na">spring.datasource.password</span><span class="o">=</span><span class="s">***********</span>
 </span></span></code></pre></div><h2 id="heading"></h2></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
