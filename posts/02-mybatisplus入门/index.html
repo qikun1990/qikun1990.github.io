@@ -46,7 +46,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/"
-        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  685 ,
+        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  798 ,
         "url": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/","datePublished": "2024-01-16T00:00:00+00:00","dateModified": "2024-01-16T14:10:31+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
@@ -123,7 +123,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">02-MyBatisPlus入门</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/"><i class="far fa-folder fa-fw"></i>谷粒学院</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 685 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 798 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/" class="leancloud_visitors" data-flag-title="02-MyBatisPlus入门">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -151,6 +151,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
     <li><a href="#插入1条数据">插入1条数据</a></li>
     <li><a href="#主键设置">主键设置</a></li>
     <li><a href="#主键的生成策略">主键的生成策略</a></li>
+    <li><a href="#mp插入">MP插入</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>官网：http://mp.baomidou.com/</p>
@@ -313,9 +314,17 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 </ul>
 <h2 id="主键的生成策略">主键的生成策略</h2>
 <ul>
-<li>自动增长</li>
-<li>uuid</li>
-<li>雪花算法</li>
+<li>AUTO:自动增长</li>
+<li>ID_WORKER:MP自带策略，生成19位数字类型，比如long</li>
+<li>ID_WORKER_STR:MP自带策略，生成19位String类型</li>
+<li>INPUT:自己设置id值</li>
+<li>NONE:自己设置id值</li>
+<li>UUID:随机唯一值</li>
+</ul>
+<h2 id="mp插入">MP插入</h2>
+<ul>
+<li>自动填充</li>
+<li>乐观锁</li>
 </ul></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
