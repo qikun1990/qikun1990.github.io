@@ -204,23 +204,23 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-2.png"
         title="Alt text" /></p>
 <h2 id="配置-maven-依赖">配置 Maven 依赖</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl">			<span class="c">&lt;!--mybatis-plus--&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>com.baomidou<span class="nt">&lt;/groupId&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>mybatis-plus-boot-starter<span class="nt">&lt;/artifactId&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;version&gt;</span>3.0.5<span class="nt">&lt;/version&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="c">&lt;!--mysql--&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>com.mysql<span class="nt">&lt;/groupId&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>mysql-connector-j<span class="nt">&lt;/artifactId&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;version&gt;</span>8.2.0<span class="nt">&lt;/version&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="c">&lt;!--lombok用来简化实体类--&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;dependency&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;groupId&gt;</span>org.projectlombok<span class="nt">&lt;/groupId&gt;</span>
-</span></span><span class="line"><span class="cl">				<span class="nt">&lt;artifactId&gt;</span>lombok<span class="nt">&lt;/artifactId&gt;</span>
-</span></span><span class="line"><span class="cl">			<span class="nt">&lt;/dependency&gt;</span>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-xml" data-lang="xml"><span class="line"><span class="cl"><span class="c">&lt;!--mybatis-plus--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;groupId&gt;</span>com.baomidou<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;artifactId&gt;</span>mybatis-plus-boot-starter<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;version&gt;</span>3.0.5<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!--mysql--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;groupId&gt;</span>com.mysql<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;artifactId&gt;</span>mysql-connector-j<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;version&gt;</span>8.2.0<span class="nt">&lt;/version&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="c">&lt;!--lombok用来简化实体类--&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;dependency&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;groupId&gt;</span>org.projectlombok<span class="nt">&lt;/groupId&gt;</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&lt;artifactId&gt;</span>lombok<span class="nt">&lt;/artifactId&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="nt">&lt;/dependency&gt;</span>
 </span></span></code></pre></div><h2 id="配置-applicationproperties">配置 application.properties</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="na">spring.datasource.driver-class-name</span><span class="o">=</span><span class="s">com.mysql.cj.jdbc.Driver</span>
 </span></span><span class="line"><span class="cl"><span class="na">spring.datasource.url</span><span class="o">=</span><span class="s">jdbc:mysql://localhost:3306/guli?serverTimezone=GMT%2B8</span>
