@@ -11,7 +11,9 @@
     <pubDate>Tue, 16 Jan 2024 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/02-mybatisplus%E5%85%A5%E9%97%A8/</guid>
-    <description><![CDATA[<p>官网：http://mp.baomidou.com/
+    <description><![CDATA[<p>[MyBatis-Plus]^(一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
+开发、提高效率而生。)</p>
+<p>官网：http://mp.baomidou.com/
 参考教程：http://mp.baomidou.com/guide/
 MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的基础上只做增强不做改变，为简化
 开发、提高效率而生。</p>]]></description>
