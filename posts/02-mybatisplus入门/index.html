@@ -46,7 +46,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/"
-        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  798 ,
+        },"genre": "posts","keywords": "MyBatis, MyBatisPlus, 项目学习","wordcount":  867 ,
         "url": "http:\/\/example.org\/posts\/02-mybatisplus%E5%85%A5%E9%97%A8\/","datePublished": "2024-01-16T00:00:00+00:00","dateModified": "2024-01-16T14:10:31+08:00","publisher": {
             "@type": "Organization",
             "name": "赔了命3000"},"author": {
@@ -123,7 +123,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animated flipInX">02-MyBatisPlus入门</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>赔了命3000</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/"><i class="far fa-folder fa-fw"></i>谷粒学院</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 798 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2024-01-16">2024-01-16</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 867 字&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/" class="leancloud_visitors" data-flag-title="02-MyBatisPlus入门">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -148,10 +148,11 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
     <li><a href="#创建应用启动类">创建应用启动类</a></li>
     <li><a href="#创建单元测试类">创建单元测试类</a></li>
     <li><a href="#配置打印-sql">配置打印 SQL</a></li>
-    <li><a href="#插入1条数据">插入1条数据</a></li>
-    <li><a href="#主键设置">主键设置</a></li>
-    <li><a href="#主键的生成策略">主键的生成策略</a></li>
-    <li><a href="#mp插入">MP插入</a></li>
+    <li><a href="#插入数据">插入数据</a></li>
+    <li><a href="#更新数据">更新数据</a></li>
+    <li><a href="#mp主键">MP主键</a></li>
+    <li><a href="#mp主键的生成策略">MP主键的生成策略</a></li>
+    <li><a href="#mp主键生成策略配置">MP主键生成策略配置</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>官网：http://mp.baomidou.com/</p>
@@ -272,7 +273,7 @@ MyBatis-Plus（简称 MP）是一个 MyBatis 的增强工具，在 MyBatis 的�
 </span></span></span></code></pre></div><h2 id="配置打印-sql">配置打印 SQL</h2>
 <pre tabindex="0"><code># mybatis 日志
 mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
-</code></pre><h2 id="插入1条数据">插入1条数据</h2>
+</code></pre><h2 id="插入数据">插入数据</h2>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">	</span><span class="nd">@Test</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">addUser</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">((</span><span class="s">&#34;----- addUser method test ------&#34;</span><span class="p">));</span><span class="w">
@@ -282,6 +283,7 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 </span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">user</span><span class="p">.</span><span class="na">setEmail</span><span class="p">(</span><span class="s">&#34;xxxx@qq.com&#34;</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="kt">int</span><span class="w"> </span><span class="n">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">userMapper</span><span class="p">.</span><span class="na">insert</span><span class="p">(</span><span class="n">user</span><span class="p">);</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="s">&#34;插入成功数据笔数：&#34;</span><span class="o">+</span><span class="n">i</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">user</span><span class="p">);</span><span class="c1">// id 自动回填</span><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
 </span></span></span></code></pre></div><p><img
         class="lazyload"
@@ -291,10 +293,18 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
         data-sizes="auto"
         alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-3.png"
         title="Alt text" /></p>
-<h2 id="主键设置">主键设置</h2>
+<h2 id="更新数据">更新数据</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="w">	</span><span class="nd">@Test</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="kd">public</span><span class="w"> </span><span class="kt">void</span><span class="w"> </span><span class="nf">updateUser</span><span class="p">()</span><span class="w"> </span><span class="p">{</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">User</span><span class="w"> </span><span class="n">user</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">new</span><span class="w"> </span><span class="n">User</span><span class="p">();</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">user</span><span class="p">.</span><span class="na">setId</span><span class="p">(</span><span class="n">1L</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">user</span><span class="p">.</span><span class="na">setAge</span><span class="p">(</span><span class="n">28</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="kt">int</span><span class="w"> </span><span class="n">result</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">userMapper</span><span class="p">.</span><span class="na">updateById</span><span class="p">(</span><span class="n">user</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">		</span><span class="n">System</span><span class="p">.</span><span class="na">out</span><span class="p">.</span><span class="na">println</span><span class="p">(</span><span class="n">user</span><span class="p">);</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="p">}</span><span class="w">
+</span></span></span></code></pre></div><h2 id="mp主键">MP主键</h2>
 <ul>
-<li>MP不需要设置主键id，会自动给我们生成19位的主键id</li>
-<li>MP有哪些主键生成策略
+<li>MP不需要设置主键id，会自动给我们生成19位的主键id
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
@@ -312,7 +322,7 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
         alt="/posts/02-mybatisplus%E5%85%A5%E9%97%A8/assets/image-4.png"
         title="Alt text" /></li>
 </ul>
-<h2 id="主键的生成策略">主键的生成策略</h2>
+<h2 id="mp主键的生成策略">MP主键的生成策略</h2>
 <ul>
 <li>AUTO:自动增长</li>
 <li>ID_WORKER:MP自带策略，生成19位数字类型，比如long</li>
@@ -321,11 +331,23 @@ mybatis-plus.configuration.log-impl=org.apache.ibatis.logging.stdout.StdOutImpl
 <li>NONE:自己设置id值</li>
 <li>UUID:随机唯一值</li>
 </ul>
-<h2 id="mp插入">MP插入</h2>
+<h2 id="mp主键生成策略配置">MP主键生成策略配置</h2>
+<ol>
+<li>单表配置
 <ul>
-<li>自动填充</li>
-<li>乐观锁</li>
-</ul></div><div class="post-footer" id="post-footer">
+<li>需要在创建数据表的时候设置主键自增</li>
+<li>实体字段中配置 @TableId(type = IdType.AUTO)</li>
+</ul>
+</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="nd">@TableId</span><span class="p">(</span><span class="n">type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">IdType</span><span class="p">.</span><span class="na">AUTO</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">private</span><span class="w"> </span><span class="n">Long</span><span class="w"> </span><span class="n">id</span><span class="p">;</span><span class="w">
+</span></span></span></code></pre></div><ol start="2">
+<li>全局配置</li>
+</ol>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-properties" data-lang="properties"><span class="line"><span class="cl"><span class="c1">#全局设置主键生成策略</span>
+</span></span><span class="line"><span class="cl"><span class="na">mybatis-plus.global-config.db-config.id-type</span><span class="o">=</span><span class="s">auto</span>
+</span></span></code></pre></div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
