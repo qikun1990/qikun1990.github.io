@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>vlookup - 标签 - 个人知识管理</title>
+        <title>Vlookup - 标签 - 个人知识管理</title>
         <link>http://example.org/tags/vlookup/</link>
-        <description>vlookup - 标签 - 个人知识管理</description>
+        <description>Vlookup - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 04 Dec 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/vlookup/" rel="self" type="application/rss+xml" /><item>
     <title>vlookup</title>
     <link>http://example.org/posts/vlookup/</link>

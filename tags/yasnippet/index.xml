@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>yasnippet - 标签 - 个人知识管理</title>
+        <title>Yasnippet - 标签 - 个人知识管理</title>
         <link>http://example.org/tags/yasnippet/</link>
-        <description>yasnippet - 标签 - 个人知识管理</description>
+        <description>Yasnippet - 标签 - 个人知识管理</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 May 2020 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/yasnippet/" rel="self" type="application/rss+xml" /><item>
     <title>yasnippet使用简单说明</title>
     <link>http://example.org/posts/how-to-use-yasnippet/</link>
