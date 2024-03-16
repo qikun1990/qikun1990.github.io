@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>关于我啊 - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/%E5%85%B3%E4%BA%8E%E6%88%91%E5%95%8A/</link>
+        <description>关于我啊 - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/%E5%85%B3%E4%BA%8E%E6%88%91%E5%95%8A/" rel="self" type="application/rss+xml" /><item>
+    <title>关于我啊</title>
+    <link>http://example.org/posts/about-me-a/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/about-me-a/</guid>
+    <description><![CDATA[<p>上次写Blog我记得还是上次😅，一转眼已经2年有余了。</p>
+<p>关于我这个模块，之前都是没有的，这次我想好好写一下，写的会很慢。</p>
+<p>这次又是一时头脑发热，想着重新捡起Blog记录工作和生活，以后也有个念想</p>
+<hr>
+<p>调整了目录结构，测试一下！</p>
+<p>调整好了，看看效果！</p>]]></description>
+</item></channel>
+</rss>

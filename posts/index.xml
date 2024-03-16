@@ -30,7 +30,20 @@
 <p>关于我这个模块，之前都是没有的，这次我想好好写一下，写的会很慢。</p>
 <p>这次又是一时头脑发热，想着重新捡起Blog记录工作和生活，以后也有个念想</p>
 <hr>
-<p>调整了目录结构，测试一下！</p>]]></description>
+<p>调整了目录结构，测试一下！</p>
+<p>调整好了，看看效果！</p>]]></description>
+</item><item>
+    <title>关于我啊</title>
+    <link>http://example.org/posts/about-me-a/</link>
+    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/about-me-a/</guid>
+    <description><![CDATA[<p>上次写Blog我记得还是上次😅，一转眼已经2年有余了。</p>
+<p>关于我这个模块，之前都是没有的，这次我想好好写一下，写的会很慢。</p>
+<p>这次又是一时头脑发热，想着重新捡起Blog记录工作和生活，以后也有个念想</p>
+<hr>
+<p>调整了目录结构，测试一下！</p>
+<p>调整好了，看看效果！</p>]]></description>
 </item><item>
     <title>手机流量Tips</title>
     <link>http://example.org/posts/mobi-traffic-tips-from-expert/</link>
@@ -77,12 +90,5 @@
     <author>作者</author>
     <guid>http://example.org/posts/tonic_%E5%B8%82%E5%9C%BA%E8%B0%83%E7%A0%94/</guid>
     <description><![CDATA[Note taken on [2021-07-17 Sat 20:40] https://theokinawatonic.com https://okinawa-flat-belly-tonic.store/ https://okinawabelly.store/ 资源页 https://okinawatonic.co/affiliates/ retargeting 页面 https://theokinawatonic.com/discover?hop=avvmedia&vendor=fbtonic 品牌词竞价，这个网站竞价了很多品牌词，好好研究 https://best-order.shop/fbelly/ 该页面可以查看所有使用的lander https://best-order.shop/sitemap.txt 品牌词竞价 https://order-now.us/meticore/ 品牌词竞]]></description>
-</item><item>
-    <title>Apache虚拟主机配置简单说明</title>
-    <link>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</link>
-    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/posts/apache%E8%99%9A%E6%8B%9F%E4%B8%BB%E6%9C%BA%E9%85%8D%E7%BD%AE%E7%AE%80%E5%8D%95%E8%AF%B4%E6%98%8E/</guid>
-    <description><![CDATA[<p>为方便管理，节省成本，使用虚拟主机+CF的方案</p>]]></description>
 </item></channel>
 </rss>
