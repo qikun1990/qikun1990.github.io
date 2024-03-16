@@ -67,11 +67,11 @@
     <guid>http://example.org/tags/%E6%88%91/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>我啊</title>
-    <link>http://example.org/tags/%E6%88%91%E5%95%8A/</link>
-    <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
+    <title>PHPDebug</title>
+    <link>http://example.org/tags/phpdebug/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
-    <guid>http://example.org/tags/%E6%88%91%E5%95%8A/</guid>
+    <guid>http://example.org/tags/phpdebug/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
