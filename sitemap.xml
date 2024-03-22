@@ -2,10 +2,6 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/posts/%E9%97%AA%E5%BF%B5-172626-%E6%B5%8B%E8%AF%95%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/%E9%97%AA%E5%BF%B5-173033-%E6%B5%8B%E8%AF%95%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0/</loc><lastmod>2024-03-22T17:30:33&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/eoebook%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83-2024-03-22_090811/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/eoebook%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83123-2024-03-22_090811/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/posts/02-mybatisplus%E5%85%A5%E9%97%A8/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/posts/banners-angles-and-offers-apps/</loc><lastmod>2023-11-10T16:14:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/posts/about-me/</loc><lastmod>2023-11-04T18:12:31&#43;08:00</lastmod></url><url>
@@ -40,14 +36,12 @@
             <loc>http://example.org/posts/chrome-headless-convert-html-to-pdf/</loc><lastmod>2020-12-27T14:18:00&#43;08:00</lastmod></url><url>
             <loc>http://example.org/posts/anki-clean-fdisk/</loc><lastmod>2020-12-27T14:18:00&#43;08:00</lastmod></url><url>
             <loc>http://example.org/posts/learn-maven-log/</loc><lastmod>2020-12-27T14:18:01&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/journal/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/categories/journal/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/tags/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
-            <loc>http://example.org/</loc><lastmod>2024-03-22T18:12:31&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/tags/mybatis/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/tags/mybatisplus/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/categories/%E8%B0%B7%E7%B2%92%E5%AD%A6%E9%99%A2/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/tags/%E9%A1%B9%E7%9B%AE%E5%AD%A6%E4%B9%A0/</loc><lastmod>2024-01-16T14:10:31&#43;08:00</lastmod></url><url>
             <loc>http://example.org/categories/aff%E5%AD%A6%E4%B9%A0/</loc><lastmod>2023-11-10T16:14:31&#43;08:00</lastmod></url><url>
