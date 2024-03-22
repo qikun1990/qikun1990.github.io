@@ -3,14 +3,7 @@
         <title>Tags - 标签 - 个人知识管理</title>
         <link>http://example.org/tags/</link>
         <description>Tags - 标签 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>Journal</title>
-    <link>http://example.org/tags/journal/</link>
-    <pubDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</pubDate>
-    <author>作者</author>
-    <guid>http://example.org/tags/journal/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 16 Jan 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /><item>
     <title>MyBatis</title>
     <link>http://example.org/tags/mybatis/</link>
     <pubDate>Tue, 16 Jan 2024 00:00:00 &#43;0000</pubDate>
@@ -72,6 +65,13 @@
     <pubDate>Sat, 04 Nov 2023 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/tags/%E6%88%91/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>PHPDebug</title>
+    <link>http://example.org/tags/phpdebug/</link>
+    <pubDate>Tue, 13 Jul 2021 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/tags/phpdebug/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>
