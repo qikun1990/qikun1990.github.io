@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Journal - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/journal/</link>
+        <description>Journal - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/journal/" rel="self" type="application/rss+xml" /><item>
+    <title>[闪念] 18:15:20 想法通过Drafts同步到个人博客网站</title>
+    <link>http://example.org/posts/%E9%97%AA%E5%BF%B5-181520-%E6%83%B3%E6%B3%95%E9%80%9A%E8%BF%87drafts%E5%90%8C%E6%AD%A5%E5%88%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
+    <pubDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/%E9%97%AA%E5%BF%B5-181520-%E6%83%B3%E6%B3%95%E9%80%9A%E8%BF%87drafts%E5%90%8C%E6%AD%A5%E5%88%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</guid>
+    <description><![CDATA[快速记录下闪念]]></description>
+</item></channel>
+</rss>
