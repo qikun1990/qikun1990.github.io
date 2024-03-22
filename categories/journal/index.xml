@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Journal - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/journal/</link>
+        <description>Journal - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/journal/" rel="self" type="application/rss+xml" /><item>
+    <title>eoebook测试博客发布 2024-03-22_08:49:18</title>
+    <link>http://example.org/posts/eoebook%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83-2024-03-22_084918/</link>
+    <pubDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/eoebook%E6%B5%8B%E8%AF%95%E5%8D%9A%E5%AE%A2%E5%8F%91%E5%B8%83-2024-03-22_084918/</guid>
+    <description><![CDATA[这是一个标题 你好标题一 这是二级标题 你好标题二]]></description>
+</item></channel>
+</rss>
