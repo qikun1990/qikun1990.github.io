@@ -1,0 +1,14 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Journal - 分类 - 个人知识管理</title>
+        <link>http://example.org/categories/journal/</link>
+        <description>Journal - 分类 - 个人知识管理</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/journal/" rel="self" type="application/rss+xml" /><item>
+    <title>[闪念] 18:02:29 测试新的笔记Gaga</title>
+    <link>http://example.org/posts/%E9%97%AA%E5%BF%B5-180229-%E6%B5%8B%E8%AF%95%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0gaga/</link>
+    <pubDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/%E9%97%AA%E5%BF%B5-180229-%E6%B5%8B%E8%AF%95%E6%96%B0%E7%9A%84%E7%AC%94%E8%AE%B0gaga/</guid>
+    <description><![CDATA[你好朋友 下次一定 哈哈]]></description>
+</item></channel>
+</rss>
