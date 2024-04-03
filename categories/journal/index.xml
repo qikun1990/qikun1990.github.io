@@ -3,7 +3,14 @@
         <title>Journal - 分类 - 个人知识管理</title>
         <link>http://example.org/categories/journal/</link>
         <description>Journal - 分类 - 个人知识管理</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/journal/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 03 Apr 2024 00:00:00 &#43;0000</lastBuildDate><atom:link href="http://example.org/categories/journal/" rel="self" type="application/rss+xml" /><item>
+    <title>[闪念] 08:55:41 颓废模式原来是全自动的</title>
+    <link>http://example.org/posts/%E9%97%AA%E5%BF%B5-085541-%E9%A2%93%E5%BA%9F%E6%A8%A1%E5%BC%8F%E5%8E%9F%E6%9D%A5%E6%98%AF%E5%85%A8%E8%87%AA%E5%8A%A8%E7%9A%84/</link>
+    <pubDate>Wed, 03 Apr 2024 00:00:00 &#43;0000</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/%E9%97%AA%E5%BF%B5-085541-%E9%A2%93%E5%BA%9F%E6%A8%A1%E5%BC%8F%E5%8E%9F%E6%9D%A5%E6%98%AF%E5%85%A8%E8%87%AA%E5%8A%A8%E7%9A%84/</guid>
+    <description><![CDATA[1.29-3.11 我的自控力和执行力一直都很差，过年前后了解到微习惯-简单到不可能失败的自我管理法则，感觉挺有道理，开始尝试使用微习惯的方式进行自我管理，于]]></description>
+</item><item>
     <title>[闪念] 18:15:20 想法通过Drafts同步到个人博客网站</title>
     <link>http://example.org/posts/%E9%97%AA%E5%BF%B5-181520-%E6%83%B3%E6%B3%95%E9%80%9A%E8%BF%87drafts%E5%90%8C%E6%AD%A5%E5%88%B0%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/</link>
     <pubDate>Fri, 22 Mar 2024 00:00:00 &#43;0000</pubDate>
