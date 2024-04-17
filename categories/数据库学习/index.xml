@@ -9,6 +9,6 @@
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/linux-mysql-data-bak-rec/</guid>
-    <description><![CDATA[备份 mysqldump -u root -p joomla &gt; /tmp/joomla.sql 还原 方法1 mysql -u root -p 回车，输入密码，进入MySQL的控制台 source /tmp/joomla.sql 方法2 mysql -u root -p joomla &lt; /tmp/joomla.sql]]></description>
+    <description><![CDATA[]]></description>
 </item></channel>
 </rss>

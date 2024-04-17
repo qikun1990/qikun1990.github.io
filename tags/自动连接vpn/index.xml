@@ -9,6 +9,6 @@
     <pubDate>Mon, 12 Jul 2021 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/win10%E5%BC%80%E6%9C%BA%E8%87%AA%E5%8A%A8%E8%BF%9E%E6%8E%A5vpn/</guid>
-    <description><![CDATA[参考文章 W10开机自启动软件 https://stackoverflow.com/questions/35940683/uwp-app-start-automatically-at-startup 命令行连接VPN https://ihongchao.com/post/583/ 创建启动脚本 创建一个startVPN.bat脚本，脚本内容如下，替换成自己的信息 rasdial VPNIP VPN用]]></description>
+    <description><![CDATA[]]></description>
 </item></channel>
 </rss>
