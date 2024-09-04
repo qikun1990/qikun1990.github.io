@@ -9,6 +9,8 @@
     <pubDate>Fri, 04 Dec 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/vlookup/</guid>
-    <description><![CDATA[vlookup函数的用法 vlookup官网使用说明 您需要四条信息才能构建 VLOOKUP 语法： 要查找的值，也被称为查阅值。 查阅值所在的区域。 请记住，查阅值]]></description>
+    <description><![CDATA[<h2 id="vlookup函数的用法">vlookup函数的用法</h2>
+<p><a href="https://support.microsoft.com/zh-cn/office/vlookup-%e5%87%bd%e6%95%b0-0bbc8083-26fe-4963-8ab8-93a18ad188a1?ns=excel&amp;version=19&amp;syslcid=2052&amp;uilcid=2052&amp;appver=zxl190&amp;helpid=xlmain11.chm60150&amp;ui=zh-cn&amp;rs=zh-cn&amp;ad=cn" target="_blank" rel="noopener noreffer">vlookup官网使用说明</a></p>
+<p>您需要四条信息才能构建 VLOOKUP 语法：</p>]]></description>
 </item></channel>
 </rss>

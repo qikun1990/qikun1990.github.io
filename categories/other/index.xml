@@ -37,7 +37,7 @@
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/homebrew-update-error/</guid>
-    <description><![CDATA[执行命令：brew update-reset，重新设置下brew的配置。]]></description>
+    <description><![CDATA[<p>执行命令：brew update-reset，重新设置下brew的配置。</p>]]></description>
 </item><item>
     <title>Mac 版 Anki 安装 AnkiConnect 插件后连接失败解决方法</title>
     <link>http://example.org/posts/mac-ankiconnect-connect-fail/</link>
@@ -65,7 +65,8 @@
     <pubDate>Thu, 15 Oct 2020 00:00:00 &#43;0000</pubDate>
     <author>作者</author>
     <guid>http://example.org/posts/anki-clean-fdisk/</guid>
-    <description><![CDATA[删除如下路径中的文件 C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media]]></description>
+    <description><![CDATA[<p>删除如下路径中的文件
+C:\Users\username\AppData\Roaming\Anki2\jiawei\collection.media</p>]]></description>
 </item><item>
     <title>maven学习总结</title>
     <link>http://example.org/posts/learn-maven-log/</link>
